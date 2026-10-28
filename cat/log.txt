@@ -1,0 +1,4063 @@
+
+FAIL:    s21_cat_tests/bytes.txt
+FAIL:    s21_cat_tests/bytes2.txt
+FAIL:    s21_cat_tests/text3.txt
+FAIL:   -b s21_cat_tests/bytes.txt
+FAIL:   -b s21_cat_tests/bytes2.txt
+FAIL:   -b s21_cat_tests/text3.txt
+FAIL:   -e s21_cat_tests/bytes.txt
+FAIL:   -e s21_cat_tests/bytes2.txt
+FAIL:   -e s21_cat_tests/text3.txt
+FAIL:   -n s21_cat_tests/bytes.txt
+FAIL:   -n s21_cat_tests/bytes2.txt
+FAIL:   -n s21_cat_tests/text3.txt
+FAIL:   -s s21_cat_tests/bytes.txt
+FAIL:   -s s21_cat_tests/bytes2.txt
+FAIL:   -s s21_cat_tests/text3.txt
+FAIL:   -t s21_cat_tests/bytes.txt
+FAIL:   -t s21_cat_tests/bytes2.txt
+FAIL:   -t s21_cat_tests/text3.txt
+FAIL:   -v s21_cat_tests/bytes.txt
+FAIL:   -v s21_cat_tests/bytes2.txt
+FAIL:   -v s21_cat_tests/text3.txt
+FAIL:   -E s21_cat_tests/bytes.txt
+FAIL:   -E s21_cat_tests/bytes2.txt
+FAIL:   -E s21_cat_tests/text3.txt
+FAIL:   -T s21_cat_tests/bytes.txt
+FAIL:   -T s21_cat_tests/bytes2.txt
+FAIL:   -T s21_cat_tests/text3.txt
+FAIL:   --number-nonblank s21_cat_tests/bytes.txt
+FAIL:   --number-nonblank s21_cat_tests/bytes2.txt
+FAIL:   --number-nonblank s21_cat_tests/text3.txt
+FAIL:   --number s21_cat_tests/bytes.txt
+FAIL:   --number s21_cat_tests/bytes2.txt
+FAIL:   --number s21_cat_tests/text3.txt
+FAIL:   --squeeze-blank s21_cat_tests/bytes.txt
+FAIL:   --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL:   --squeeze-blank s21_cat_tests/text3.txt
+FAIL:  -b  s21_cat_tests/bytes.txt
+FAIL:  -b  s21_cat_tests/bytes2.txt
+FAIL:  -b  s21_cat_tests/text3.txt
+FAIL:  -b -e s21_cat_tests/bytes.txt
+FAIL:  -b -e s21_cat_tests/bytes2.txt
+FAIL:  -b -e s21_cat_tests/text3.txt
+FAIL:  -b -n s21_cat_tests/bytes.txt
+FAIL:  -b -n s21_cat_tests/bytes2.txt
+FAIL:  -b -n s21_cat_tests/text3.txt
+FAIL:  -b -s s21_cat_tests/bytes.txt
+FAIL:  -b -s s21_cat_tests/bytes2.txt
+FAIL:  -b -s s21_cat_tests/text3.txt
+FAIL:  -b -t s21_cat_tests/bytes.txt
+FAIL:  -b -t s21_cat_tests/bytes2.txt
+FAIL:  -b -t s21_cat_tests/text3.txt
+FAIL:  -b -v s21_cat_tests/bytes.txt
+FAIL:  -b -v s21_cat_tests/bytes2.txt
+FAIL:  -b -v s21_cat_tests/text3.txt
+FAIL:  -b -E s21_cat_tests/bytes.txt
+FAIL:  -b -E s21_cat_tests/bytes2.txt
+FAIL:  -b -E s21_cat_tests/text3.txt
+FAIL:  -b -T s21_cat_tests/bytes.txt
+FAIL:  -b -T s21_cat_tests/bytes2.txt
+FAIL:  -b -T s21_cat_tests/text3.txt
+FAIL:  -b --number-nonblank s21_cat_tests/bytes.txt
+FAIL:  -b --number-nonblank s21_cat_tests/bytes2.txt
+FAIL:  -b --number-nonblank s21_cat_tests/text3.txt
+FAIL:  -b --number s21_cat_tests/bytes.txt
+FAIL:  -b --number s21_cat_tests/bytes2.txt
+FAIL:  -b --number s21_cat_tests/text3.txt
+FAIL:  -b --squeeze-blank s21_cat_tests/bytes.txt
+FAIL:  -b --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL:  -b --squeeze-blank s21_cat_tests/text3.txt
+FAIL:  -e  s21_cat_tests/bytes.txt
+FAIL:  -e  s21_cat_tests/bytes2.txt
+FAIL:  -e  s21_cat_tests/text3.txt
+FAIL:  -e -b s21_cat_tests/bytes.txt
+FAIL:  -e -b s21_cat_tests/bytes2.txt
+FAIL:  -e -b s21_cat_tests/text3.txt
+FAIL:  -e -n s21_cat_tests/bytes.txt
+FAIL:  -e -n s21_cat_tests/bytes2.txt
+FAIL:  -e -n s21_cat_tests/text3.txt
+FAIL:  -e -s s21_cat_tests/bytes.txt
+FAIL:  -e -s s21_cat_tests/bytes2.txt
+FAIL:  -e -s s21_cat_tests/text3.txt
+FAIL:  -e -t s21_cat_tests/bytes.txt
+FAIL:  -e -t s21_cat_tests/bytes2.txt
+FAIL:  -e -t s21_cat_tests/text3.txt
+FAIL:  -e -v s21_cat_tests/bytes.txt
+FAIL:  -e -v s21_cat_tests/bytes2.txt
+FAIL:  -e -v s21_cat_tests/text3.txt
+FAIL:  -e -E s21_cat_tests/bytes.txt
+FAIL:  -e -E s21_cat_tests/bytes2.txt
+FAIL:  -e -E s21_cat_tests/text3.txt
+FAIL:  -e -T s21_cat_tests/bytes.txt
+FAIL:  -e -T s21_cat_tests/bytes2.txt
+FAIL:  -e -T s21_cat_tests/text3.txt
+FAIL:  -e --number-nonblank s21_cat_tests/bytes.txt
+FAIL:  -e --number-nonblank s21_cat_tests/bytes2.txt
+FAIL:  -e --number-nonblank s21_cat_tests/text3.txt
+FAIL:  -e --number s21_cat_tests/bytes.txt
+FAIL:  -e --number s21_cat_tests/bytes2.txt
+FAIL:  -e --number s21_cat_tests/text3.txt
+FAIL:  -e --squeeze-blank s21_cat_tests/bytes.txt
+FAIL:  -e --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL:  -e --squeeze-blank s21_cat_tests/text3.txt
+FAIL:  -n  s21_cat_tests/bytes.txt
+FAIL:  -n  s21_cat_tests/bytes2.txt
+FAIL:  -n  s21_cat_tests/text3.txt
+FAIL:  -n -b s21_cat_tests/bytes.txt
+FAIL:  -n -b s21_cat_tests/bytes2.txt
+FAIL:  -n -b s21_cat_tests/text3.txt
+FAIL:  -n -e s21_cat_tests/bytes.txt
+FAIL:  -n -e s21_cat_tests/bytes2.txt
+FAIL:  -n -e s21_cat_tests/text3.txt
+FAIL:  -n -s s21_cat_tests/bytes.txt
+FAIL:  -n -s s21_cat_tests/bytes2.txt
+FAIL:  -n -s s21_cat_tests/text3.txt
+FAIL:  -n -t s21_cat_tests/bytes.txt
+FAIL:  -n -t s21_cat_tests/bytes2.txt
+FAIL:  -n -t s21_cat_tests/text3.txt
+FAIL:  -n -v s21_cat_tests/bytes.txt
+FAIL:  -n -v s21_cat_tests/bytes2.txt
+FAIL:  -n -v s21_cat_tests/text3.txt
+FAIL:  -n -E s21_cat_tests/bytes.txt
+FAIL:  -n -E s21_cat_tests/bytes2.txt
+FAIL:  -n -E s21_cat_tests/text3.txt
+FAIL:  -n -T s21_cat_tests/bytes.txt
+FAIL:  -n -T s21_cat_tests/bytes2.txt
+FAIL:  -n -T s21_cat_tests/text3.txt
+FAIL:  -n --number-nonblank s21_cat_tests/bytes.txt
+FAIL:  -n --number-nonblank s21_cat_tests/bytes2.txt
+FAIL:  -n --number-nonblank s21_cat_tests/text3.txt
+FAIL:  -n --number s21_cat_tests/bytes.txt
+FAIL:  -n --number s21_cat_tests/bytes2.txt
+FAIL:  -n --number s21_cat_tests/text3.txt
+FAIL:  -n --squeeze-blank s21_cat_tests/bytes.txt
+FAIL:  -n --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL:  -n --squeeze-blank s21_cat_tests/text3.txt
+FAIL:  -s  s21_cat_tests/bytes.txt
+FAIL:  -s  s21_cat_tests/bytes2.txt
+FAIL:  -s  s21_cat_tests/text3.txt
+FAIL:  -s -b s21_cat_tests/bytes.txt
+FAIL:  -s -b s21_cat_tests/bytes2.txt
+FAIL:  -s -b s21_cat_tests/text3.txt
+FAIL:  -s -e s21_cat_tests/bytes.txt
+FAIL:  -s -e s21_cat_tests/bytes2.txt
+FAIL:  -s -e s21_cat_tests/text3.txt
+FAIL:  -s -n s21_cat_tests/bytes.txt
+FAIL:  -s -n s21_cat_tests/bytes2.txt
+FAIL:  -s -n s21_cat_tests/text3.txt
+FAIL:  -s -t s21_cat_tests/bytes.txt
+FAIL:  -s -t s21_cat_tests/bytes2.txt
+FAIL:  -s -t s21_cat_tests/text3.txt
+FAIL:  -s -v s21_cat_tests/bytes.txt
+FAIL:  -s -v s21_cat_tests/bytes2.txt
+FAIL:  -s -v s21_cat_tests/text3.txt
+FAIL:  -s -E s21_cat_tests/bytes.txt
+FAIL:  -s -E s21_cat_tests/bytes2.txt
+FAIL:  -s -E s21_cat_tests/text3.txt
+FAIL:  -s -T s21_cat_tests/bytes.txt
+FAIL:  -s -T s21_cat_tests/bytes2.txt
+FAIL:  -s -T s21_cat_tests/text3.txt
+FAIL:  -s --number-nonblank s21_cat_tests/bytes.txt
+FAIL:  -s --number-nonblank s21_cat_tests/bytes2.txt
+FAIL:  -s --number-nonblank s21_cat_tests/text3.txt
+FAIL:  -s --number s21_cat_tests/bytes.txt
+FAIL:  -s --number s21_cat_tests/bytes2.txt
+FAIL:  -s --number s21_cat_tests/text3.txt
+FAIL:  -s --squeeze-blank s21_cat_tests/bytes.txt
+FAIL:  -s --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL:  -s --squeeze-blank s21_cat_tests/text3.txt
+FAIL:  -t  s21_cat_tests/bytes.txt
+FAIL:  -t  s21_cat_tests/bytes2.txt
+FAIL:  -t  s21_cat_tests/text3.txt
+FAIL:  -t -b s21_cat_tests/bytes.txt
+FAIL:  -t -b s21_cat_tests/bytes2.txt
+FAIL:  -t -b s21_cat_tests/text3.txt
+FAIL:  -t -e s21_cat_tests/bytes.txt
+FAIL:  -t -e s21_cat_tests/bytes2.txt
+FAIL:  -t -e s21_cat_tests/text3.txt
+FAIL:  -t -n s21_cat_tests/bytes.txt
+FAIL:  -t -n s21_cat_tests/bytes2.txt
+FAIL:  -t -n s21_cat_tests/text3.txt
+FAIL:  -t -s s21_cat_tests/bytes.txt
+FAIL:  -t -s s21_cat_tests/bytes2.txt
+FAIL:  -t -s s21_cat_tests/text3.txt
+FAIL:  -t -v s21_cat_tests/bytes.txt
+FAIL:  -t -v s21_cat_tests/bytes2.txt
+FAIL:  -t -v s21_cat_tests/text3.txt
+FAIL:  -t -E s21_cat_tests/bytes.txt
+FAIL:  -t -E s21_cat_tests/bytes2.txt
+FAIL:  -t -E s21_cat_tests/text3.txt
+FAIL:  -t -T s21_cat_tests/bytes.txt
+FAIL:  -t -T s21_cat_tests/bytes2.txt
+FAIL:  -t -T s21_cat_tests/text3.txt
+FAIL:  -t --number-nonblank s21_cat_tests/bytes.txt
+FAIL:  -t --number-nonblank s21_cat_tests/bytes2.txt
+FAIL:  -t --number-nonblank s21_cat_tests/text3.txt
+FAIL:  -t --number s21_cat_tests/bytes.txt
+FAIL:  -t --number s21_cat_tests/bytes2.txt
+FAIL:  -t --number s21_cat_tests/text3.txt
+FAIL:  -t --squeeze-blank s21_cat_tests/bytes.txt
+FAIL:  -t --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL:  -t --squeeze-blank s21_cat_tests/text3.txt
+FAIL:  -v  s21_cat_tests/bytes.txt
+FAIL:  -v  s21_cat_tests/bytes2.txt
+FAIL:  -v  s21_cat_tests/text3.txt
+FAIL:  -v -b s21_cat_tests/bytes.txt
+FAIL:  -v -b s21_cat_tests/bytes2.txt
+FAIL:  -v -b s21_cat_tests/text3.txt
+FAIL:  -v -e s21_cat_tests/bytes.txt
+FAIL:  -v -e s21_cat_tests/bytes2.txt
+FAIL:  -v -e s21_cat_tests/text3.txt
+FAIL:  -v -n s21_cat_tests/bytes.txt
+FAIL:  -v -n s21_cat_tests/bytes2.txt
+FAIL:  -v -n s21_cat_tests/text3.txt
+FAIL:  -v -s s21_cat_tests/bytes.txt
+FAIL:  -v -s s21_cat_tests/bytes2.txt
+FAIL:  -v -s s21_cat_tests/text3.txt
+FAIL:  -v -t s21_cat_tests/bytes.txt
+FAIL:  -v -t s21_cat_tests/bytes2.txt
+FAIL:  -v -t s21_cat_tests/text3.txt
+FAIL:  -v -E s21_cat_tests/bytes.txt
+FAIL:  -v -E s21_cat_tests/bytes2.txt
+FAIL:  -v -E s21_cat_tests/text3.txt
+FAIL:  -v -T s21_cat_tests/bytes.txt
+FAIL:  -v -T s21_cat_tests/bytes2.txt
+FAIL:  -v -T s21_cat_tests/text3.txt
+FAIL:  -v --number-nonblank s21_cat_tests/bytes.txt
+FAIL:  -v --number-nonblank s21_cat_tests/bytes2.txt
+FAIL:  -v --number-nonblank s21_cat_tests/text3.txt
+FAIL:  -v --number s21_cat_tests/bytes.txt
+FAIL:  -v --number s21_cat_tests/bytes2.txt
+FAIL:  -v --number s21_cat_tests/text3.txt
+FAIL:  -v --squeeze-blank s21_cat_tests/bytes.txt
+FAIL:  -v --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL:  -v --squeeze-blank s21_cat_tests/text3.txt
+FAIL:  -E  s21_cat_tests/bytes.txt
+FAIL:  -E  s21_cat_tests/bytes2.txt
+FAIL:  -E  s21_cat_tests/text3.txt
+FAIL:  -E -b s21_cat_tests/bytes.txt
+FAIL:  -E -b s21_cat_tests/bytes2.txt
+FAIL:  -E -b s21_cat_tests/text3.txt
+FAIL:  -E -e s21_cat_tests/bytes.txt
+FAIL:  -E -e s21_cat_tests/bytes2.txt
+FAIL:  -E -e s21_cat_tests/text3.txt
+FAIL:  -E -n s21_cat_tests/bytes.txt
+FAIL:  -E -n s21_cat_tests/bytes2.txt
+FAIL:  -E -n s21_cat_tests/text3.txt
+FAIL:  -E -s s21_cat_tests/bytes.txt
+FAIL:  -E -s s21_cat_tests/bytes2.txt
+FAIL:  -E -s s21_cat_tests/text3.txt
+FAIL:  -E -t s21_cat_tests/bytes.txt
+FAIL:  -E -t s21_cat_tests/bytes2.txt
+FAIL:  -E -t s21_cat_tests/text3.txt
+FAIL:  -E -v s21_cat_tests/bytes.txt
+FAIL:  -E -v s21_cat_tests/bytes2.txt
+FAIL:  -E -v s21_cat_tests/text3.txt
+FAIL:  -E -T s21_cat_tests/bytes.txt
+FAIL:  -E -T s21_cat_tests/bytes2.txt
+FAIL:  -E -T s21_cat_tests/text3.txt
+FAIL:  -E --number-nonblank s21_cat_tests/bytes.txt
+FAIL:  -E --number-nonblank s21_cat_tests/bytes2.txt
+FAIL:  -E --number-nonblank s21_cat_tests/text3.txt
+FAIL:  -E --number s21_cat_tests/bytes.txt
+FAIL:  -E --number s21_cat_tests/bytes2.txt
+FAIL:  -E --number s21_cat_tests/text3.txt
+FAIL:  -E --squeeze-blank s21_cat_tests/bytes.txt
+FAIL:  -E --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL:  -E --squeeze-blank s21_cat_tests/text3.txt
+FAIL:  -T  s21_cat_tests/bytes.txt
+FAIL:  -T  s21_cat_tests/bytes2.txt
+FAIL:  -T  s21_cat_tests/text3.txt
+FAIL:  -T -b s21_cat_tests/bytes.txt
+FAIL:  -T -b s21_cat_tests/bytes2.txt
+FAIL:  -T -b s21_cat_tests/text3.txt
+FAIL:  -T -e s21_cat_tests/bytes.txt
+FAIL:  -T -e s21_cat_tests/bytes2.txt
+FAIL:  -T -e s21_cat_tests/text3.txt
+FAIL:  -T -n s21_cat_tests/bytes.txt
+FAIL:  -T -n s21_cat_tests/bytes2.txt
+FAIL:  -T -n s21_cat_tests/text3.txt
+FAIL:  -T -s s21_cat_tests/bytes.txt
+FAIL:  -T -s s21_cat_tests/bytes2.txt
+FAIL:  -T -s s21_cat_tests/text3.txt
+FAIL:  -T -t s21_cat_tests/bytes.txt
+FAIL:  -T -t s21_cat_tests/bytes2.txt
+FAIL:  -T -t s21_cat_tests/text3.txt
+FAIL:  -T -v s21_cat_tests/bytes.txt
+FAIL:  -T -v s21_cat_tests/bytes2.txt
+FAIL:  -T -v s21_cat_tests/text3.txt
+FAIL:  -T -E s21_cat_tests/bytes.txt
+FAIL:  -T -E s21_cat_tests/bytes2.txt
+FAIL:  -T -E s21_cat_tests/text3.txt
+FAIL:  -T --number-nonblank s21_cat_tests/bytes.txt
+FAIL:  -T --number-nonblank s21_cat_tests/bytes2.txt
+FAIL:  -T --number-nonblank s21_cat_tests/text3.txt
+FAIL:  -T --number s21_cat_tests/bytes.txt
+FAIL:  -T --number s21_cat_tests/bytes2.txt
+FAIL:  -T --number s21_cat_tests/text3.txt
+FAIL:  -T --squeeze-blank s21_cat_tests/bytes.txt
+FAIL:  -T --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL:  -T --squeeze-blank s21_cat_tests/text3.txt
+FAIL:  --number-nonblank  s21_cat_tests/bytes.txt
+FAIL:  --number-nonblank  s21_cat_tests/bytes2.txt
+FAIL:  --number-nonblank  s21_cat_tests/text3.txt
+FAIL:  --number-nonblank -b s21_cat_tests/bytes.txt
+FAIL:  --number-nonblank -b s21_cat_tests/bytes2.txt
+FAIL:  --number-nonblank -b s21_cat_tests/text3.txt
+FAIL:  --number-nonblank -e s21_cat_tests/bytes.txt
+FAIL:  --number-nonblank -e s21_cat_tests/bytes2.txt
+FAIL:  --number-nonblank -e s21_cat_tests/text3.txt
+FAIL:  --number-nonblank -n s21_cat_tests/bytes.txt
+FAIL:  --number-nonblank -n s21_cat_tests/bytes2.txt
+FAIL:  --number-nonblank -n s21_cat_tests/text3.txt
+FAIL:  --number-nonblank -s s21_cat_tests/bytes.txt
+FAIL:  --number-nonblank -s s21_cat_tests/bytes2.txt
+FAIL:  --number-nonblank -s s21_cat_tests/text3.txt
+FAIL:  --number-nonblank -t s21_cat_tests/bytes.txt
+FAIL:  --number-nonblank -t s21_cat_tests/bytes2.txt
+FAIL:  --number-nonblank -t s21_cat_tests/text3.txt
+FAIL:  --number-nonblank -v s21_cat_tests/bytes.txt
+FAIL:  --number-nonblank -v s21_cat_tests/bytes2.txt
+FAIL:  --number-nonblank -v s21_cat_tests/text3.txt
+FAIL:  --number-nonblank -E s21_cat_tests/bytes.txt
+FAIL:  --number-nonblank -E s21_cat_tests/bytes2.txt
+FAIL:  --number-nonblank -E s21_cat_tests/text3.txt
+FAIL:  --number-nonblank -T s21_cat_tests/bytes.txt
+FAIL:  --number-nonblank -T s21_cat_tests/bytes2.txt
+FAIL:  --number-nonblank -T s21_cat_tests/text3.txt
+FAIL:  --number-nonblank --number s21_cat_tests/bytes.txt
+FAIL:  --number-nonblank --number s21_cat_tests/bytes2.txt
+FAIL:  --number-nonblank --number s21_cat_tests/text3.txt
+FAIL:  --number-nonblank --squeeze-blank s21_cat_tests/bytes.txt
+FAIL:  --number-nonblank --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL:  --number-nonblank --squeeze-blank s21_cat_tests/text3.txt
+FAIL:  --number  s21_cat_tests/bytes.txt
+FAIL:  --number  s21_cat_tests/bytes2.txt
+FAIL:  --number  s21_cat_tests/text3.txt
+FAIL:  --number -b s21_cat_tests/bytes.txt
+FAIL:  --number -b s21_cat_tests/bytes2.txt
+FAIL:  --number -b s21_cat_tests/text3.txt
+FAIL:  --number -e s21_cat_tests/bytes.txt
+FAIL:  --number -e s21_cat_tests/bytes2.txt
+FAIL:  --number -e s21_cat_tests/text3.txt
+FAIL:  --number -n s21_cat_tests/bytes.txt
+FAIL:  --number -n s21_cat_tests/bytes2.txt
+FAIL:  --number -n s21_cat_tests/text3.txt
+FAIL:  --number -s s21_cat_tests/bytes.txt
+FAIL:  --number -s s21_cat_tests/bytes2.txt
+FAIL:  --number -s s21_cat_tests/text3.txt
+FAIL:  --number -t s21_cat_tests/bytes.txt
+FAIL:  --number -t s21_cat_tests/bytes2.txt
+FAIL:  --number -t s21_cat_tests/text3.txt
+FAIL:  --number -v s21_cat_tests/bytes.txt
+FAIL:  --number -v s21_cat_tests/bytes2.txt
+FAIL:  --number -v s21_cat_tests/text3.txt
+FAIL:  --number -E s21_cat_tests/bytes.txt
+FAIL:  --number -E s21_cat_tests/bytes2.txt
+FAIL:  --number -E s21_cat_tests/text3.txt
+FAIL:  --number -T s21_cat_tests/bytes.txt
+FAIL:  --number -T s21_cat_tests/bytes2.txt
+FAIL:  --number -T s21_cat_tests/text3.txt
+FAIL:  --number --number-nonblank s21_cat_tests/bytes.txt
+FAIL:  --number --number-nonblank s21_cat_tests/bytes2.txt
+FAIL:  --number --number-nonblank s21_cat_tests/text3.txt
+FAIL:  --number --squeeze-blank s21_cat_tests/bytes.txt
+FAIL:  --number --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL:  --number --squeeze-blank s21_cat_tests/text3.txt
+FAIL:  --squeeze-blank  s21_cat_tests/bytes.txt
+FAIL:  --squeeze-blank  s21_cat_tests/bytes2.txt
+FAIL:  --squeeze-blank  s21_cat_tests/text3.txt
+FAIL:  --squeeze-blank -b s21_cat_tests/bytes.txt
+FAIL:  --squeeze-blank -b s21_cat_tests/bytes2.txt
+FAIL:  --squeeze-blank -b s21_cat_tests/text3.txt
+FAIL:  --squeeze-blank -e s21_cat_tests/bytes.txt
+FAIL:  --squeeze-blank -e s21_cat_tests/bytes2.txt
+FAIL:  --squeeze-blank -e s21_cat_tests/text3.txt
+FAIL:  --squeeze-blank -n s21_cat_tests/bytes.txt
+FAIL:  --squeeze-blank -n s21_cat_tests/bytes2.txt
+FAIL:  --squeeze-blank -n s21_cat_tests/text3.txt
+FAIL:  --squeeze-blank -s s21_cat_tests/bytes.txt
+FAIL:  --squeeze-blank -s s21_cat_tests/bytes2.txt
+FAIL:  --squeeze-blank -s s21_cat_tests/text3.txt
+FAIL:  --squeeze-blank -t s21_cat_tests/bytes.txt
+FAIL:  --squeeze-blank -t s21_cat_tests/bytes2.txt
+FAIL:  --squeeze-blank -t s21_cat_tests/text3.txt
+FAIL:  --squeeze-blank -v s21_cat_tests/bytes.txt
+FAIL:  --squeeze-blank -v s21_cat_tests/bytes2.txt
+FAIL:  --squeeze-blank -v s21_cat_tests/text3.txt
+FAIL:  --squeeze-blank -E s21_cat_tests/bytes.txt
+FAIL:  --squeeze-blank -E s21_cat_tests/bytes2.txt
+FAIL:  --squeeze-blank -E s21_cat_tests/text3.txt
+FAIL:  --squeeze-blank -T s21_cat_tests/bytes.txt
+FAIL:  --squeeze-blank -T s21_cat_tests/bytes2.txt
+FAIL:  --squeeze-blank -T s21_cat_tests/text3.txt
+FAIL:  --squeeze-blank --number-nonblank s21_cat_tests/bytes.txt
+FAIL:  --squeeze-blank --number-nonblank s21_cat_tests/bytes2.txt
+FAIL:  --squeeze-blank --number-nonblank s21_cat_tests/text3.txt
+FAIL:  --squeeze-blank --number s21_cat_tests/bytes.txt
+FAIL:  --squeeze-blank --number s21_cat_tests/bytes2.txt
+FAIL:  --squeeze-blank --number s21_cat_tests/text3.txt
+FAIL: -b   s21_cat_tests/bytes.txt
+FAIL: -b   s21_cat_tests/bytes2.txt
+FAIL: -b   s21_cat_tests/text3.txt
+FAIL: -b  -e s21_cat_tests/bytes.txt
+FAIL: -b  -e s21_cat_tests/bytes2.txt
+FAIL: -b  -e s21_cat_tests/text3.txt
+FAIL: -b  -n s21_cat_tests/bytes.txt
+FAIL: -b  -n s21_cat_tests/bytes2.txt
+FAIL: -b  -n s21_cat_tests/text3.txt
+FAIL: -b  -s s21_cat_tests/bytes.txt
+FAIL: -b  -s s21_cat_tests/bytes2.txt
+FAIL: -b  -s s21_cat_tests/text3.txt
+FAIL: -b  -t s21_cat_tests/bytes.txt
+FAIL: -b  -t s21_cat_tests/bytes2.txt
+FAIL: -b  -t s21_cat_tests/text3.txt
+FAIL: -b  -v s21_cat_tests/bytes.txt
+FAIL: -b  -v s21_cat_tests/bytes2.txt
+FAIL: -b  -v s21_cat_tests/text3.txt
+FAIL: -b  -E s21_cat_tests/bytes.txt
+FAIL: -b  -E s21_cat_tests/bytes2.txt
+FAIL: -b  -E s21_cat_tests/text3.txt
+FAIL: -b  -T s21_cat_tests/bytes.txt
+FAIL: -b  -T s21_cat_tests/bytes2.txt
+FAIL: -b  -T s21_cat_tests/text3.txt
+FAIL: -b  --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -b  --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -b  --number-nonblank s21_cat_tests/text3.txt
+FAIL: -b  --number s21_cat_tests/bytes.txt
+FAIL: -b  --number s21_cat_tests/bytes2.txt
+FAIL: -b  --number s21_cat_tests/text3.txt
+FAIL: -b  --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -b  --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -b  --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -b -e  s21_cat_tests/bytes.txt
+FAIL: -b -e  s21_cat_tests/bytes2.txt
+FAIL: -b -e  s21_cat_tests/text3.txt
+FAIL: -b -e -n s21_cat_tests/bytes.txt
+FAIL: -b -e -n s21_cat_tests/bytes2.txt
+FAIL: -b -e -n s21_cat_tests/text3.txt
+FAIL: -b -e -s s21_cat_tests/bytes.txt
+FAIL: -b -e -s s21_cat_tests/bytes2.txt
+FAIL: -b -e -s s21_cat_tests/text3.txt
+FAIL: -b -e -t s21_cat_tests/bytes.txt
+FAIL: -b -e -t s21_cat_tests/bytes2.txt
+FAIL: -b -e -t s21_cat_tests/text3.txt
+FAIL: -b -e -v s21_cat_tests/bytes.txt
+FAIL: -b -e -v s21_cat_tests/bytes2.txt
+FAIL: -b -e -v s21_cat_tests/text3.txt
+FAIL: -b -e -E s21_cat_tests/bytes.txt
+FAIL: -b -e -E s21_cat_tests/bytes2.txt
+FAIL: -b -e -E s21_cat_tests/text3.txt
+FAIL: -b -e -T s21_cat_tests/bytes.txt
+FAIL: -b -e -T s21_cat_tests/bytes2.txt
+FAIL: -b -e -T s21_cat_tests/text3.txt
+FAIL: -b -e --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -b -e --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -b -e --number-nonblank s21_cat_tests/text3.txt
+FAIL: -b -e --number s21_cat_tests/bytes.txt
+FAIL: -b -e --number s21_cat_tests/bytes2.txt
+FAIL: -b -e --number s21_cat_tests/text3.txt
+FAIL: -b -e --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -b -e --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -b -e --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -b -n  s21_cat_tests/bytes.txt
+FAIL: -b -n  s21_cat_tests/bytes2.txt
+FAIL: -b -n  s21_cat_tests/text3.txt
+FAIL: -b -n -e s21_cat_tests/bytes.txt
+FAIL: -b -n -e s21_cat_tests/bytes2.txt
+FAIL: -b -n -e s21_cat_tests/text3.txt
+FAIL: -b -n -s s21_cat_tests/bytes.txt
+FAIL: -b -n -s s21_cat_tests/bytes2.txt
+FAIL: -b -n -s s21_cat_tests/text3.txt
+FAIL: -b -n -t s21_cat_tests/bytes.txt
+FAIL: -b -n -t s21_cat_tests/bytes2.txt
+FAIL: -b -n -t s21_cat_tests/text3.txt
+FAIL: -b -n -v s21_cat_tests/bytes.txt
+FAIL: -b -n -v s21_cat_tests/bytes2.txt
+FAIL: -b -n -v s21_cat_tests/text3.txt
+FAIL: -b -n -E s21_cat_tests/bytes.txt
+FAIL: -b -n -E s21_cat_tests/bytes2.txt
+FAIL: -b -n -E s21_cat_tests/text3.txt
+FAIL: -b -n -T s21_cat_tests/bytes.txt
+FAIL: -b -n -T s21_cat_tests/bytes2.txt
+FAIL: -b -n -T s21_cat_tests/text3.txt
+FAIL: -b -n --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -b -n --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -b -n --number-nonblank s21_cat_tests/text3.txt
+FAIL: -b -n --number s21_cat_tests/bytes.txt
+FAIL: -b -n --number s21_cat_tests/bytes2.txt
+FAIL: -b -n --number s21_cat_tests/text3.txt
+FAIL: -b -n --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -b -n --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -b -n --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -b -s  s21_cat_tests/bytes.txt
+FAIL: -b -s  s21_cat_tests/bytes2.txt
+FAIL: -b -s  s21_cat_tests/text3.txt
+FAIL: -b -s -e s21_cat_tests/bytes.txt
+FAIL: -b -s -e s21_cat_tests/bytes2.txt
+FAIL: -b -s -e s21_cat_tests/text3.txt
+FAIL: -b -s -n s21_cat_tests/bytes.txt
+FAIL: -b -s -n s21_cat_tests/bytes2.txt
+FAIL: -b -s -n s21_cat_tests/text3.txt
+FAIL: -b -s -t s21_cat_tests/bytes.txt
+FAIL: -b -s -t s21_cat_tests/bytes2.txt
+FAIL: -b -s -t s21_cat_tests/text3.txt
+FAIL: -b -s -v s21_cat_tests/bytes.txt
+FAIL: -b -s -v s21_cat_tests/bytes2.txt
+FAIL: -b -s -v s21_cat_tests/text3.txt
+FAIL: -b -s -E s21_cat_tests/bytes.txt
+FAIL: -b -s -E s21_cat_tests/bytes2.txt
+FAIL: -b -s -E s21_cat_tests/text3.txt
+FAIL: -b -s -T s21_cat_tests/bytes.txt
+FAIL: -b -s -T s21_cat_tests/bytes2.txt
+FAIL: -b -s -T s21_cat_tests/text3.txt
+FAIL: -b -s --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -b -s --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -b -s --number-nonblank s21_cat_tests/text3.txt
+FAIL: -b -s --number s21_cat_tests/bytes.txt
+FAIL: -b -s --number s21_cat_tests/bytes2.txt
+FAIL: -b -s --number s21_cat_tests/text3.txt
+FAIL: -b -s --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -b -s --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -b -s --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -b -t  s21_cat_tests/bytes.txt
+FAIL: -b -t  s21_cat_tests/bytes2.txt
+FAIL: -b -t  s21_cat_tests/text3.txt
+FAIL: -b -t -e s21_cat_tests/bytes.txt
+FAIL: -b -t -e s21_cat_tests/bytes2.txt
+FAIL: -b -t -e s21_cat_tests/text3.txt
+FAIL: -b -t -n s21_cat_tests/bytes.txt
+FAIL: -b -t -n s21_cat_tests/bytes2.txt
+FAIL: -b -t -n s21_cat_tests/text3.txt
+FAIL: -b -t -s s21_cat_tests/bytes.txt
+FAIL: -b -t -s s21_cat_tests/bytes2.txt
+FAIL: -b -t -s s21_cat_tests/text3.txt
+FAIL: -b -t -v s21_cat_tests/bytes.txt
+FAIL: -b -t -v s21_cat_tests/bytes2.txt
+FAIL: -b -t -v s21_cat_tests/text3.txt
+FAIL: -b -t -E s21_cat_tests/bytes.txt
+FAIL: -b -t -E s21_cat_tests/bytes2.txt
+FAIL: -b -t -E s21_cat_tests/text3.txt
+FAIL: -b -t -T s21_cat_tests/bytes.txt
+FAIL: -b -t -T s21_cat_tests/bytes2.txt
+FAIL: -b -t -T s21_cat_tests/text3.txt
+FAIL: -b -t --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -b -t --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -b -t --number-nonblank s21_cat_tests/text3.txt
+FAIL: -b -t --number s21_cat_tests/bytes.txt
+FAIL: -b -t --number s21_cat_tests/bytes2.txt
+FAIL: -b -t --number s21_cat_tests/text3.txt
+FAIL: -b -t --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -b -t --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -b -t --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -b -v  s21_cat_tests/bytes.txt
+FAIL: -b -v  s21_cat_tests/bytes2.txt
+FAIL: -b -v  s21_cat_tests/text3.txt
+FAIL: -b -v -e s21_cat_tests/bytes.txt
+FAIL: -b -v -e s21_cat_tests/bytes2.txt
+FAIL: -b -v -e s21_cat_tests/text3.txt
+FAIL: -b -v -n s21_cat_tests/bytes.txt
+FAIL: -b -v -n s21_cat_tests/bytes2.txt
+FAIL: -b -v -n s21_cat_tests/text3.txt
+FAIL: -b -v -s s21_cat_tests/bytes.txt
+FAIL: -b -v -s s21_cat_tests/bytes2.txt
+FAIL: -b -v -s s21_cat_tests/text3.txt
+FAIL: -b -v -t s21_cat_tests/bytes.txt
+FAIL: -b -v -t s21_cat_tests/bytes2.txt
+FAIL: -b -v -t s21_cat_tests/text3.txt
+FAIL: -b -v -E s21_cat_tests/bytes.txt
+FAIL: -b -v -E s21_cat_tests/bytes2.txt
+FAIL: -b -v -E s21_cat_tests/text3.txt
+FAIL: -b -v -T s21_cat_tests/bytes.txt
+FAIL: -b -v -T s21_cat_tests/bytes2.txt
+FAIL: -b -v -T s21_cat_tests/text3.txt
+FAIL: -b -v --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -b -v --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -b -v --number-nonblank s21_cat_tests/text3.txt
+FAIL: -b -v --number s21_cat_tests/bytes.txt
+FAIL: -b -v --number s21_cat_tests/bytes2.txt
+FAIL: -b -v --number s21_cat_tests/text3.txt
+FAIL: -b -v --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -b -v --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -b -v --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -b -E  s21_cat_tests/bytes.txt
+FAIL: -b -E  s21_cat_tests/bytes2.txt
+FAIL: -b -E  s21_cat_tests/text3.txt
+FAIL: -b -E -e s21_cat_tests/bytes.txt
+FAIL: -b -E -e s21_cat_tests/bytes2.txt
+FAIL: -b -E -e s21_cat_tests/text3.txt
+FAIL: -b -E -n s21_cat_tests/bytes.txt
+FAIL: -b -E -n s21_cat_tests/bytes2.txt
+FAIL: -b -E -n s21_cat_tests/text3.txt
+FAIL: -b -E -s s21_cat_tests/bytes.txt
+FAIL: -b -E -s s21_cat_tests/bytes2.txt
+FAIL: -b -E -s s21_cat_tests/text3.txt
+FAIL: -b -E -t s21_cat_tests/bytes.txt
+FAIL: -b -E -t s21_cat_tests/bytes2.txt
+FAIL: -b -E -t s21_cat_tests/text3.txt
+FAIL: -b -E -v s21_cat_tests/bytes.txt
+FAIL: -b -E -v s21_cat_tests/bytes2.txt
+FAIL: -b -E -v s21_cat_tests/text3.txt
+FAIL: -b -E -T s21_cat_tests/bytes.txt
+FAIL: -b -E -T s21_cat_tests/bytes2.txt
+FAIL: -b -E -T s21_cat_tests/text3.txt
+FAIL: -b -E --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -b -E --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -b -E --number-nonblank s21_cat_tests/text3.txt
+FAIL: -b -E --number s21_cat_tests/bytes.txt
+FAIL: -b -E --number s21_cat_tests/bytes2.txt
+FAIL: -b -E --number s21_cat_tests/text3.txt
+FAIL: -b -E --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -b -E --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -b -E --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -b -T  s21_cat_tests/bytes.txt
+FAIL: -b -T  s21_cat_tests/bytes2.txt
+FAIL: -b -T  s21_cat_tests/text3.txt
+FAIL: -b -T -e s21_cat_tests/bytes.txt
+FAIL: -b -T -e s21_cat_tests/bytes2.txt
+FAIL: -b -T -e s21_cat_tests/text3.txt
+FAIL: -b -T -n s21_cat_tests/bytes.txt
+FAIL: -b -T -n s21_cat_tests/bytes2.txt
+FAIL: -b -T -n s21_cat_tests/text3.txt
+FAIL: -b -T -s s21_cat_tests/bytes.txt
+FAIL: -b -T -s s21_cat_tests/bytes2.txt
+FAIL: -b -T -s s21_cat_tests/text3.txt
+FAIL: -b -T -t s21_cat_tests/bytes.txt
+FAIL: -b -T -t s21_cat_tests/bytes2.txt
+FAIL: -b -T -t s21_cat_tests/text3.txt
+FAIL: -b -T -v s21_cat_tests/bytes.txt
+FAIL: -b -T -v s21_cat_tests/bytes2.txt
+FAIL: -b -T -v s21_cat_tests/text3.txt
+FAIL: -b -T -E s21_cat_tests/bytes.txt
+FAIL: -b -T -E s21_cat_tests/bytes2.txt
+FAIL: -b -T -E s21_cat_tests/text3.txt
+FAIL: -b -T --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -b -T --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -b -T --number-nonblank s21_cat_tests/text3.txt
+FAIL: -b -T --number s21_cat_tests/bytes.txt
+FAIL: -b -T --number s21_cat_tests/bytes2.txt
+FAIL: -b -T --number s21_cat_tests/text3.txt
+FAIL: -b -T --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -b -T --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -b -T --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -b --number-nonblank  s21_cat_tests/bytes.txt
+FAIL: -b --number-nonblank  s21_cat_tests/bytes2.txt
+FAIL: -b --number-nonblank  s21_cat_tests/text3.txt
+FAIL: -b --number-nonblank -e s21_cat_tests/bytes.txt
+FAIL: -b --number-nonblank -e s21_cat_tests/bytes2.txt
+FAIL: -b --number-nonblank -e s21_cat_tests/text3.txt
+FAIL: -b --number-nonblank -n s21_cat_tests/bytes.txt
+FAIL: -b --number-nonblank -n s21_cat_tests/bytes2.txt
+FAIL: -b --number-nonblank -n s21_cat_tests/text3.txt
+FAIL: -b --number-nonblank -s s21_cat_tests/bytes.txt
+FAIL: -b --number-nonblank -s s21_cat_tests/bytes2.txt
+FAIL: -b --number-nonblank -s s21_cat_tests/text3.txt
+FAIL: -b --number-nonblank -t s21_cat_tests/bytes.txt
+FAIL: -b --number-nonblank -t s21_cat_tests/bytes2.txt
+FAIL: -b --number-nonblank -t s21_cat_tests/text3.txt
+FAIL: -b --number-nonblank -v s21_cat_tests/bytes.txt
+FAIL: -b --number-nonblank -v s21_cat_tests/bytes2.txt
+FAIL: -b --number-nonblank -v s21_cat_tests/text3.txt
+FAIL: -b --number-nonblank -E s21_cat_tests/bytes.txt
+FAIL: -b --number-nonblank -E s21_cat_tests/bytes2.txt
+FAIL: -b --number-nonblank -E s21_cat_tests/text3.txt
+FAIL: -b --number-nonblank -T s21_cat_tests/bytes.txt
+FAIL: -b --number-nonblank -T s21_cat_tests/bytes2.txt
+FAIL: -b --number-nonblank -T s21_cat_tests/text3.txt
+FAIL: -b --number-nonblank --number s21_cat_tests/bytes.txt
+FAIL: -b --number-nonblank --number s21_cat_tests/bytes2.txt
+FAIL: -b --number-nonblank --number s21_cat_tests/text3.txt
+FAIL: -b --number-nonblank --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -b --number-nonblank --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -b --number-nonblank --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -b --number  s21_cat_tests/bytes.txt
+FAIL: -b --number  s21_cat_tests/bytes2.txt
+FAIL: -b --number  s21_cat_tests/text3.txt
+FAIL: -b --number -e s21_cat_tests/bytes.txt
+FAIL: -b --number -e s21_cat_tests/bytes2.txt
+FAIL: -b --number -e s21_cat_tests/text3.txt
+FAIL: -b --number -n s21_cat_tests/bytes.txt
+FAIL: -b --number -n s21_cat_tests/bytes2.txt
+FAIL: -b --number -n s21_cat_tests/text3.txt
+FAIL: -b --number -s s21_cat_tests/bytes.txt
+FAIL: -b --number -s s21_cat_tests/bytes2.txt
+FAIL: -b --number -s s21_cat_tests/text3.txt
+FAIL: -b --number -t s21_cat_tests/bytes.txt
+FAIL: -b --number -t s21_cat_tests/bytes2.txt
+FAIL: -b --number -t s21_cat_tests/text3.txt
+FAIL: -b --number -v s21_cat_tests/bytes.txt
+FAIL: -b --number -v s21_cat_tests/bytes2.txt
+FAIL: -b --number -v s21_cat_tests/text3.txt
+FAIL: -b --number -E s21_cat_tests/bytes.txt
+FAIL: -b --number -E s21_cat_tests/bytes2.txt
+FAIL: -b --number -E s21_cat_tests/text3.txt
+FAIL: -b --number -T s21_cat_tests/bytes.txt
+FAIL: -b --number -T s21_cat_tests/bytes2.txt
+FAIL: -b --number -T s21_cat_tests/text3.txt
+FAIL: -b --number --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -b --number --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -b --number --number-nonblank s21_cat_tests/text3.txt
+FAIL: -b --number --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -b --number --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -b --number --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -b --squeeze-blank  s21_cat_tests/bytes.txt
+FAIL: -b --squeeze-blank  s21_cat_tests/bytes2.txt
+FAIL: -b --squeeze-blank  s21_cat_tests/text3.txt
+FAIL: -b --squeeze-blank -e s21_cat_tests/bytes.txt
+FAIL: -b --squeeze-blank -e s21_cat_tests/bytes2.txt
+FAIL: -b --squeeze-blank -e s21_cat_tests/text3.txt
+FAIL: -b --squeeze-blank -n s21_cat_tests/bytes.txt
+FAIL: -b --squeeze-blank -n s21_cat_tests/bytes2.txt
+FAIL: -b --squeeze-blank -n s21_cat_tests/text3.txt
+FAIL: -b --squeeze-blank -s s21_cat_tests/bytes.txt
+FAIL: -b --squeeze-blank -s s21_cat_tests/bytes2.txt
+FAIL: -b --squeeze-blank -s s21_cat_tests/text3.txt
+FAIL: -b --squeeze-blank -t s21_cat_tests/bytes.txt
+FAIL: -b --squeeze-blank -t s21_cat_tests/bytes2.txt
+FAIL: -b --squeeze-blank -t s21_cat_tests/text3.txt
+FAIL: -b --squeeze-blank -v s21_cat_tests/bytes.txt
+FAIL: -b --squeeze-blank -v s21_cat_tests/bytes2.txt
+FAIL: -b --squeeze-blank -v s21_cat_tests/text3.txt
+FAIL: -b --squeeze-blank -E s21_cat_tests/bytes.txt
+FAIL: -b --squeeze-blank -E s21_cat_tests/bytes2.txt
+FAIL: -b --squeeze-blank -E s21_cat_tests/text3.txt
+FAIL: -b --squeeze-blank -T s21_cat_tests/bytes.txt
+FAIL: -b --squeeze-blank -T s21_cat_tests/bytes2.txt
+FAIL: -b --squeeze-blank -T s21_cat_tests/text3.txt
+FAIL: -b --squeeze-blank --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -b --squeeze-blank --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -b --squeeze-blank --number-nonblank s21_cat_tests/text3.txt
+FAIL: -b --squeeze-blank --number s21_cat_tests/bytes.txt
+FAIL: -b --squeeze-blank --number s21_cat_tests/bytes2.txt
+FAIL: -b --squeeze-blank --number s21_cat_tests/text3.txt
+FAIL: -e   s21_cat_tests/bytes.txt
+FAIL: -e   s21_cat_tests/bytes2.txt
+FAIL: -e   s21_cat_tests/text3.txt
+FAIL: -e  -b s21_cat_tests/bytes.txt
+FAIL: -e  -b s21_cat_tests/bytes2.txt
+FAIL: -e  -b s21_cat_tests/text3.txt
+FAIL: -e  -n s21_cat_tests/bytes.txt
+FAIL: -e  -n s21_cat_tests/bytes2.txt
+FAIL: -e  -n s21_cat_tests/text3.txt
+FAIL: -e  -s s21_cat_tests/bytes.txt
+FAIL: -e  -s s21_cat_tests/bytes2.txt
+FAIL: -e  -s s21_cat_tests/text3.txt
+FAIL: -e  -t s21_cat_tests/bytes.txt
+FAIL: -e  -t s21_cat_tests/bytes2.txt
+FAIL: -e  -t s21_cat_tests/text3.txt
+FAIL: -e  -v s21_cat_tests/bytes.txt
+FAIL: -e  -v s21_cat_tests/bytes2.txt
+FAIL: -e  -v s21_cat_tests/text3.txt
+FAIL: -e  -E s21_cat_tests/bytes.txt
+FAIL: -e  -E s21_cat_tests/bytes2.txt
+FAIL: -e  -E s21_cat_tests/text3.txt
+FAIL: -e  -T s21_cat_tests/bytes.txt
+FAIL: -e  -T s21_cat_tests/bytes2.txt
+FAIL: -e  -T s21_cat_tests/text3.txt
+FAIL: -e  --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -e  --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -e  --number-nonblank s21_cat_tests/text3.txt
+FAIL: -e  --number s21_cat_tests/bytes.txt
+FAIL: -e  --number s21_cat_tests/bytes2.txt
+FAIL: -e  --number s21_cat_tests/text3.txt
+FAIL: -e  --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -e  --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -e  --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -e -b  s21_cat_tests/bytes.txt
+FAIL: -e -b  s21_cat_tests/bytes2.txt
+FAIL: -e -b  s21_cat_tests/text3.txt
+FAIL: -e -b -n s21_cat_tests/bytes.txt
+FAIL: -e -b -n s21_cat_tests/bytes2.txt
+FAIL: -e -b -n s21_cat_tests/text3.txt
+FAIL: -e -b -s s21_cat_tests/bytes.txt
+FAIL: -e -b -s s21_cat_tests/bytes2.txt
+FAIL: -e -b -s s21_cat_tests/text3.txt
+FAIL: -e -b -t s21_cat_tests/bytes.txt
+FAIL: -e -b -t s21_cat_tests/bytes2.txt
+FAIL: -e -b -t s21_cat_tests/text3.txt
+FAIL: -e -b -v s21_cat_tests/bytes.txt
+FAIL: -e -b -v s21_cat_tests/bytes2.txt
+FAIL: -e -b -v s21_cat_tests/text3.txt
+FAIL: -e -b -E s21_cat_tests/bytes.txt
+FAIL: -e -b -E s21_cat_tests/bytes2.txt
+FAIL: -e -b -E s21_cat_tests/text3.txt
+FAIL: -e -b -T s21_cat_tests/bytes.txt
+FAIL: -e -b -T s21_cat_tests/bytes2.txt
+FAIL: -e -b -T s21_cat_tests/text3.txt
+FAIL: -e -b --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -e -b --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -e -b --number-nonblank s21_cat_tests/text3.txt
+FAIL: -e -b --number s21_cat_tests/bytes.txt
+FAIL: -e -b --number s21_cat_tests/bytes2.txt
+FAIL: -e -b --number s21_cat_tests/text3.txt
+FAIL: -e -b --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -e -b --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -e -b --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -e -n  s21_cat_tests/bytes.txt
+FAIL: -e -n  s21_cat_tests/bytes2.txt
+FAIL: -e -n  s21_cat_tests/text3.txt
+FAIL: -e -n -b s21_cat_tests/bytes.txt
+FAIL: -e -n -b s21_cat_tests/bytes2.txt
+FAIL: -e -n -b s21_cat_tests/text3.txt
+FAIL: -e -n -s s21_cat_tests/bytes.txt
+FAIL: -e -n -s s21_cat_tests/bytes2.txt
+FAIL: -e -n -s s21_cat_tests/text3.txt
+FAIL: -e -n -t s21_cat_tests/bytes.txt
+FAIL: -e -n -t s21_cat_tests/bytes2.txt
+FAIL: -e -n -t s21_cat_tests/text3.txt
+FAIL: -e -n -v s21_cat_tests/bytes.txt
+FAIL: -e -n -v s21_cat_tests/bytes2.txt
+FAIL: -e -n -v s21_cat_tests/text3.txt
+FAIL: -e -n -E s21_cat_tests/bytes.txt
+FAIL: -e -n -E s21_cat_tests/bytes2.txt
+FAIL: -e -n -E s21_cat_tests/text3.txt
+FAIL: -e -n -T s21_cat_tests/bytes.txt
+FAIL: -e -n -T s21_cat_tests/bytes2.txt
+FAIL: -e -n -T s21_cat_tests/text3.txt
+FAIL: -e -n --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -e -n --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -e -n --number-nonblank s21_cat_tests/text3.txt
+FAIL: -e -n --number s21_cat_tests/bytes.txt
+FAIL: -e -n --number s21_cat_tests/bytes2.txt
+FAIL: -e -n --number s21_cat_tests/text3.txt
+FAIL: -e -n --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -e -n --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -e -n --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -e -s  s21_cat_tests/bytes.txt
+FAIL: -e -s  s21_cat_tests/bytes2.txt
+FAIL: -e -s  s21_cat_tests/text3.txt
+FAIL: -e -s -b s21_cat_tests/bytes.txt
+FAIL: -e -s -b s21_cat_tests/bytes2.txt
+FAIL: -e -s -b s21_cat_tests/text3.txt
+FAIL: -e -s -n s21_cat_tests/bytes.txt
+FAIL: -e -s -n s21_cat_tests/bytes2.txt
+FAIL: -e -s -n s21_cat_tests/text3.txt
+FAIL: -e -s -t s21_cat_tests/bytes.txt
+FAIL: -e -s -t s21_cat_tests/bytes2.txt
+FAIL: -e -s -t s21_cat_tests/text3.txt
+FAIL: -e -s -v s21_cat_tests/bytes.txt
+FAIL: -e -s -v s21_cat_tests/bytes2.txt
+FAIL: -e -s -v s21_cat_tests/text3.txt
+FAIL: -e -s -E s21_cat_tests/bytes.txt
+FAIL: -e -s -E s21_cat_tests/bytes2.txt
+FAIL: -e -s -E s21_cat_tests/text3.txt
+FAIL: -e -s -T s21_cat_tests/bytes.txt
+FAIL: -e -s -T s21_cat_tests/bytes2.txt
+FAIL: -e -s -T s21_cat_tests/text3.txt
+FAIL: -e -s --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -e -s --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -e -s --number-nonblank s21_cat_tests/text3.txt
+FAIL: -e -s --number s21_cat_tests/bytes.txt
+FAIL: -e -s --number s21_cat_tests/bytes2.txt
+FAIL: -e -s --number s21_cat_tests/text3.txt
+FAIL: -e -s --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -e -s --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -e -s --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -e -t  s21_cat_tests/bytes.txt
+FAIL: -e -t  s21_cat_tests/bytes2.txt
+FAIL: -e -t  s21_cat_tests/text3.txt
+FAIL: -e -t -b s21_cat_tests/bytes.txt
+FAIL: -e -t -b s21_cat_tests/bytes2.txt
+FAIL: -e -t -b s21_cat_tests/text3.txt
+FAIL: -e -t -n s21_cat_tests/bytes.txt
+FAIL: -e -t -n s21_cat_tests/bytes2.txt
+FAIL: -e -t -n s21_cat_tests/text3.txt
+FAIL: -e -t -s s21_cat_tests/bytes.txt
+FAIL: -e -t -s s21_cat_tests/bytes2.txt
+FAIL: -e -t -s s21_cat_tests/text3.txt
+FAIL: -e -t -v s21_cat_tests/bytes.txt
+FAIL: -e -t -v s21_cat_tests/bytes2.txt
+FAIL: -e -t -v s21_cat_tests/text3.txt
+FAIL: -e -t -E s21_cat_tests/bytes.txt
+FAIL: -e -t -E s21_cat_tests/bytes2.txt
+FAIL: -e -t -E s21_cat_tests/text3.txt
+FAIL: -e -t -T s21_cat_tests/bytes.txt
+FAIL: -e -t -T s21_cat_tests/bytes2.txt
+FAIL: -e -t -T s21_cat_tests/text3.txt
+FAIL: -e -t --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -e -t --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -e -t --number-nonblank s21_cat_tests/text3.txt
+FAIL: -e -t --number s21_cat_tests/bytes.txt
+FAIL: -e -t --number s21_cat_tests/bytes2.txt
+FAIL: -e -t --number s21_cat_tests/text3.txt
+FAIL: -e -t --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -e -t --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -e -t --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -e -v  s21_cat_tests/bytes.txt
+FAIL: -e -v  s21_cat_tests/bytes2.txt
+FAIL: -e -v  s21_cat_tests/text3.txt
+FAIL: -e -v -b s21_cat_tests/bytes.txt
+FAIL: -e -v -b s21_cat_tests/bytes2.txt
+FAIL: -e -v -b s21_cat_tests/text3.txt
+FAIL: -e -v -n s21_cat_tests/bytes.txt
+FAIL: -e -v -n s21_cat_tests/bytes2.txt
+FAIL: -e -v -n s21_cat_tests/text3.txt
+FAIL: -e -v -s s21_cat_tests/bytes.txt
+FAIL: -e -v -s s21_cat_tests/bytes2.txt
+FAIL: -e -v -s s21_cat_tests/text3.txt
+FAIL: -e -v -t s21_cat_tests/bytes.txt
+FAIL: -e -v -t s21_cat_tests/bytes2.txt
+FAIL: -e -v -t s21_cat_tests/text3.txt
+FAIL: -e -v -E s21_cat_tests/bytes.txt
+FAIL: -e -v -E s21_cat_tests/bytes2.txt
+FAIL: -e -v -E s21_cat_tests/text3.txt
+FAIL: -e -v -T s21_cat_tests/bytes.txt
+FAIL: -e -v -T s21_cat_tests/bytes2.txt
+FAIL: -e -v -T s21_cat_tests/text3.txt
+FAIL: -e -v --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -e -v --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -e -v --number-nonblank s21_cat_tests/text3.txt
+FAIL: -e -v --number s21_cat_tests/bytes.txt
+FAIL: -e -v --number s21_cat_tests/bytes2.txt
+FAIL: -e -v --number s21_cat_tests/text3.txt
+FAIL: -e -v --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -e -v --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -e -v --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -e -E  s21_cat_tests/bytes.txt
+FAIL: -e -E  s21_cat_tests/bytes2.txt
+FAIL: -e -E  s21_cat_tests/text3.txt
+FAIL: -e -E -b s21_cat_tests/bytes.txt
+FAIL: -e -E -b s21_cat_tests/bytes2.txt
+FAIL: -e -E -b s21_cat_tests/text3.txt
+FAIL: -e -E -n s21_cat_tests/bytes.txt
+FAIL: -e -E -n s21_cat_tests/bytes2.txt
+FAIL: -e -E -n s21_cat_tests/text3.txt
+FAIL: -e -E -s s21_cat_tests/bytes.txt
+FAIL: -e -E -s s21_cat_tests/bytes2.txt
+FAIL: -e -E -s s21_cat_tests/text3.txt
+FAIL: -e -E -t s21_cat_tests/bytes.txt
+FAIL: -e -E -t s21_cat_tests/bytes2.txt
+FAIL: -e -E -t s21_cat_tests/text3.txt
+FAIL: -e -E -v s21_cat_tests/bytes.txt
+FAIL: -e -E -v s21_cat_tests/bytes2.txt
+FAIL: -e -E -v s21_cat_tests/text3.txt
+FAIL: -e -E -T s21_cat_tests/bytes.txt
+FAIL: -e -E -T s21_cat_tests/bytes2.txt
+FAIL: -e -E -T s21_cat_tests/text3.txt
+FAIL: -e -E --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -e -E --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -e -E --number-nonblank s21_cat_tests/text3.txt
+FAIL: -e -E --number s21_cat_tests/bytes.txt
+FAIL: -e -E --number s21_cat_tests/bytes2.txt
+FAIL: -e -E --number s21_cat_tests/text3.txt
+FAIL: -e -E --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -e -E --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -e -E --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -e -T  s21_cat_tests/bytes.txt
+FAIL: -e -T  s21_cat_tests/bytes2.txt
+FAIL: -e -T  s21_cat_tests/text3.txt
+FAIL: -e -T -b s21_cat_tests/bytes.txt
+FAIL: -e -T -b s21_cat_tests/bytes2.txt
+FAIL: -e -T -b s21_cat_tests/text3.txt
+FAIL: -e -T -n s21_cat_tests/bytes.txt
+FAIL: -e -T -n s21_cat_tests/bytes2.txt
+FAIL: -e -T -n s21_cat_tests/text3.txt
+FAIL: -e -T -s s21_cat_tests/bytes.txt
+FAIL: -e -T -s s21_cat_tests/bytes2.txt
+FAIL: -e -T -s s21_cat_tests/text3.txt
+FAIL: -e -T -t s21_cat_tests/bytes.txt
+FAIL: -e -T -t s21_cat_tests/bytes2.txt
+FAIL: -e -T -t s21_cat_tests/text3.txt
+FAIL: -e -T -v s21_cat_tests/bytes.txt
+FAIL: -e -T -v s21_cat_tests/bytes2.txt
+FAIL: -e -T -v s21_cat_tests/text3.txt
+FAIL: -e -T -E s21_cat_tests/bytes.txt
+FAIL: -e -T -E s21_cat_tests/bytes2.txt
+FAIL: -e -T -E s21_cat_tests/text3.txt
+FAIL: -e -T --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -e -T --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -e -T --number-nonblank s21_cat_tests/text3.txt
+FAIL: -e -T --number s21_cat_tests/bytes.txt
+FAIL: -e -T --number s21_cat_tests/bytes2.txt
+FAIL: -e -T --number s21_cat_tests/text3.txt
+FAIL: -e -T --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -e -T --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -e -T --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -e --number-nonblank  s21_cat_tests/bytes.txt
+FAIL: -e --number-nonblank  s21_cat_tests/bytes2.txt
+FAIL: -e --number-nonblank  s21_cat_tests/text3.txt
+FAIL: -e --number-nonblank -b s21_cat_tests/bytes.txt
+FAIL: -e --number-nonblank -b s21_cat_tests/bytes2.txt
+FAIL: -e --number-nonblank -b s21_cat_tests/text3.txt
+FAIL: -e --number-nonblank -n s21_cat_tests/bytes.txt
+FAIL: -e --number-nonblank -n s21_cat_tests/bytes2.txt
+FAIL: -e --number-nonblank -n s21_cat_tests/text3.txt
+FAIL: -e --number-nonblank -s s21_cat_tests/bytes.txt
+FAIL: -e --number-nonblank -s s21_cat_tests/bytes2.txt
+FAIL: -e --number-nonblank -s s21_cat_tests/text3.txt
+FAIL: -e --number-nonblank -t s21_cat_tests/bytes.txt
+FAIL: -e --number-nonblank -t s21_cat_tests/bytes2.txt
+FAIL: -e --number-nonblank -t s21_cat_tests/text3.txt
+FAIL: -e --number-nonblank -v s21_cat_tests/bytes.txt
+FAIL: -e --number-nonblank -v s21_cat_tests/bytes2.txt
+FAIL: -e --number-nonblank -v s21_cat_tests/text3.txt
+FAIL: -e --number-nonblank -E s21_cat_tests/bytes.txt
+FAIL: -e --number-nonblank -E s21_cat_tests/bytes2.txt
+FAIL: -e --number-nonblank -E s21_cat_tests/text3.txt
+FAIL: -e --number-nonblank -T s21_cat_tests/bytes.txt
+FAIL: -e --number-nonblank -T s21_cat_tests/bytes2.txt
+FAIL: -e --number-nonblank -T s21_cat_tests/text3.txt
+FAIL: -e --number-nonblank --number s21_cat_tests/bytes.txt
+FAIL: -e --number-nonblank --number s21_cat_tests/bytes2.txt
+FAIL: -e --number-nonblank --number s21_cat_tests/text3.txt
+FAIL: -e --number-nonblank --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -e --number-nonblank --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -e --number-nonblank --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -e --number  s21_cat_tests/bytes.txt
+FAIL: -e --number  s21_cat_tests/bytes2.txt
+FAIL: -e --number  s21_cat_tests/text3.txt
+FAIL: -e --number -b s21_cat_tests/bytes.txt
+FAIL: -e --number -b s21_cat_tests/bytes2.txt
+FAIL: -e --number -b s21_cat_tests/text3.txt
+FAIL: -e --number -n s21_cat_tests/bytes.txt
+FAIL: -e --number -n s21_cat_tests/bytes2.txt
+FAIL: -e --number -n s21_cat_tests/text3.txt
+FAIL: -e --number -s s21_cat_tests/bytes.txt
+FAIL: -e --number -s s21_cat_tests/bytes2.txt
+FAIL: -e --number -s s21_cat_tests/text3.txt
+FAIL: -e --number -t s21_cat_tests/bytes.txt
+FAIL: -e --number -t s21_cat_tests/bytes2.txt
+FAIL: -e --number -t s21_cat_tests/text3.txt
+FAIL: -e --number -v s21_cat_tests/bytes.txt
+FAIL: -e --number -v s21_cat_tests/bytes2.txt
+FAIL: -e --number -v s21_cat_tests/text3.txt
+FAIL: -e --number -E s21_cat_tests/bytes.txt
+FAIL: -e --number -E s21_cat_tests/bytes2.txt
+FAIL: -e --number -E s21_cat_tests/text3.txt
+FAIL: -e --number -T s21_cat_tests/bytes.txt
+FAIL: -e --number -T s21_cat_tests/bytes2.txt
+FAIL: -e --number -T s21_cat_tests/text3.txt
+FAIL: -e --number --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -e --number --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -e --number --number-nonblank s21_cat_tests/text3.txt
+FAIL: -e --number --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -e --number --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -e --number --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -e --squeeze-blank  s21_cat_tests/bytes.txt
+FAIL: -e --squeeze-blank  s21_cat_tests/bytes2.txt
+FAIL: -e --squeeze-blank  s21_cat_tests/text3.txt
+FAIL: -e --squeeze-blank -b s21_cat_tests/bytes.txt
+FAIL: -e --squeeze-blank -b s21_cat_tests/bytes2.txt
+FAIL: -e --squeeze-blank -b s21_cat_tests/text3.txt
+FAIL: -e --squeeze-blank -n s21_cat_tests/bytes.txt
+FAIL: -e --squeeze-blank -n s21_cat_tests/bytes2.txt
+FAIL: -e --squeeze-blank -n s21_cat_tests/text3.txt
+FAIL: -e --squeeze-blank -s s21_cat_tests/bytes.txt
+FAIL: -e --squeeze-blank -s s21_cat_tests/bytes2.txt
+FAIL: -e --squeeze-blank -s s21_cat_tests/text3.txt
+FAIL: -e --squeeze-blank -t s21_cat_tests/bytes.txt
+FAIL: -e --squeeze-blank -t s21_cat_tests/bytes2.txt
+FAIL: -e --squeeze-blank -t s21_cat_tests/text3.txt
+FAIL: -e --squeeze-blank -v s21_cat_tests/bytes.txt
+FAIL: -e --squeeze-blank -v s21_cat_tests/bytes2.txt
+FAIL: -e --squeeze-blank -v s21_cat_tests/text3.txt
+FAIL: -e --squeeze-blank -E s21_cat_tests/bytes.txt
+FAIL: -e --squeeze-blank -E s21_cat_tests/bytes2.txt
+FAIL: -e --squeeze-blank -E s21_cat_tests/text3.txt
+FAIL: -e --squeeze-blank -T s21_cat_tests/bytes.txt
+FAIL: -e --squeeze-blank -T s21_cat_tests/bytes2.txt
+FAIL: -e --squeeze-blank -T s21_cat_tests/text3.txt
+FAIL: -e --squeeze-blank --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -e --squeeze-blank --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -e --squeeze-blank --number-nonblank s21_cat_tests/text3.txt
+FAIL: -e --squeeze-blank --number s21_cat_tests/bytes.txt
+FAIL: -e --squeeze-blank --number s21_cat_tests/bytes2.txt
+FAIL: -e --squeeze-blank --number s21_cat_tests/text3.txt
+FAIL: -n   s21_cat_tests/bytes.txt
+FAIL: -n   s21_cat_tests/bytes2.txt
+FAIL: -n   s21_cat_tests/text3.txt
+FAIL: -n  -b s21_cat_tests/bytes.txt
+FAIL: -n  -b s21_cat_tests/bytes2.txt
+FAIL: -n  -b s21_cat_tests/text3.txt
+FAIL: -n  -e s21_cat_tests/bytes.txt
+FAIL: -n  -e s21_cat_tests/bytes2.txt
+FAIL: -n  -e s21_cat_tests/text3.txt
+FAIL: -n  -s s21_cat_tests/bytes.txt
+FAIL: -n  -s s21_cat_tests/bytes2.txt
+FAIL: -n  -s s21_cat_tests/text3.txt
+FAIL: -n  -t s21_cat_tests/bytes.txt
+FAIL: -n  -t s21_cat_tests/bytes2.txt
+FAIL: -n  -t s21_cat_tests/text3.txt
+FAIL: -n  -v s21_cat_tests/bytes.txt
+FAIL: -n  -v s21_cat_tests/bytes2.txt
+FAIL: -n  -v s21_cat_tests/text3.txt
+FAIL: -n  -E s21_cat_tests/bytes.txt
+FAIL: -n  -E s21_cat_tests/bytes2.txt
+FAIL: -n  -E s21_cat_tests/text3.txt
+FAIL: -n  -T s21_cat_tests/bytes.txt
+FAIL: -n  -T s21_cat_tests/bytes2.txt
+FAIL: -n  -T s21_cat_tests/text3.txt
+FAIL: -n  --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -n  --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -n  --number-nonblank s21_cat_tests/text3.txt
+FAIL: -n  --number s21_cat_tests/bytes.txt
+FAIL: -n  --number s21_cat_tests/bytes2.txt
+FAIL: -n  --number s21_cat_tests/text3.txt
+FAIL: -n  --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -n  --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -n  --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -n -b  s21_cat_tests/bytes.txt
+FAIL: -n -b  s21_cat_tests/bytes2.txt
+FAIL: -n -b  s21_cat_tests/text3.txt
+FAIL: -n -b -e s21_cat_tests/bytes.txt
+FAIL: -n -b -e s21_cat_tests/bytes2.txt
+FAIL: -n -b -e s21_cat_tests/text3.txt
+FAIL: -n -b -s s21_cat_tests/bytes.txt
+FAIL: -n -b -s s21_cat_tests/bytes2.txt
+FAIL: -n -b -s s21_cat_tests/text3.txt
+FAIL: -n -b -t s21_cat_tests/bytes.txt
+FAIL: -n -b -t s21_cat_tests/bytes2.txt
+FAIL: -n -b -t s21_cat_tests/text3.txt
+FAIL: -n -b -v s21_cat_tests/bytes.txt
+FAIL: -n -b -v s21_cat_tests/bytes2.txt
+FAIL: -n -b -v s21_cat_tests/text3.txt
+FAIL: -n -b -E s21_cat_tests/bytes.txt
+FAIL: -n -b -E s21_cat_tests/bytes2.txt
+FAIL: -n -b -E s21_cat_tests/text3.txt
+FAIL: -n -b -T s21_cat_tests/bytes.txt
+FAIL: -n -b -T s21_cat_tests/bytes2.txt
+FAIL: -n -b -T s21_cat_tests/text3.txt
+FAIL: -n -b --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -n -b --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -n -b --number-nonblank s21_cat_tests/text3.txt
+FAIL: -n -b --number s21_cat_tests/bytes.txt
+FAIL: -n -b --number s21_cat_tests/bytes2.txt
+FAIL: -n -b --number s21_cat_tests/text3.txt
+FAIL: -n -b --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -n -b --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -n -b --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -n -e  s21_cat_tests/bytes.txt
+FAIL: -n -e  s21_cat_tests/bytes2.txt
+FAIL: -n -e  s21_cat_tests/text3.txt
+FAIL: -n -e -b s21_cat_tests/bytes.txt
+FAIL: -n -e -b s21_cat_tests/bytes2.txt
+FAIL: -n -e -b s21_cat_tests/text3.txt
+FAIL: -n -e -s s21_cat_tests/bytes.txt
+FAIL: -n -e -s s21_cat_tests/bytes2.txt
+FAIL: -n -e -s s21_cat_tests/text3.txt
+FAIL: -n -e -t s21_cat_tests/bytes.txt
+FAIL: -n -e -t s21_cat_tests/bytes2.txt
+FAIL: -n -e -t s21_cat_tests/text3.txt
+FAIL: -n -e -v s21_cat_tests/bytes.txt
+FAIL: -n -e -v s21_cat_tests/bytes2.txt
+FAIL: -n -e -v s21_cat_tests/text3.txt
+FAIL: -n -e -E s21_cat_tests/bytes.txt
+FAIL: -n -e -E s21_cat_tests/bytes2.txt
+FAIL: -n -e -E s21_cat_tests/text3.txt
+FAIL: -n -e -T s21_cat_tests/bytes.txt
+FAIL: -n -e -T s21_cat_tests/bytes2.txt
+FAIL: -n -e -T s21_cat_tests/text3.txt
+FAIL: -n -e --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -n -e --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -n -e --number-nonblank s21_cat_tests/text3.txt
+FAIL: -n -e --number s21_cat_tests/bytes.txt
+FAIL: -n -e --number s21_cat_tests/bytes2.txt
+FAIL: -n -e --number s21_cat_tests/text3.txt
+FAIL: -n -e --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -n -e --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -n -e --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -n -s  s21_cat_tests/bytes.txt
+FAIL: -n -s  s21_cat_tests/bytes2.txt
+FAIL: -n -s  s21_cat_tests/text3.txt
+FAIL: -n -s -b s21_cat_tests/bytes.txt
+FAIL: -n -s -b s21_cat_tests/bytes2.txt
+FAIL: -n -s -b s21_cat_tests/text3.txt
+FAIL: -n -s -e s21_cat_tests/bytes.txt
+FAIL: -n -s -e s21_cat_tests/bytes2.txt
+FAIL: -n -s -e s21_cat_tests/text3.txt
+FAIL: -n -s -t s21_cat_tests/bytes.txt
+FAIL: -n -s -t s21_cat_tests/bytes2.txt
+FAIL: -n -s -t s21_cat_tests/text3.txt
+FAIL: -n -s -v s21_cat_tests/bytes.txt
+FAIL: -n -s -v s21_cat_tests/bytes2.txt
+FAIL: -n -s -v s21_cat_tests/text3.txt
+FAIL: -n -s -E s21_cat_tests/bytes.txt
+FAIL: -n -s -E s21_cat_tests/bytes2.txt
+FAIL: -n -s -E s21_cat_tests/text3.txt
+FAIL: -n -s -T s21_cat_tests/bytes.txt
+FAIL: -n -s -T s21_cat_tests/bytes2.txt
+FAIL: -n -s -T s21_cat_tests/text3.txt
+FAIL: -n -s --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -n -s --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -n -s --number-nonblank s21_cat_tests/text3.txt
+FAIL: -n -s --number s21_cat_tests/bytes.txt
+FAIL: -n -s --number s21_cat_tests/bytes2.txt
+FAIL: -n -s --number s21_cat_tests/text3.txt
+FAIL: -n -s --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -n -s --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -n -s --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -n -t  s21_cat_tests/bytes.txt
+FAIL: -n -t  s21_cat_tests/bytes2.txt
+FAIL: -n -t  s21_cat_tests/text3.txt
+FAIL: -n -t -b s21_cat_tests/bytes.txt
+FAIL: -n -t -b s21_cat_tests/bytes2.txt
+FAIL: -n -t -b s21_cat_tests/text3.txt
+FAIL: -n -t -e s21_cat_tests/bytes.txt
+FAIL: -n -t -e s21_cat_tests/bytes2.txt
+FAIL: -n -t -e s21_cat_tests/text3.txt
+FAIL: -n -t -s s21_cat_tests/bytes.txt
+FAIL: -n -t -s s21_cat_tests/bytes2.txt
+FAIL: -n -t -s s21_cat_tests/text3.txt
+FAIL: -n -t -v s21_cat_tests/bytes.txt
+FAIL: -n -t -v s21_cat_tests/bytes2.txt
+FAIL: -n -t -v s21_cat_tests/text3.txt
+FAIL: -n -t -E s21_cat_tests/bytes.txt
+FAIL: -n -t -E s21_cat_tests/bytes2.txt
+FAIL: -n -t -E s21_cat_tests/text3.txt
+FAIL: -n -t -T s21_cat_tests/bytes.txt
+FAIL: -n -t -T s21_cat_tests/bytes2.txt
+FAIL: -n -t -T s21_cat_tests/text3.txt
+FAIL: -n -t --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -n -t --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -n -t --number-nonblank s21_cat_tests/text3.txt
+FAIL: -n -t --number s21_cat_tests/bytes.txt
+FAIL: -n -t --number s21_cat_tests/bytes2.txt
+FAIL: -n -t --number s21_cat_tests/text3.txt
+FAIL: -n -t --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -n -t --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -n -t --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -n -v  s21_cat_tests/bytes.txt
+FAIL: -n -v  s21_cat_tests/bytes2.txt
+FAIL: -n -v  s21_cat_tests/text3.txt
+FAIL: -n -v -b s21_cat_tests/bytes.txt
+FAIL: -n -v -b s21_cat_tests/bytes2.txt
+FAIL: -n -v -b s21_cat_tests/text3.txt
+FAIL: -n -v -e s21_cat_tests/bytes.txt
+FAIL: -n -v -e s21_cat_tests/bytes2.txt
+FAIL: -n -v -e s21_cat_tests/text3.txt
+FAIL: -n -v -s s21_cat_tests/bytes.txt
+FAIL: -n -v -s s21_cat_tests/bytes2.txt
+FAIL: -n -v -s s21_cat_tests/text3.txt
+FAIL: -n -v -t s21_cat_tests/bytes.txt
+FAIL: -n -v -t s21_cat_tests/bytes2.txt
+FAIL: -n -v -t s21_cat_tests/text3.txt
+FAIL: -n -v -E s21_cat_tests/bytes.txt
+FAIL: -n -v -E s21_cat_tests/bytes2.txt
+FAIL: -n -v -E s21_cat_tests/text3.txt
+FAIL: -n -v -T s21_cat_tests/bytes.txt
+FAIL: -n -v -T s21_cat_tests/bytes2.txt
+FAIL: -n -v -T s21_cat_tests/text3.txt
+FAIL: -n -v --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -n -v --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -n -v --number-nonblank s21_cat_tests/text3.txt
+FAIL: -n -v --number s21_cat_tests/bytes.txt
+FAIL: -n -v --number s21_cat_tests/bytes2.txt
+FAIL: -n -v --number s21_cat_tests/text3.txt
+FAIL: -n -v --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -n -v --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -n -v --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -n -E  s21_cat_tests/bytes.txt
+FAIL: -n -E  s21_cat_tests/bytes2.txt
+FAIL: -n -E  s21_cat_tests/text3.txt
+FAIL: -n -E -b s21_cat_tests/bytes.txt
+FAIL: -n -E -b s21_cat_tests/bytes2.txt
+FAIL: -n -E -b s21_cat_tests/text3.txt
+FAIL: -n -E -e s21_cat_tests/bytes.txt
+FAIL: -n -E -e s21_cat_tests/bytes2.txt
+FAIL: -n -E -e s21_cat_tests/text3.txt
+FAIL: -n -E -s s21_cat_tests/bytes.txt
+FAIL: -n -E -s s21_cat_tests/bytes2.txt
+FAIL: -n -E -s s21_cat_tests/text3.txt
+FAIL: -n -E -t s21_cat_tests/bytes.txt
+FAIL: -n -E -t s21_cat_tests/bytes2.txt
+FAIL: -n -E -t s21_cat_tests/text3.txt
+FAIL: -n -E -v s21_cat_tests/bytes.txt
+FAIL: -n -E -v s21_cat_tests/bytes2.txt
+FAIL: -n -E -v s21_cat_tests/text3.txt
+FAIL: -n -E -T s21_cat_tests/bytes.txt
+FAIL: -n -E -T s21_cat_tests/bytes2.txt
+FAIL: -n -E -T s21_cat_tests/text3.txt
+FAIL: -n -E --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -n -E --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -n -E --number-nonblank s21_cat_tests/text3.txt
+FAIL: -n -E --number s21_cat_tests/bytes.txt
+FAIL: -n -E --number s21_cat_tests/bytes2.txt
+FAIL: -n -E --number s21_cat_tests/text3.txt
+FAIL: -n -E --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -n -E --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -n -E --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -n -T  s21_cat_tests/bytes.txt
+FAIL: -n -T  s21_cat_tests/bytes2.txt
+FAIL: -n -T  s21_cat_tests/text3.txt
+FAIL: -n -T -b s21_cat_tests/bytes.txt
+FAIL: -n -T -b s21_cat_tests/bytes2.txt
+FAIL: -n -T -b s21_cat_tests/text3.txt
+FAIL: -n -T -e s21_cat_tests/bytes.txt
+FAIL: -n -T -e s21_cat_tests/bytes2.txt
+FAIL: -n -T -e s21_cat_tests/text3.txt
+FAIL: -n -T -s s21_cat_tests/bytes.txt
+FAIL: -n -T -s s21_cat_tests/bytes2.txt
+FAIL: -n -T -s s21_cat_tests/text3.txt
+FAIL: -n -T -t s21_cat_tests/bytes.txt
+FAIL: -n -T -t s21_cat_tests/bytes2.txt
+FAIL: -n -T -t s21_cat_tests/text3.txt
+FAIL: -n -T -v s21_cat_tests/bytes.txt
+FAIL: -n -T -v s21_cat_tests/bytes2.txt
+FAIL: -n -T -v s21_cat_tests/text3.txt
+FAIL: -n -T -E s21_cat_tests/bytes.txt
+FAIL: -n -T -E s21_cat_tests/bytes2.txt
+FAIL: -n -T -E s21_cat_tests/text3.txt
+FAIL: -n -T --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -n -T --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -n -T --number-nonblank s21_cat_tests/text3.txt
+FAIL: -n -T --number s21_cat_tests/bytes.txt
+FAIL: -n -T --number s21_cat_tests/bytes2.txt
+FAIL: -n -T --number s21_cat_tests/text3.txt
+FAIL: -n -T --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -n -T --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -n -T --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -n --number-nonblank  s21_cat_tests/bytes.txt
+FAIL: -n --number-nonblank  s21_cat_tests/bytes2.txt
+FAIL: -n --number-nonblank  s21_cat_tests/text3.txt
+FAIL: -n --number-nonblank -b s21_cat_tests/bytes.txt
+FAIL: -n --number-nonblank -b s21_cat_tests/bytes2.txt
+FAIL: -n --number-nonblank -b s21_cat_tests/text3.txt
+FAIL: -n --number-nonblank -e s21_cat_tests/bytes.txt
+FAIL: -n --number-nonblank -e s21_cat_tests/bytes2.txt
+FAIL: -n --number-nonblank -e s21_cat_tests/text3.txt
+FAIL: -n --number-nonblank -s s21_cat_tests/bytes.txt
+FAIL: -n --number-nonblank -s s21_cat_tests/bytes2.txt
+FAIL: -n --number-nonblank -s s21_cat_tests/text3.txt
+FAIL: -n --number-nonblank -t s21_cat_tests/bytes.txt
+FAIL: -n --number-nonblank -t s21_cat_tests/bytes2.txt
+FAIL: -n --number-nonblank -t s21_cat_tests/text3.txt
+FAIL: -n --number-nonblank -v s21_cat_tests/bytes.txt
+FAIL: -n --number-nonblank -v s21_cat_tests/bytes2.txt
+FAIL: -n --number-nonblank -v s21_cat_tests/text3.txt
+FAIL: -n --number-nonblank -E s21_cat_tests/bytes.txt
+FAIL: -n --number-nonblank -E s21_cat_tests/bytes2.txt
+FAIL: -n --number-nonblank -E s21_cat_tests/text3.txt
+FAIL: -n --number-nonblank -T s21_cat_tests/bytes.txt
+FAIL: -n --number-nonblank -T s21_cat_tests/bytes2.txt
+FAIL: -n --number-nonblank -T s21_cat_tests/text3.txt
+FAIL: -n --number-nonblank --number s21_cat_tests/bytes.txt
+FAIL: -n --number-nonblank --number s21_cat_tests/bytes2.txt
+FAIL: -n --number-nonblank --number s21_cat_tests/text3.txt
+FAIL: -n --number-nonblank --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -n --number-nonblank --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -n --number-nonblank --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -n --number  s21_cat_tests/bytes.txt
+FAIL: -n --number  s21_cat_tests/bytes2.txt
+FAIL: -n --number  s21_cat_tests/text3.txt
+FAIL: -n --number -b s21_cat_tests/bytes.txt
+FAIL: -n --number -b s21_cat_tests/bytes2.txt
+FAIL: -n --number -b s21_cat_tests/text3.txt
+FAIL: -n --number -e s21_cat_tests/bytes.txt
+FAIL: -n --number -e s21_cat_tests/bytes2.txt
+FAIL: -n --number -e s21_cat_tests/text3.txt
+FAIL: -n --number -s s21_cat_tests/bytes.txt
+FAIL: -n --number -s s21_cat_tests/bytes2.txt
+FAIL: -n --number -s s21_cat_tests/text3.txt
+FAIL: -n --number -t s21_cat_tests/bytes.txt
+FAIL: -n --number -t s21_cat_tests/bytes2.txt
+FAIL: -n --number -t s21_cat_tests/text3.txt
+FAIL: -n --number -v s21_cat_tests/bytes.txt
+FAIL: -n --number -v s21_cat_tests/bytes2.txt
+FAIL: -n --number -v s21_cat_tests/text3.txt
+FAIL: -n --number -E s21_cat_tests/bytes.txt
+FAIL: -n --number -E s21_cat_tests/bytes2.txt
+FAIL: -n --number -E s21_cat_tests/text3.txt
+FAIL: -n --number -T s21_cat_tests/bytes.txt
+FAIL: -n --number -T s21_cat_tests/bytes2.txt
+FAIL: -n --number -T s21_cat_tests/text3.txt
+FAIL: -n --number --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -n --number --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -n --number --number-nonblank s21_cat_tests/text3.txt
+FAIL: -n --number --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -n --number --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -n --number --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -n --squeeze-blank  s21_cat_tests/bytes.txt
+FAIL: -n --squeeze-blank  s21_cat_tests/bytes2.txt
+FAIL: -n --squeeze-blank  s21_cat_tests/text3.txt
+FAIL: -n --squeeze-blank -b s21_cat_tests/bytes.txt
+FAIL: -n --squeeze-blank -b s21_cat_tests/bytes2.txt
+FAIL: -n --squeeze-blank -b s21_cat_tests/text3.txt
+FAIL: -n --squeeze-blank -e s21_cat_tests/bytes.txt
+FAIL: -n --squeeze-blank -e s21_cat_tests/bytes2.txt
+FAIL: -n --squeeze-blank -e s21_cat_tests/text3.txt
+FAIL: -n --squeeze-blank -s s21_cat_tests/bytes.txt
+FAIL: -n --squeeze-blank -s s21_cat_tests/bytes2.txt
+FAIL: -n --squeeze-blank -s s21_cat_tests/text3.txt
+FAIL: -n --squeeze-blank -t s21_cat_tests/bytes.txt
+FAIL: -n --squeeze-blank -t s21_cat_tests/bytes2.txt
+FAIL: -n --squeeze-blank -t s21_cat_tests/text3.txt
+FAIL: -n --squeeze-blank -v s21_cat_tests/bytes.txt
+FAIL: -n --squeeze-blank -v s21_cat_tests/bytes2.txt
+FAIL: -n --squeeze-blank -v s21_cat_tests/text3.txt
+FAIL: -n --squeeze-blank -E s21_cat_tests/bytes.txt
+FAIL: -n --squeeze-blank -E s21_cat_tests/bytes2.txt
+FAIL: -n --squeeze-blank -E s21_cat_tests/text3.txt
+FAIL: -n --squeeze-blank -T s21_cat_tests/bytes.txt
+FAIL: -n --squeeze-blank -T s21_cat_tests/bytes2.txt
+FAIL: -n --squeeze-blank -T s21_cat_tests/text3.txt
+FAIL: -n --squeeze-blank --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -n --squeeze-blank --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -n --squeeze-blank --number-nonblank s21_cat_tests/text3.txt
+FAIL: -n --squeeze-blank --number s21_cat_tests/bytes.txt
+FAIL: -n --squeeze-blank --number s21_cat_tests/bytes2.txt
+FAIL: -n --squeeze-blank --number s21_cat_tests/text3.txt
+FAIL: -s   s21_cat_tests/bytes.txt
+FAIL: -s   s21_cat_tests/bytes2.txt
+FAIL: -s   s21_cat_tests/text3.txt
+FAIL: -s  -b s21_cat_tests/bytes.txt
+FAIL: -s  -b s21_cat_tests/bytes2.txt
+FAIL: -s  -b s21_cat_tests/text3.txt
+FAIL: -s  -e s21_cat_tests/bytes.txt
+FAIL: -s  -e s21_cat_tests/bytes2.txt
+FAIL: -s  -e s21_cat_tests/text3.txt
+FAIL: -s  -n s21_cat_tests/bytes.txt
+FAIL: -s  -n s21_cat_tests/bytes2.txt
+FAIL: -s  -n s21_cat_tests/text3.txt
+FAIL: -s  -t s21_cat_tests/bytes.txt
+FAIL: -s  -t s21_cat_tests/bytes2.txt
+FAIL: -s  -t s21_cat_tests/text3.txt
+FAIL: -s  -v s21_cat_tests/bytes.txt
+FAIL: -s  -v s21_cat_tests/bytes2.txt
+FAIL: -s  -v s21_cat_tests/text3.txt
+FAIL: -s  -E s21_cat_tests/bytes.txt
+FAIL: -s  -E s21_cat_tests/bytes2.txt
+FAIL: -s  -E s21_cat_tests/text3.txt
+FAIL: -s  -T s21_cat_tests/bytes.txt
+FAIL: -s  -T s21_cat_tests/bytes2.txt
+FAIL: -s  -T s21_cat_tests/text3.txt
+FAIL: -s  --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -s  --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -s  --number-nonblank s21_cat_tests/text3.txt
+FAIL: -s  --number s21_cat_tests/bytes.txt
+FAIL: -s  --number s21_cat_tests/bytes2.txt
+FAIL: -s  --number s21_cat_tests/text3.txt
+FAIL: -s  --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -s  --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -s  --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -s -b  s21_cat_tests/bytes.txt
+FAIL: -s -b  s21_cat_tests/bytes2.txt
+FAIL: -s -b  s21_cat_tests/text3.txt
+FAIL: -s -b -e s21_cat_tests/bytes.txt
+FAIL: -s -b -e s21_cat_tests/bytes2.txt
+FAIL: -s -b -e s21_cat_tests/text3.txt
+FAIL: -s -b -n s21_cat_tests/bytes.txt
+FAIL: -s -b -n s21_cat_tests/bytes2.txt
+FAIL: -s -b -n s21_cat_tests/text3.txt
+FAIL: -s -b -t s21_cat_tests/bytes.txt
+FAIL: -s -b -t s21_cat_tests/bytes2.txt
+FAIL: -s -b -t s21_cat_tests/text3.txt
+FAIL: -s -b -v s21_cat_tests/bytes.txt
+FAIL: -s -b -v s21_cat_tests/bytes2.txt
+FAIL: -s -b -v s21_cat_tests/text3.txt
+FAIL: -s -b -E s21_cat_tests/bytes.txt
+FAIL: -s -b -E s21_cat_tests/bytes2.txt
+FAIL: -s -b -E s21_cat_tests/text3.txt
+FAIL: -s -b -T s21_cat_tests/bytes.txt
+FAIL: -s -b -T s21_cat_tests/bytes2.txt
+FAIL: -s -b -T s21_cat_tests/text3.txt
+FAIL: -s -b --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -s -b --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -s -b --number-nonblank s21_cat_tests/text3.txt
+FAIL: -s -b --number s21_cat_tests/bytes.txt
+FAIL: -s -b --number s21_cat_tests/bytes2.txt
+FAIL: -s -b --number s21_cat_tests/text3.txt
+FAIL: -s -b --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -s -b --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -s -b --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -s -e  s21_cat_tests/bytes.txt
+FAIL: -s -e  s21_cat_tests/bytes2.txt
+FAIL: -s -e  s21_cat_tests/text3.txt
+FAIL: -s -e -b s21_cat_tests/bytes.txt
+FAIL: -s -e -b s21_cat_tests/bytes2.txt
+FAIL: -s -e -b s21_cat_tests/text3.txt
+FAIL: -s -e -n s21_cat_tests/bytes.txt
+FAIL: -s -e -n s21_cat_tests/bytes2.txt
+FAIL: -s -e -n s21_cat_tests/text3.txt
+FAIL: -s -e -t s21_cat_tests/bytes.txt
+FAIL: -s -e -t s21_cat_tests/bytes2.txt
+FAIL: -s -e -t s21_cat_tests/text3.txt
+FAIL: -s -e -v s21_cat_tests/bytes.txt
+FAIL: -s -e -v s21_cat_tests/bytes2.txt
+FAIL: -s -e -v s21_cat_tests/text3.txt
+FAIL: -s -e -E s21_cat_tests/bytes.txt
+FAIL: -s -e -E s21_cat_tests/bytes2.txt
+FAIL: -s -e -E s21_cat_tests/text3.txt
+FAIL: -s -e -T s21_cat_tests/bytes.txt
+FAIL: -s -e -T s21_cat_tests/bytes2.txt
+FAIL: -s -e -T s21_cat_tests/text3.txt
+FAIL: -s -e --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -s -e --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -s -e --number-nonblank s21_cat_tests/text3.txt
+FAIL: -s -e --number s21_cat_tests/bytes.txt
+FAIL: -s -e --number s21_cat_tests/bytes2.txt
+FAIL: -s -e --number s21_cat_tests/text3.txt
+FAIL: -s -e --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -s -e --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -s -e --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -s -n  s21_cat_tests/bytes.txt
+FAIL: -s -n  s21_cat_tests/bytes2.txt
+FAIL: -s -n  s21_cat_tests/text3.txt
+FAIL: -s -n -b s21_cat_tests/bytes.txt
+FAIL: -s -n -b s21_cat_tests/bytes2.txt
+FAIL: -s -n -b s21_cat_tests/text3.txt
+FAIL: -s -n -e s21_cat_tests/bytes.txt
+FAIL: -s -n -e s21_cat_tests/bytes2.txt
+FAIL: -s -n -e s21_cat_tests/text3.txt
+FAIL: -s -n -t s21_cat_tests/bytes.txt
+FAIL: -s -n -t s21_cat_tests/bytes2.txt
+FAIL: -s -n -t s21_cat_tests/text3.txt
+FAIL: -s -n -v s21_cat_tests/bytes.txt
+FAIL: -s -n -v s21_cat_tests/bytes2.txt
+FAIL: -s -n -v s21_cat_tests/text3.txt
+FAIL: -s -n -E s21_cat_tests/bytes.txt
+FAIL: -s -n -E s21_cat_tests/bytes2.txt
+FAIL: -s -n -E s21_cat_tests/text3.txt
+FAIL: -s -n -T s21_cat_tests/bytes.txt
+FAIL: -s -n -T s21_cat_tests/bytes2.txt
+FAIL: -s -n -T s21_cat_tests/text3.txt
+FAIL: -s -n --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -s -n --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -s -n --number-nonblank s21_cat_tests/text3.txt
+FAIL: -s -n --number s21_cat_tests/bytes.txt
+FAIL: -s -n --number s21_cat_tests/bytes2.txt
+FAIL: -s -n --number s21_cat_tests/text3.txt
+FAIL: -s -n --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -s -n --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -s -n --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -s -t  s21_cat_tests/bytes.txt
+FAIL: -s -t  s21_cat_tests/bytes2.txt
+FAIL: -s -t  s21_cat_tests/text3.txt
+FAIL: -s -t -b s21_cat_tests/bytes.txt
+FAIL: -s -t -b s21_cat_tests/bytes2.txt
+FAIL: -s -t -b s21_cat_tests/text3.txt
+FAIL: -s -t -e s21_cat_tests/bytes.txt
+FAIL: -s -t -e s21_cat_tests/bytes2.txt
+FAIL: -s -t -e s21_cat_tests/text3.txt
+FAIL: -s -t -n s21_cat_tests/bytes.txt
+FAIL: -s -t -n s21_cat_tests/bytes2.txt
+FAIL: -s -t -n s21_cat_tests/text3.txt
+FAIL: -s -t -v s21_cat_tests/bytes.txt
+FAIL: -s -t -v s21_cat_tests/bytes2.txt
+FAIL: -s -t -v s21_cat_tests/text3.txt
+FAIL: -s -t -E s21_cat_tests/bytes.txt
+FAIL: -s -t -E s21_cat_tests/bytes2.txt
+FAIL: -s -t -E s21_cat_tests/text3.txt
+FAIL: -s -t -T s21_cat_tests/bytes.txt
+FAIL: -s -t -T s21_cat_tests/bytes2.txt
+FAIL: -s -t -T s21_cat_tests/text3.txt
+FAIL: -s -t --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -s -t --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -s -t --number-nonblank s21_cat_tests/text3.txt
+FAIL: -s -t --number s21_cat_tests/bytes.txt
+FAIL: -s -t --number s21_cat_tests/bytes2.txt
+FAIL: -s -t --number s21_cat_tests/text3.txt
+FAIL: -s -t --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -s -t --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -s -t --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -s -v  s21_cat_tests/bytes.txt
+FAIL: -s -v  s21_cat_tests/bytes2.txt
+FAIL: -s -v  s21_cat_tests/text3.txt
+FAIL: -s -v -b s21_cat_tests/bytes.txt
+FAIL: -s -v -b s21_cat_tests/bytes2.txt
+FAIL: -s -v -b s21_cat_tests/text3.txt
+FAIL: -s -v -e s21_cat_tests/bytes.txt
+FAIL: -s -v -e s21_cat_tests/bytes2.txt
+FAIL: -s -v -e s21_cat_tests/text3.txt
+FAIL: -s -v -n s21_cat_tests/bytes.txt
+FAIL: -s -v -n s21_cat_tests/bytes2.txt
+FAIL: -s -v -n s21_cat_tests/text3.txt
+FAIL: -s -v -t s21_cat_tests/bytes.txt
+FAIL: -s -v -t s21_cat_tests/bytes2.txt
+FAIL: -s -v -t s21_cat_tests/text3.txt
+FAIL: -s -v -E s21_cat_tests/bytes.txt
+FAIL: -s -v -E s21_cat_tests/bytes2.txt
+FAIL: -s -v -E s21_cat_tests/text3.txt
+FAIL: -s -v -T s21_cat_tests/bytes.txt
+FAIL: -s -v -T s21_cat_tests/bytes2.txt
+FAIL: -s -v -T s21_cat_tests/text3.txt
+FAIL: -s -v --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -s -v --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -s -v --number-nonblank s21_cat_tests/text3.txt
+FAIL: -s -v --number s21_cat_tests/bytes.txt
+FAIL: -s -v --number s21_cat_tests/bytes2.txt
+FAIL: -s -v --number s21_cat_tests/text3.txt
+FAIL: -s -v --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -s -v --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -s -v --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -s -E  s21_cat_tests/bytes.txt
+FAIL: -s -E  s21_cat_tests/bytes2.txt
+FAIL: -s -E  s21_cat_tests/text3.txt
+FAIL: -s -E -b s21_cat_tests/bytes.txt
+FAIL: -s -E -b s21_cat_tests/bytes2.txt
+FAIL: -s -E -b s21_cat_tests/text3.txt
+FAIL: -s -E -e s21_cat_tests/bytes.txt
+FAIL: -s -E -e s21_cat_tests/bytes2.txt
+FAIL: -s -E -e s21_cat_tests/text3.txt
+FAIL: -s -E -n s21_cat_tests/bytes.txt
+FAIL: -s -E -n s21_cat_tests/bytes2.txt
+FAIL: -s -E -n s21_cat_tests/text3.txt
+FAIL: -s -E -t s21_cat_tests/bytes.txt
+FAIL: -s -E -t s21_cat_tests/bytes2.txt
+FAIL: -s -E -t s21_cat_tests/text3.txt
+FAIL: -s -E -v s21_cat_tests/bytes.txt
+FAIL: -s -E -v s21_cat_tests/bytes2.txt
+FAIL: -s -E -v s21_cat_tests/text3.txt
+FAIL: -s -E -T s21_cat_tests/bytes.txt
+FAIL: -s -E -T s21_cat_tests/bytes2.txt
+FAIL: -s -E -T s21_cat_tests/text3.txt
+FAIL: -s -E --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -s -E --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -s -E --number-nonblank s21_cat_tests/text3.txt
+FAIL: -s -E --number s21_cat_tests/bytes.txt
+FAIL: -s -E --number s21_cat_tests/bytes2.txt
+FAIL: -s -E --number s21_cat_tests/text3.txt
+FAIL: -s -E --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -s -E --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -s -E --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -s -T  s21_cat_tests/bytes.txt
+FAIL: -s -T  s21_cat_tests/bytes2.txt
+FAIL: -s -T  s21_cat_tests/text3.txt
+FAIL: -s -T -b s21_cat_tests/bytes.txt
+FAIL: -s -T -b s21_cat_tests/bytes2.txt
+FAIL: -s -T -b s21_cat_tests/text3.txt
+FAIL: -s -T -e s21_cat_tests/bytes.txt
+FAIL: -s -T -e s21_cat_tests/bytes2.txt
+FAIL: -s -T -e s21_cat_tests/text3.txt
+FAIL: -s -T -n s21_cat_tests/bytes.txt
+FAIL: -s -T -n s21_cat_tests/bytes2.txt
+FAIL: -s -T -n s21_cat_tests/text3.txt
+FAIL: -s -T -t s21_cat_tests/bytes.txt
+FAIL: -s -T -t s21_cat_tests/bytes2.txt
+FAIL: -s -T -t s21_cat_tests/text3.txt
+FAIL: -s -T -v s21_cat_tests/bytes.txt
+FAIL: -s -T -v s21_cat_tests/bytes2.txt
+FAIL: -s -T -v s21_cat_tests/text3.txt
+FAIL: -s -T -E s21_cat_tests/bytes.txt
+FAIL: -s -T -E s21_cat_tests/bytes2.txt
+FAIL: -s -T -E s21_cat_tests/text3.txt
+FAIL: -s -T --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -s -T --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -s -T --number-nonblank s21_cat_tests/text3.txt
+FAIL: -s -T --number s21_cat_tests/bytes.txt
+FAIL: -s -T --number s21_cat_tests/bytes2.txt
+FAIL: -s -T --number s21_cat_tests/text3.txt
+FAIL: -s -T --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -s -T --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -s -T --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -s --number-nonblank  s21_cat_tests/bytes.txt
+FAIL: -s --number-nonblank  s21_cat_tests/bytes2.txt
+FAIL: -s --number-nonblank  s21_cat_tests/text3.txt
+FAIL: -s --number-nonblank -b s21_cat_tests/bytes.txt
+FAIL: -s --number-nonblank -b s21_cat_tests/bytes2.txt
+FAIL: -s --number-nonblank -b s21_cat_tests/text3.txt
+FAIL: -s --number-nonblank -e s21_cat_tests/bytes.txt
+FAIL: -s --number-nonblank -e s21_cat_tests/bytes2.txt
+FAIL: -s --number-nonblank -e s21_cat_tests/text3.txt
+FAIL: -s --number-nonblank -n s21_cat_tests/bytes.txt
+FAIL: -s --number-nonblank -n s21_cat_tests/bytes2.txt
+FAIL: -s --number-nonblank -n s21_cat_tests/text3.txt
+FAIL: -s --number-nonblank -t s21_cat_tests/bytes.txt
+FAIL: -s --number-nonblank -t s21_cat_tests/bytes2.txt
+FAIL: -s --number-nonblank -t s21_cat_tests/text3.txt
+FAIL: -s --number-nonblank -v s21_cat_tests/bytes.txt
+FAIL: -s --number-nonblank -v s21_cat_tests/bytes2.txt
+FAIL: -s --number-nonblank -v s21_cat_tests/text3.txt
+FAIL: -s --number-nonblank -E s21_cat_tests/bytes.txt
+FAIL: -s --number-nonblank -E s21_cat_tests/bytes2.txt
+FAIL: -s --number-nonblank -E s21_cat_tests/text3.txt
+FAIL: -s --number-nonblank -T s21_cat_tests/bytes.txt
+FAIL: -s --number-nonblank -T s21_cat_tests/bytes2.txt
+FAIL: -s --number-nonblank -T s21_cat_tests/text3.txt
+FAIL: -s --number-nonblank --number s21_cat_tests/bytes.txt
+FAIL: -s --number-nonblank --number s21_cat_tests/bytes2.txt
+FAIL: -s --number-nonblank --number s21_cat_tests/text3.txt
+FAIL: -s --number-nonblank --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -s --number-nonblank --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -s --number-nonblank --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -s --number  s21_cat_tests/bytes.txt
+FAIL: -s --number  s21_cat_tests/bytes2.txt
+FAIL: -s --number  s21_cat_tests/text3.txt
+FAIL: -s --number -b s21_cat_tests/bytes.txt
+FAIL: -s --number -b s21_cat_tests/bytes2.txt
+FAIL: -s --number -b s21_cat_tests/text3.txt
+FAIL: -s --number -e s21_cat_tests/bytes.txt
+FAIL: -s --number -e s21_cat_tests/bytes2.txt
+FAIL: -s --number -e s21_cat_tests/text3.txt
+FAIL: -s --number -n s21_cat_tests/bytes.txt
+FAIL: -s --number -n s21_cat_tests/bytes2.txt
+FAIL: -s --number -n s21_cat_tests/text3.txt
+FAIL: -s --number -t s21_cat_tests/bytes.txt
+FAIL: -s --number -t s21_cat_tests/bytes2.txt
+FAIL: -s --number -t s21_cat_tests/text3.txt
+FAIL: -s --number -v s21_cat_tests/bytes.txt
+FAIL: -s --number -v s21_cat_tests/bytes2.txt
+FAIL: -s --number -v s21_cat_tests/text3.txt
+FAIL: -s --number -E s21_cat_tests/bytes.txt
+FAIL: -s --number -E s21_cat_tests/bytes2.txt
+FAIL: -s --number -E s21_cat_tests/text3.txt
+FAIL: -s --number -T s21_cat_tests/bytes.txt
+FAIL: -s --number -T s21_cat_tests/bytes2.txt
+FAIL: -s --number -T s21_cat_tests/text3.txt
+FAIL: -s --number --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -s --number --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -s --number --number-nonblank s21_cat_tests/text3.txt
+FAIL: -s --number --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -s --number --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -s --number --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -s --squeeze-blank  s21_cat_tests/bytes.txt
+FAIL: -s --squeeze-blank  s21_cat_tests/bytes2.txt
+FAIL: -s --squeeze-blank  s21_cat_tests/text3.txt
+FAIL: -s --squeeze-blank -b s21_cat_tests/bytes.txt
+FAIL: -s --squeeze-blank -b s21_cat_tests/bytes2.txt
+FAIL: -s --squeeze-blank -b s21_cat_tests/text3.txt
+FAIL: -s --squeeze-blank -e s21_cat_tests/bytes.txt
+FAIL: -s --squeeze-blank -e s21_cat_tests/bytes2.txt
+FAIL: -s --squeeze-blank -e s21_cat_tests/text3.txt
+FAIL: -s --squeeze-blank -n s21_cat_tests/bytes.txt
+FAIL: -s --squeeze-blank -n s21_cat_tests/bytes2.txt
+FAIL: -s --squeeze-blank -n s21_cat_tests/text3.txt
+FAIL: -s --squeeze-blank -t s21_cat_tests/bytes.txt
+FAIL: -s --squeeze-blank -t s21_cat_tests/bytes2.txt
+FAIL: -s --squeeze-blank -t s21_cat_tests/text3.txt
+FAIL: -s --squeeze-blank -v s21_cat_tests/bytes.txt
+FAIL: -s --squeeze-blank -v s21_cat_tests/bytes2.txt
+FAIL: -s --squeeze-blank -v s21_cat_tests/text3.txt
+FAIL: -s --squeeze-blank -E s21_cat_tests/bytes.txt
+FAIL: -s --squeeze-blank -E s21_cat_tests/bytes2.txt
+FAIL: -s --squeeze-blank -E s21_cat_tests/text3.txt
+FAIL: -s --squeeze-blank -T s21_cat_tests/bytes.txt
+FAIL: -s --squeeze-blank -T s21_cat_tests/bytes2.txt
+FAIL: -s --squeeze-blank -T s21_cat_tests/text3.txt
+FAIL: -s --squeeze-blank --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -s --squeeze-blank --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -s --squeeze-blank --number-nonblank s21_cat_tests/text3.txt
+FAIL: -s --squeeze-blank --number s21_cat_tests/bytes.txt
+FAIL: -s --squeeze-blank --number s21_cat_tests/bytes2.txt
+FAIL: -s --squeeze-blank --number s21_cat_tests/text3.txt
+FAIL: -t   s21_cat_tests/bytes.txt
+FAIL: -t   s21_cat_tests/bytes2.txt
+FAIL: -t   s21_cat_tests/text3.txt
+FAIL: -t  -b s21_cat_tests/bytes.txt
+FAIL: -t  -b s21_cat_tests/bytes2.txt
+FAIL: -t  -b s21_cat_tests/text3.txt
+FAIL: -t  -e s21_cat_tests/bytes.txt
+FAIL: -t  -e s21_cat_tests/bytes2.txt
+FAIL: -t  -e s21_cat_tests/text3.txt
+FAIL: -t  -n s21_cat_tests/bytes.txt
+FAIL: -t  -n s21_cat_tests/bytes2.txt
+FAIL: -t  -n s21_cat_tests/text3.txt
+FAIL: -t  -s s21_cat_tests/bytes.txt
+FAIL: -t  -s s21_cat_tests/bytes2.txt
+FAIL: -t  -s s21_cat_tests/text3.txt
+FAIL: -t  -v s21_cat_tests/bytes.txt
+FAIL: -t  -v s21_cat_tests/bytes2.txt
+FAIL: -t  -v s21_cat_tests/text3.txt
+FAIL: -t  -E s21_cat_tests/bytes.txt
+FAIL: -t  -E s21_cat_tests/bytes2.txt
+FAIL: -t  -E s21_cat_tests/text3.txt
+FAIL: -t  -T s21_cat_tests/bytes.txt
+FAIL: -t  -T s21_cat_tests/bytes2.txt
+FAIL: -t  -T s21_cat_tests/text3.txt
+FAIL: -t  --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -t  --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -t  --number-nonblank s21_cat_tests/text3.txt
+FAIL: -t  --number s21_cat_tests/bytes.txt
+FAIL: -t  --number s21_cat_tests/bytes2.txt
+FAIL: -t  --number s21_cat_tests/text3.txt
+FAIL: -t  --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -t  --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -t  --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -t -b  s21_cat_tests/bytes.txt
+FAIL: -t -b  s21_cat_tests/bytes2.txt
+FAIL: -t -b  s21_cat_tests/text3.txt
+FAIL: -t -b -e s21_cat_tests/bytes.txt
+FAIL: -t -b -e s21_cat_tests/bytes2.txt
+FAIL: -t -b -e s21_cat_tests/text3.txt
+FAIL: -t -b -n s21_cat_tests/bytes.txt
+FAIL: -t -b -n s21_cat_tests/bytes2.txt
+FAIL: -t -b -n s21_cat_tests/text3.txt
+FAIL: -t -b -s s21_cat_tests/bytes.txt
+FAIL: -t -b -s s21_cat_tests/bytes2.txt
+FAIL: -t -b -s s21_cat_tests/text3.txt
+FAIL: -t -b -v s21_cat_tests/bytes.txt
+FAIL: -t -b -v s21_cat_tests/bytes2.txt
+FAIL: -t -b -v s21_cat_tests/text3.txt
+FAIL: -t -b -E s21_cat_tests/bytes.txt
+FAIL: -t -b -E s21_cat_tests/bytes2.txt
+FAIL: -t -b -E s21_cat_tests/text3.txt
+FAIL: -t -b -T s21_cat_tests/bytes.txt
+FAIL: -t -b -T s21_cat_tests/bytes2.txt
+FAIL: -t -b -T s21_cat_tests/text3.txt
+FAIL: -t -b --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -t -b --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -t -b --number-nonblank s21_cat_tests/text3.txt
+FAIL: -t -b --number s21_cat_tests/bytes.txt
+FAIL: -t -b --number s21_cat_tests/bytes2.txt
+FAIL: -t -b --number s21_cat_tests/text3.txt
+FAIL: -t -b --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -t -b --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -t -b --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -t -e  s21_cat_tests/bytes.txt
+FAIL: -t -e  s21_cat_tests/bytes2.txt
+FAIL: -t -e  s21_cat_tests/text3.txt
+FAIL: -t -e -b s21_cat_tests/bytes.txt
+FAIL: -t -e -b s21_cat_tests/bytes2.txt
+FAIL: -t -e -b s21_cat_tests/text3.txt
+FAIL: -t -e -n s21_cat_tests/bytes.txt
+FAIL: -t -e -n s21_cat_tests/bytes2.txt
+FAIL: -t -e -n s21_cat_tests/text3.txt
+FAIL: -t -e -s s21_cat_tests/bytes.txt
+FAIL: -t -e -s s21_cat_tests/bytes2.txt
+FAIL: -t -e -s s21_cat_tests/text3.txt
+FAIL: -t -e -v s21_cat_tests/bytes.txt
+FAIL: -t -e -v s21_cat_tests/bytes2.txt
+FAIL: -t -e -v s21_cat_tests/text3.txt
+FAIL: -t -e -E s21_cat_tests/bytes.txt
+FAIL: -t -e -E s21_cat_tests/bytes2.txt
+FAIL: -t -e -E s21_cat_tests/text3.txt
+FAIL: -t -e -T s21_cat_tests/bytes.txt
+FAIL: -t -e -T s21_cat_tests/bytes2.txt
+FAIL: -t -e -T s21_cat_tests/text3.txt
+FAIL: -t -e --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -t -e --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -t -e --number-nonblank s21_cat_tests/text3.txt
+FAIL: -t -e --number s21_cat_tests/bytes.txt
+FAIL: -t -e --number s21_cat_tests/bytes2.txt
+FAIL: -t -e --number s21_cat_tests/text3.txt
+FAIL: -t -e --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -t -e --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -t -e --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -t -n  s21_cat_tests/bytes.txt
+FAIL: -t -n  s21_cat_tests/bytes2.txt
+FAIL: -t -n  s21_cat_tests/text3.txt
+FAIL: -t -n -b s21_cat_tests/bytes.txt
+FAIL: -t -n -b s21_cat_tests/bytes2.txt
+FAIL: -t -n -b s21_cat_tests/text3.txt
+FAIL: -t -n -e s21_cat_tests/bytes.txt
+FAIL: -t -n -e s21_cat_tests/bytes2.txt
+FAIL: -t -n -e s21_cat_tests/text3.txt
+FAIL: -t -n -s s21_cat_tests/bytes.txt
+FAIL: -t -n -s s21_cat_tests/bytes2.txt
+FAIL: -t -n -s s21_cat_tests/text3.txt
+FAIL: -t -n -v s21_cat_tests/bytes.txt
+FAIL: -t -n -v s21_cat_tests/bytes2.txt
+FAIL: -t -n -v s21_cat_tests/text3.txt
+FAIL: -t -n -E s21_cat_tests/bytes.txt
+FAIL: -t -n -E s21_cat_tests/bytes2.txt
+FAIL: -t -n -E s21_cat_tests/text3.txt
+FAIL: -t -n -T s21_cat_tests/bytes.txt
+FAIL: -t -n -T s21_cat_tests/bytes2.txt
+FAIL: -t -n -T s21_cat_tests/text3.txt
+FAIL: -t -n --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -t -n --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -t -n --number-nonblank s21_cat_tests/text3.txt
+FAIL: -t -n --number s21_cat_tests/bytes.txt
+FAIL: -t -n --number s21_cat_tests/bytes2.txt
+FAIL: -t -n --number s21_cat_tests/text3.txt
+FAIL: -t -n --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -t -n --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -t -n --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -t -s  s21_cat_tests/bytes.txt
+FAIL: -t -s  s21_cat_tests/bytes2.txt
+FAIL: -t -s  s21_cat_tests/text3.txt
+FAIL: -t -s -b s21_cat_tests/bytes.txt
+FAIL: -t -s -b s21_cat_tests/bytes2.txt
+FAIL: -t -s -b s21_cat_tests/text3.txt
+FAIL: -t -s -e s21_cat_tests/bytes.txt
+FAIL: -t -s -e s21_cat_tests/bytes2.txt
+FAIL: -t -s -e s21_cat_tests/text3.txt
+FAIL: -t -s -n s21_cat_tests/bytes.txt
+FAIL: -t -s -n s21_cat_tests/bytes2.txt
+FAIL: -t -s -n s21_cat_tests/text3.txt
+FAIL: -t -s -v s21_cat_tests/bytes.txt
+FAIL: -t -s -v s21_cat_tests/bytes2.txt
+FAIL: -t -s -v s21_cat_tests/text3.txt
+FAIL: -t -s -E s21_cat_tests/bytes.txt
+FAIL: -t -s -E s21_cat_tests/bytes2.txt
+FAIL: -t -s -E s21_cat_tests/text3.txt
+FAIL: -t -s -T s21_cat_tests/bytes.txt
+FAIL: -t -s -T s21_cat_tests/bytes2.txt
+FAIL: -t -s -T s21_cat_tests/text3.txt
+FAIL: -t -s --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -t -s --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -t -s --number-nonblank s21_cat_tests/text3.txt
+FAIL: -t -s --number s21_cat_tests/bytes.txt
+FAIL: -t -s --number s21_cat_tests/bytes2.txt
+FAIL: -t -s --number s21_cat_tests/text3.txt
+FAIL: -t -s --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -t -s --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -t -s --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -t -v  s21_cat_tests/bytes.txt
+FAIL: -t -v  s21_cat_tests/bytes2.txt
+FAIL: -t -v  s21_cat_tests/text3.txt
+FAIL: -t -v -b s21_cat_tests/bytes.txt
+FAIL: -t -v -b s21_cat_tests/bytes2.txt
+FAIL: -t -v -b s21_cat_tests/text3.txt
+FAIL: -t -v -e s21_cat_tests/bytes.txt
+FAIL: -t -v -e s21_cat_tests/bytes2.txt
+FAIL: -t -v -e s21_cat_tests/text3.txt
+FAIL: -t -v -n s21_cat_tests/bytes.txt
+FAIL: -t -v -n s21_cat_tests/bytes2.txt
+FAIL: -t -v -n s21_cat_tests/text3.txt
+FAIL: -t -v -s s21_cat_tests/bytes.txt
+FAIL: -t -v -s s21_cat_tests/bytes2.txt
+FAIL: -t -v -s s21_cat_tests/text3.txt
+FAIL: -t -v -E s21_cat_tests/bytes.txt
+FAIL: -t -v -E s21_cat_tests/bytes2.txt
+FAIL: -t -v -E s21_cat_tests/text3.txt
+FAIL: -t -v -T s21_cat_tests/bytes.txt
+FAIL: -t -v -T s21_cat_tests/bytes2.txt
+FAIL: -t -v -T s21_cat_tests/text3.txt
+FAIL: -t -v --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -t -v --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -t -v --number-nonblank s21_cat_tests/text3.txt
+FAIL: -t -v --number s21_cat_tests/bytes.txt
+FAIL: -t -v --number s21_cat_tests/bytes2.txt
+FAIL: -t -v --number s21_cat_tests/text3.txt
+FAIL: -t -v --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -t -v --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -t -v --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -t -E  s21_cat_tests/bytes.txt
+FAIL: -t -E  s21_cat_tests/bytes2.txt
+FAIL: -t -E  s21_cat_tests/text3.txt
+FAIL: -t -E -b s21_cat_tests/bytes.txt
+FAIL: -t -E -b s21_cat_tests/bytes2.txt
+FAIL: -t -E -b s21_cat_tests/text3.txt
+FAIL: -t -E -e s21_cat_tests/bytes.txt
+FAIL: -t -E -e s21_cat_tests/bytes2.txt
+FAIL: -t -E -e s21_cat_tests/text3.txt
+FAIL: -t -E -n s21_cat_tests/bytes.txt
+FAIL: -t -E -n s21_cat_tests/bytes2.txt
+FAIL: -t -E -n s21_cat_tests/text3.txt
+FAIL: -t -E -s s21_cat_tests/bytes.txt
+FAIL: -t -E -s s21_cat_tests/bytes2.txt
+FAIL: -t -E -s s21_cat_tests/text3.txt
+FAIL: -t -E -v s21_cat_tests/bytes.txt
+FAIL: -t -E -v s21_cat_tests/bytes2.txt
+FAIL: -t -E -v s21_cat_tests/text3.txt
+FAIL: -t -E -T s21_cat_tests/bytes.txt
+FAIL: -t -E -T s21_cat_tests/bytes2.txt
+FAIL: -t -E -T s21_cat_tests/text3.txt
+FAIL: -t -E --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -t -E --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -t -E --number-nonblank s21_cat_tests/text3.txt
+FAIL: -t -E --number s21_cat_tests/bytes.txt
+FAIL: -t -E --number s21_cat_tests/bytes2.txt
+FAIL: -t -E --number s21_cat_tests/text3.txt
+FAIL: -t -E --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -t -E --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -t -E --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -t -T  s21_cat_tests/bytes.txt
+FAIL: -t -T  s21_cat_tests/bytes2.txt
+FAIL: -t -T  s21_cat_tests/text3.txt
+FAIL: -t -T -b s21_cat_tests/bytes.txt
+FAIL: -t -T -b s21_cat_tests/bytes2.txt
+FAIL: -t -T -b s21_cat_tests/text3.txt
+FAIL: -t -T -e s21_cat_tests/bytes.txt
+FAIL: -t -T -e s21_cat_tests/bytes2.txt
+FAIL: -t -T -e s21_cat_tests/text3.txt
+FAIL: -t -T -n s21_cat_tests/bytes.txt
+FAIL: -t -T -n s21_cat_tests/bytes2.txt
+FAIL: -t -T -n s21_cat_tests/text3.txt
+FAIL: -t -T -s s21_cat_tests/bytes.txt
+FAIL: -t -T -s s21_cat_tests/bytes2.txt
+FAIL: -t -T -s s21_cat_tests/text3.txt
+FAIL: -t -T -v s21_cat_tests/bytes.txt
+FAIL: -t -T -v s21_cat_tests/bytes2.txt
+FAIL: -t -T -v s21_cat_tests/text3.txt
+FAIL: -t -T -E s21_cat_tests/bytes.txt
+FAIL: -t -T -E s21_cat_tests/bytes2.txt
+FAIL: -t -T -E s21_cat_tests/text3.txt
+FAIL: -t -T --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -t -T --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -t -T --number-nonblank s21_cat_tests/text3.txt
+FAIL: -t -T --number s21_cat_tests/bytes.txt
+FAIL: -t -T --number s21_cat_tests/bytes2.txt
+FAIL: -t -T --number s21_cat_tests/text3.txt
+FAIL: -t -T --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -t -T --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -t -T --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -t --number-nonblank  s21_cat_tests/bytes.txt
+FAIL: -t --number-nonblank  s21_cat_tests/bytes2.txt
+FAIL: -t --number-nonblank  s21_cat_tests/text3.txt
+FAIL: -t --number-nonblank -b s21_cat_tests/bytes.txt
+FAIL: -t --number-nonblank -b s21_cat_tests/bytes2.txt
+FAIL: -t --number-nonblank -b s21_cat_tests/text3.txt
+FAIL: -t --number-nonblank -e s21_cat_tests/bytes.txt
+FAIL: -t --number-nonblank -e s21_cat_tests/bytes2.txt
+FAIL: -t --number-nonblank -e s21_cat_tests/text3.txt
+FAIL: -t --number-nonblank -n s21_cat_tests/bytes.txt
+FAIL: -t --number-nonblank -n s21_cat_tests/bytes2.txt
+FAIL: -t --number-nonblank -n s21_cat_tests/text3.txt
+FAIL: -t --number-nonblank -s s21_cat_tests/bytes.txt
+FAIL: -t --number-nonblank -s s21_cat_tests/bytes2.txt
+FAIL: -t --number-nonblank -s s21_cat_tests/text3.txt
+FAIL: -t --number-nonblank -v s21_cat_tests/bytes.txt
+FAIL: -t --number-nonblank -v s21_cat_tests/bytes2.txt
+FAIL: -t --number-nonblank -v s21_cat_tests/text3.txt
+FAIL: -t --number-nonblank -E s21_cat_tests/bytes.txt
+FAIL: -t --number-nonblank -E s21_cat_tests/bytes2.txt
+FAIL: -t --number-nonblank -E s21_cat_tests/text3.txt
+FAIL: -t --number-nonblank -T s21_cat_tests/bytes.txt
+FAIL: -t --number-nonblank -T s21_cat_tests/bytes2.txt
+FAIL: -t --number-nonblank -T s21_cat_tests/text3.txt
+FAIL: -t --number-nonblank --number s21_cat_tests/bytes.txt
+FAIL: -t --number-nonblank --number s21_cat_tests/bytes2.txt
+FAIL: -t --number-nonblank --number s21_cat_tests/text3.txt
+FAIL: -t --number-nonblank --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -t --number-nonblank --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -t --number-nonblank --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -t --number  s21_cat_tests/bytes.txt
+FAIL: -t --number  s21_cat_tests/bytes2.txt
+FAIL: -t --number  s21_cat_tests/text3.txt
+FAIL: -t --number -b s21_cat_tests/bytes.txt
+FAIL: -t --number -b s21_cat_tests/bytes2.txt
+FAIL: -t --number -b s21_cat_tests/text3.txt
+FAIL: -t --number -e s21_cat_tests/bytes.txt
+FAIL: -t --number -e s21_cat_tests/bytes2.txt
+FAIL: -t --number -e s21_cat_tests/text3.txt
+FAIL: -t --number -n s21_cat_tests/bytes.txt
+FAIL: -t --number -n s21_cat_tests/bytes2.txt
+FAIL: -t --number -n s21_cat_tests/text3.txt
+FAIL: -t --number -s s21_cat_tests/bytes.txt
+FAIL: -t --number -s s21_cat_tests/bytes2.txt
+FAIL: -t --number -s s21_cat_tests/text3.txt
+FAIL: -t --number -v s21_cat_tests/bytes.txt
+FAIL: -t --number -v s21_cat_tests/bytes2.txt
+FAIL: -t --number -v s21_cat_tests/text3.txt
+FAIL: -t --number -E s21_cat_tests/bytes.txt
+FAIL: -t --number -E s21_cat_tests/bytes2.txt
+FAIL: -t --number -E s21_cat_tests/text3.txt
+FAIL: -t --number -T s21_cat_tests/bytes.txt
+FAIL: -t --number -T s21_cat_tests/bytes2.txt
+FAIL: -t --number -T s21_cat_tests/text3.txt
+FAIL: -t --number --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -t --number --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -t --number --number-nonblank s21_cat_tests/text3.txt
+FAIL: -t --number --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -t --number --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -t --number --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -t --squeeze-blank  s21_cat_tests/bytes.txt
+FAIL: -t --squeeze-blank  s21_cat_tests/bytes2.txt
+FAIL: -t --squeeze-blank  s21_cat_tests/text3.txt
+FAIL: -t --squeeze-blank -b s21_cat_tests/bytes.txt
+FAIL: -t --squeeze-blank -b s21_cat_tests/bytes2.txt
+FAIL: -t --squeeze-blank -b s21_cat_tests/text3.txt
+FAIL: -t --squeeze-blank -e s21_cat_tests/bytes.txt
+FAIL: -t --squeeze-blank -e s21_cat_tests/bytes2.txt
+FAIL: -t --squeeze-blank -e s21_cat_tests/text3.txt
+FAIL: -t --squeeze-blank -n s21_cat_tests/bytes.txt
+FAIL: -t --squeeze-blank -n s21_cat_tests/bytes2.txt
+FAIL: -t --squeeze-blank -n s21_cat_tests/text3.txt
+FAIL: -t --squeeze-blank -s s21_cat_tests/bytes.txt
+FAIL: -t --squeeze-blank -s s21_cat_tests/bytes2.txt
+FAIL: -t --squeeze-blank -s s21_cat_tests/text3.txt
+FAIL: -t --squeeze-blank -v s21_cat_tests/bytes.txt
+FAIL: -t --squeeze-blank -v s21_cat_tests/bytes2.txt
+FAIL: -t --squeeze-blank -v s21_cat_tests/text3.txt
+FAIL: -t --squeeze-blank -E s21_cat_tests/bytes.txt
+FAIL: -t --squeeze-blank -E s21_cat_tests/bytes2.txt
+FAIL: -t --squeeze-blank -E s21_cat_tests/text3.txt
+FAIL: -t --squeeze-blank -T s21_cat_tests/bytes.txt
+FAIL: -t --squeeze-blank -T s21_cat_tests/bytes2.txt
+FAIL: -t --squeeze-blank -T s21_cat_tests/text3.txt
+FAIL: -t --squeeze-blank --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -t --squeeze-blank --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -t --squeeze-blank --number-nonblank s21_cat_tests/text3.txt
+FAIL: -t --squeeze-blank --number s21_cat_tests/bytes.txt
+FAIL: -t --squeeze-blank --number s21_cat_tests/bytes2.txt
+FAIL: -t --squeeze-blank --number s21_cat_tests/text3.txt
+FAIL: -v   s21_cat_tests/bytes.txt
+FAIL: -v   s21_cat_tests/bytes2.txt
+FAIL: -v   s21_cat_tests/text3.txt
+FAIL: -v  -b s21_cat_tests/bytes.txt
+FAIL: -v  -b s21_cat_tests/bytes2.txt
+FAIL: -v  -b s21_cat_tests/text3.txt
+FAIL: -v  -e s21_cat_tests/bytes.txt
+FAIL: -v  -e s21_cat_tests/bytes2.txt
+FAIL: -v  -e s21_cat_tests/text3.txt
+FAIL: -v  -n s21_cat_tests/bytes.txt
+FAIL: -v  -n s21_cat_tests/bytes2.txt
+FAIL: -v  -n s21_cat_tests/text3.txt
+FAIL: -v  -s s21_cat_tests/bytes.txt
+FAIL: -v  -s s21_cat_tests/bytes2.txt
+FAIL: -v  -s s21_cat_tests/text3.txt
+FAIL: -v  -t s21_cat_tests/bytes.txt
+FAIL: -v  -t s21_cat_tests/bytes2.txt
+FAIL: -v  -t s21_cat_tests/text3.txt
+FAIL: -v  -E s21_cat_tests/bytes.txt
+FAIL: -v  -E s21_cat_tests/bytes2.txt
+FAIL: -v  -E s21_cat_tests/text3.txt
+FAIL: -v  -T s21_cat_tests/bytes.txt
+FAIL: -v  -T s21_cat_tests/bytes2.txt
+FAIL: -v  -T s21_cat_tests/text3.txt
+FAIL: -v  --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -v  --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -v  --number-nonblank s21_cat_tests/text3.txt
+FAIL: -v  --number s21_cat_tests/bytes.txt
+FAIL: -v  --number s21_cat_tests/bytes2.txt
+FAIL: -v  --number s21_cat_tests/text3.txt
+FAIL: -v  --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -v  --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -v  --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -v -b  s21_cat_tests/bytes.txt
+FAIL: -v -b  s21_cat_tests/bytes2.txt
+FAIL: -v -b  s21_cat_tests/text3.txt
+FAIL: -v -b -e s21_cat_tests/bytes.txt
+FAIL: -v -b -e s21_cat_tests/bytes2.txt
+FAIL: -v -b -e s21_cat_tests/text3.txt
+FAIL: -v -b -n s21_cat_tests/bytes.txt
+FAIL: -v -b -n s21_cat_tests/bytes2.txt
+FAIL: -v -b -n s21_cat_tests/text3.txt
+FAIL: -v -b -s s21_cat_tests/bytes.txt
+FAIL: -v -b -s s21_cat_tests/bytes2.txt
+FAIL: -v -b -s s21_cat_tests/text3.txt
+FAIL: -v -b -t s21_cat_tests/bytes.txt
+FAIL: -v -b -t s21_cat_tests/bytes2.txt
+FAIL: -v -b -t s21_cat_tests/text3.txt
+FAIL: -v -b -E s21_cat_tests/bytes.txt
+FAIL: -v -b -E s21_cat_tests/bytes2.txt
+FAIL: -v -b -E s21_cat_tests/text3.txt
+FAIL: -v -b -T s21_cat_tests/bytes.txt
+FAIL: -v -b -T s21_cat_tests/bytes2.txt
+FAIL: -v -b -T s21_cat_tests/text3.txt
+FAIL: -v -b --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -v -b --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -v -b --number-nonblank s21_cat_tests/text3.txt
+FAIL: -v -b --number s21_cat_tests/bytes.txt
+FAIL: -v -b --number s21_cat_tests/bytes2.txt
+FAIL: -v -b --number s21_cat_tests/text3.txt
+FAIL: -v -b --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -v -b --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -v -b --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -v -e  s21_cat_tests/bytes.txt
+FAIL: -v -e  s21_cat_tests/bytes2.txt
+FAIL: -v -e  s21_cat_tests/text3.txt
+FAIL: -v -e -b s21_cat_tests/bytes.txt
+FAIL: -v -e -b s21_cat_tests/bytes2.txt
+FAIL: -v -e -b s21_cat_tests/text3.txt
+FAIL: -v -e -n s21_cat_tests/bytes.txt
+FAIL: -v -e -n s21_cat_tests/bytes2.txt
+FAIL: -v -e -n s21_cat_tests/text3.txt
+FAIL: -v -e -s s21_cat_tests/bytes.txt
+FAIL: -v -e -s s21_cat_tests/bytes2.txt
+FAIL: -v -e -s s21_cat_tests/text3.txt
+FAIL: -v -e -t s21_cat_tests/bytes.txt
+FAIL: -v -e -t s21_cat_tests/bytes2.txt
+FAIL: -v -e -t s21_cat_tests/text3.txt
+FAIL: -v -e -E s21_cat_tests/bytes.txt
+FAIL: -v -e -E s21_cat_tests/bytes2.txt
+FAIL: -v -e -E s21_cat_tests/text3.txt
+FAIL: -v -e -T s21_cat_tests/bytes.txt
+FAIL: -v -e -T s21_cat_tests/bytes2.txt
+FAIL: -v -e -T s21_cat_tests/text3.txt
+FAIL: -v -e --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -v -e --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -v -e --number-nonblank s21_cat_tests/text3.txt
+FAIL: -v -e --number s21_cat_tests/bytes.txt
+FAIL: -v -e --number s21_cat_tests/bytes2.txt
+FAIL: -v -e --number s21_cat_tests/text3.txt
+FAIL: -v -e --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -v -e --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -v -e --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -v -n  s21_cat_tests/bytes.txt
+FAIL: -v -n  s21_cat_tests/bytes2.txt
+FAIL: -v -n  s21_cat_tests/text3.txt
+FAIL: -v -n -b s21_cat_tests/bytes.txt
+FAIL: -v -n -b s21_cat_tests/bytes2.txt
+FAIL: -v -n -b s21_cat_tests/text3.txt
+FAIL: -v -n -e s21_cat_tests/bytes.txt
+FAIL: -v -n -e s21_cat_tests/bytes2.txt
+FAIL: -v -n -e s21_cat_tests/text3.txt
+FAIL: -v -n -s s21_cat_tests/bytes.txt
+FAIL: -v -n -s s21_cat_tests/bytes2.txt
+FAIL: -v -n -s s21_cat_tests/text3.txt
+FAIL: -v -n -t s21_cat_tests/bytes.txt
+FAIL: -v -n -t s21_cat_tests/bytes2.txt
+FAIL: -v -n -t s21_cat_tests/text3.txt
+FAIL: -v -n -E s21_cat_tests/bytes.txt
+FAIL: -v -n -E s21_cat_tests/bytes2.txt
+FAIL: -v -n -E s21_cat_tests/text3.txt
+FAIL: -v -n -T s21_cat_tests/bytes.txt
+FAIL: -v -n -T s21_cat_tests/bytes2.txt
+FAIL: -v -n -T s21_cat_tests/text3.txt
+FAIL: -v -n --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -v -n --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -v -n --number-nonblank s21_cat_tests/text3.txt
+FAIL: -v -n --number s21_cat_tests/bytes.txt
+FAIL: -v -n --number s21_cat_tests/bytes2.txt
+FAIL: -v -n --number s21_cat_tests/text3.txt
+FAIL: -v -n --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -v -n --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -v -n --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -v -s  s21_cat_tests/bytes.txt
+FAIL: -v -s  s21_cat_tests/bytes2.txt
+FAIL: -v -s  s21_cat_tests/text3.txt
+FAIL: -v -s -b s21_cat_tests/bytes.txt
+FAIL: -v -s -b s21_cat_tests/bytes2.txt
+FAIL: -v -s -b s21_cat_tests/text3.txt
+FAIL: -v -s -e s21_cat_tests/bytes.txt
+FAIL: -v -s -e s21_cat_tests/bytes2.txt
+FAIL: -v -s -e s21_cat_tests/text3.txt
+FAIL: -v -s -n s21_cat_tests/bytes.txt
+FAIL: -v -s -n s21_cat_tests/bytes2.txt
+FAIL: -v -s -n s21_cat_tests/text3.txt
+FAIL: -v -s -t s21_cat_tests/bytes.txt
+FAIL: -v -s -t s21_cat_tests/bytes2.txt
+FAIL: -v -s -t s21_cat_tests/text3.txt
+FAIL: -v -s -E s21_cat_tests/bytes.txt
+FAIL: -v -s -E s21_cat_tests/bytes2.txt
+FAIL: -v -s -E s21_cat_tests/text3.txt
+FAIL: -v -s -T s21_cat_tests/bytes.txt
+FAIL: -v -s -T s21_cat_tests/bytes2.txt
+FAIL: -v -s -T s21_cat_tests/text3.txt
+FAIL: -v -s --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -v -s --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -v -s --number-nonblank s21_cat_tests/text3.txt
+FAIL: -v -s --number s21_cat_tests/bytes.txt
+FAIL: -v -s --number s21_cat_tests/bytes2.txt
+FAIL: -v -s --number s21_cat_tests/text3.txt
+FAIL: -v -s --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -v -s --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -v -s --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -v -t  s21_cat_tests/bytes.txt
+FAIL: -v -t  s21_cat_tests/bytes2.txt
+FAIL: -v -t  s21_cat_tests/text3.txt
+FAIL: -v -t -b s21_cat_tests/bytes.txt
+FAIL: -v -t -b s21_cat_tests/bytes2.txt
+FAIL: -v -t -b s21_cat_tests/text3.txt
+FAIL: -v -t -e s21_cat_tests/bytes.txt
+FAIL: -v -t -e s21_cat_tests/bytes2.txt
+FAIL: -v -t -e s21_cat_tests/text3.txt
+FAIL: -v -t -n s21_cat_tests/bytes.txt
+FAIL: -v -t -n s21_cat_tests/bytes2.txt
+FAIL: -v -t -n s21_cat_tests/text3.txt
+FAIL: -v -t -s s21_cat_tests/bytes.txt
+FAIL: -v -t -s s21_cat_tests/bytes2.txt
+FAIL: -v -t -s s21_cat_tests/text3.txt
+FAIL: -v -t -E s21_cat_tests/bytes.txt
+FAIL: -v -t -E s21_cat_tests/bytes2.txt
+FAIL: -v -t -E s21_cat_tests/text3.txt
+FAIL: -v -t -T s21_cat_tests/bytes.txt
+FAIL: -v -t -T s21_cat_tests/bytes2.txt
+FAIL: -v -t -T s21_cat_tests/text3.txt
+FAIL: -v -t --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -v -t --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -v -t --number-nonblank s21_cat_tests/text3.txt
+FAIL: -v -t --number s21_cat_tests/bytes.txt
+FAIL: -v -t --number s21_cat_tests/bytes2.txt
+FAIL: -v -t --number s21_cat_tests/text3.txt
+FAIL: -v -t --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -v -t --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -v -t --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -v -E  s21_cat_tests/bytes.txt
+FAIL: -v -E  s21_cat_tests/bytes2.txt
+FAIL: -v -E  s21_cat_tests/text3.txt
+FAIL: -v -E -b s21_cat_tests/bytes.txt
+FAIL: -v -E -b s21_cat_tests/bytes2.txt
+FAIL: -v -E -b s21_cat_tests/text3.txt
+FAIL: -v -E -e s21_cat_tests/bytes.txt
+FAIL: -v -E -e s21_cat_tests/bytes2.txt
+FAIL: -v -E -e s21_cat_tests/text3.txt
+FAIL: -v -E -n s21_cat_tests/bytes.txt
+FAIL: -v -E -n s21_cat_tests/bytes2.txt
+FAIL: -v -E -n s21_cat_tests/text3.txt
+FAIL: -v -E -s s21_cat_tests/bytes.txt
+FAIL: -v -E -s s21_cat_tests/bytes2.txt
+FAIL: -v -E -s s21_cat_tests/text3.txt
+FAIL: -v -E -t s21_cat_tests/bytes.txt
+FAIL: -v -E -t s21_cat_tests/bytes2.txt
+FAIL: -v -E -t s21_cat_tests/text3.txt
+FAIL: -v -E -T s21_cat_tests/bytes.txt
+FAIL: -v -E -T s21_cat_tests/bytes2.txt
+FAIL: -v -E -T s21_cat_tests/text3.txt
+FAIL: -v -E --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -v -E --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -v -E --number-nonblank s21_cat_tests/text3.txt
+FAIL: -v -E --number s21_cat_tests/bytes.txt
+FAIL: -v -E --number s21_cat_tests/bytes2.txt
+FAIL: -v -E --number s21_cat_tests/text3.txt
+FAIL: -v -E --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -v -E --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -v -E --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -v -T  s21_cat_tests/bytes.txt
+FAIL: -v -T  s21_cat_tests/bytes2.txt
+FAIL: -v -T  s21_cat_tests/text3.txt
+FAIL: -v -T -b s21_cat_tests/bytes.txt
+FAIL: -v -T -b s21_cat_tests/bytes2.txt
+FAIL: -v -T -b s21_cat_tests/text3.txt
+FAIL: -v -T -e s21_cat_tests/bytes.txt
+FAIL: -v -T -e s21_cat_tests/bytes2.txt
+FAIL: -v -T -e s21_cat_tests/text3.txt
+FAIL: -v -T -n s21_cat_tests/bytes.txt
+FAIL: -v -T -n s21_cat_tests/bytes2.txt
+FAIL: -v -T -n s21_cat_tests/text3.txt
+FAIL: -v -T -s s21_cat_tests/bytes.txt
+FAIL: -v -T -s s21_cat_tests/bytes2.txt
+FAIL: -v -T -s s21_cat_tests/text3.txt
+FAIL: -v -T -t s21_cat_tests/bytes.txt
+FAIL: -v -T -t s21_cat_tests/bytes2.txt
+FAIL: -v -T -t s21_cat_tests/text3.txt
+FAIL: -v -T -E s21_cat_tests/bytes.txt
+FAIL: -v -T -E s21_cat_tests/bytes2.txt
+FAIL: -v -T -E s21_cat_tests/text3.txt
+FAIL: -v -T --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -v -T --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -v -T --number-nonblank s21_cat_tests/text3.txt
+FAIL: -v -T --number s21_cat_tests/bytes.txt
+FAIL: -v -T --number s21_cat_tests/bytes2.txt
+FAIL: -v -T --number s21_cat_tests/text3.txt
+FAIL: -v -T --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -v -T --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -v -T --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -v --number-nonblank  s21_cat_tests/bytes.txt
+FAIL: -v --number-nonblank  s21_cat_tests/bytes2.txt
+FAIL: -v --number-nonblank  s21_cat_tests/text3.txt
+FAIL: -v --number-nonblank -b s21_cat_tests/bytes.txt
+FAIL: -v --number-nonblank -b s21_cat_tests/bytes2.txt
+FAIL: -v --number-nonblank -b s21_cat_tests/text3.txt
+FAIL: -v --number-nonblank -e s21_cat_tests/bytes.txt
+FAIL: -v --number-nonblank -e s21_cat_tests/bytes2.txt
+FAIL: -v --number-nonblank -e s21_cat_tests/text3.txt
+FAIL: -v --number-nonblank -n s21_cat_tests/bytes.txt
+FAIL: -v --number-nonblank -n s21_cat_tests/bytes2.txt
+FAIL: -v --number-nonblank -n s21_cat_tests/text3.txt
+FAIL: -v --number-nonblank -s s21_cat_tests/bytes.txt
+FAIL: -v --number-nonblank -s s21_cat_tests/bytes2.txt
+FAIL: -v --number-nonblank -s s21_cat_tests/text3.txt
+FAIL: -v --number-nonblank -t s21_cat_tests/bytes.txt
+FAIL: -v --number-nonblank -t s21_cat_tests/bytes2.txt
+FAIL: -v --number-nonblank -t s21_cat_tests/text3.txt
+FAIL: -v --number-nonblank -E s21_cat_tests/bytes.txt
+FAIL: -v --number-nonblank -E s21_cat_tests/bytes2.txt
+FAIL: -v --number-nonblank -E s21_cat_tests/text3.txt
+FAIL: -v --number-nonblank -T s21_cat_tests/bytes.txt
+FAIL: -v --number-nonblank -T s21_cat_tests/bytes2.txt
+FAIL: -v --number-nonblank -T s21_cat_tests/text3.txt
+FAIL: -v --number-nonblank --number s21_cat_tests/bytes.txt
+FAIL: -v --number-nonblank --number s21_cat_tests/bytes2.txt
+FAIL: -v --number-nonblank --number s21_cat_tests/text3.txt
+FAIL: -v --number-nonblank --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -v --number-nonblank --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -v --number-nonblank --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -v --number  s21_cat_tests/bytes.txt
+FAIL: -v --number  s21_cat_tests/bytes2.txt
+FAIL: -v --number  s21_cat_tests/text3.txt
+FAIL: -v --number -b s21_cat_tests/bytes.txt
+FAIL: -v --number -b s21_cat_tests/bytes2.txt
+FAIL: -v --number -b s21_cat_tests/text3.txt
+FAIL: -v --number -e s21_cat_tests/bytes.txt
+FAIL: -v --number -e s21_cat_tests/bytes2.txt
+FAIL: -v --number -e s21_cat_tests/text3.txt
+FAIL: -v --number -n s21_cat_tests/bytes.txt
+FAIL: -v --number -n s21_cat_tests/bytes2.txt
+FAIL: -v --number -n s21_cat_tests/text3.txt
+FAIL: -v --number -s s21_cat_tests/bytes.txt
+FAIL: -v --number -s s21_cat_tests/bytes2.txt
+FAIL: -v --number -s s21_cat_tests/text3.txt
+FAIL: -v --number -t s21_cat_tests/bytes.txt
+FAIL: -v --number -t s21_cat_tests/bytes2.txt
+FAIL: -v --number -t s21_cat_tests/text3.txt
+FAIL: -v --number -E s21_cat_tests/bytes.txt
+FAIL: -v --number -E s21_cat_tests/bytes2.txt
+FAIL: -v --number -E s21_cat_tests/text3.txt
+FAIL: -v --number -T s21_cat_tests/bytes.txt
+FAIL: -v --number -T s21_cat_tests/bytes2.txt
+FAIL: -v --number -T s21_cat_tests/text3.txt
+FAIL: -v --number --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -v --number --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -v --number --number-nonblank s21_cat_tests/text3.txt
+FAIL: -v --number --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -v --number --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -v --number --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -v --squeeze-blank  s21_cat_tests/bytes.txt
+FAIL: -v --squeeze-blank  s21_cat_tests/bytes2.txt
+FAIL: -v --squeeze-blank  s21_cat_tests/text3.txt
+FAIL: -v --squeeze-blank -b s21_cat_tests/bytes.txt
+FAIL: -v --squeeze-blank -b s21_cat_tests/bytes2.txt
+FAIL: -v --squeeze-blank -b s21_cat_tests/text3.txt
+FAIL: -v --squeeze-blank -e s21_cat_tests/bytes.txt
+FAIL: -v --squeeze-blank -e s21_cat_tests/bytes2.txt
+FAIL: -v --squeeze-blank -e s21_cat_tests/text3.txt
+FAIL: -v --squeeze-blank -n s21_cat_tests/bytes.txt
+FAIL: -v --squeeze-blank -n s21_cat_tests/bytes2.txt
+FAIL: -v --squeeze-blank -n s21_cat_tests/text3.txt
+FAIL: -v --squeeze-blank -s s21_cat_tests/bytes.txt
+FAIL: -v --squeeze-blank -s s21_cat_tests/bytes2.txt
+FAIL: -v --squeeze-blank -s s21_cat_tests/text3.txt
+FAIL: -v --squeeze-blank -t s21_cat_tests/bytes.txt
+FAIL: -v --squeeze-blank -t s21_cat_tests/bytes2.txt
+FAIL: -v --squeeze-blank -t s21_cat_tests/text3.txt
+FAIL: -v --squeeze-blank -E s21_cat_tests/bytes.txt
+FAIL: -v --squeeze-blank -E s21_cat_tests/bytes2.txt
+FAIL: -v --squeeze-blank -E s21_cat_tests/text3.txt
+FAIL: -v --squeeze-blank -T s21_cat_tests/bytes.txt
+FAIL: -v --squeeze-blank -T s21_cat_tests/bytes2.txt
+FAIL: -v --squeeze-blank -T s21_cat_tests/text3.txt
+FAIL: -v --squeeze-blank --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -v --squeeze-blank --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -v --squeeze-blank --number-nonblank s21_cat_tests/text3.txt
+FAIL: -v --squeeze-blank --number s21_cat_tests/bytes.txt
+FAIL: -v --squeeze-blank --number s21_cat_tests/bytes2.txt
+FAIL: -v --squeeze-blank --number s21_cat_tests/text3.txt
+FAIL: -E   s21_cat_tests/bytes.txt
+FAIL: -E   s21_cat_tests/bytes2.txt
+FAIL: -E   s21_cat_tests/text3.txt
+FAIL: -E  -b s21_cat_tests/bytes.txt
+FAIL: -E  -b s21_cat_tests/bytes2.txt
+FAIL: -E  -b s21_cat_tests/text3.txt
+FAIL: -E  -e s21_cat_tests/bytes.txt
+FAIL: -E  -e s21_cat_tests/bytes2.txt
+FAIL: -E  -e s21_cat_tests/text3.txt
+FAIL: -E  -n s21_cat_tests/bytes.txt
+FAIL: -E  -n s21_cat_tests/bytes2.txt
+FAIL: -E  -n s21_cat_tests/text3.txt
+FAIL: -E  -s s21_cat_tests/bytes.txt
+FAIL: -E  -s s21_cat_tests/bytes2.txt
+FAIL: -E  -s s21_cat_tests/text3.txt
+FAIL: -E  -t s21_cat_tests/bytes.txt
+FAIL: -E  -t s21_cat_tests/bytes2.txt
+FAIL: -E  -t s21_cat_tests/text3.txt
+FAIL: -E  -v s21_cat_tests/bytes.txt
+FAIL: -E  -v s21_cat_tests/bytes2.txt
+FAIL: -E  -v s21_cat_tests/text3.txt
+FAIL: -E  -T s21_cat_tests/bytes.txt
+FAIL: -E  -T s21_cat_tests/bytes2.txt
+FAIL: -E  -T s21_cat_tests/text3.txt
+FAIL: -E  --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -E  --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -E  --number-nonblank s21_cat_tests/text3.txt
+FAIL: -E  --number s21_cat_tests/bytes.txt
+FAIL: -E  --number s21_cat_tests/bytes2.txt
+FAIL: -E  --number s21_cat_tests/text3.txt
+FAIL: -E  --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -E  --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -E  --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -E -b  s21_cat_tests/bytes.txt
+FAIL: -E -b  s21_cat_tests/bytes2.txt
+FAIL: -E -b  s21_cat_tests/text3.txt
+FAIL: -E -b -e s21_cat_tests/bytes.txt
+FAIL: -E -b -e s21_cat_tests/bytes2.txt
+FAIL: -E -b -e s21_cat_tests/text3.txt
+FAIL: -E -b -n s21_cat_tests/bytes.txt
+FAIL: -E -b -n s21_cat_tests/bytes2.txt
+FAIL: -E -b -n s21_cat_tests/text3.txt
+FAIL: -E -b -s s21_cat_tests/bytes.txt
+FAIL: -E -b -s s21_cat_tests/bytes2.txt
+FAIL: -E -b -s s21_cat_tests/text3.txt
+FAIL: -E -b -t s21_cat_tests/bytes.txt
+FAIL: -E -b -t s21_cat_tests/bytes2.txt
+FAIL: -E -b -t s21_cat_tests/text3.txt
+FAIL: -E -b -v s21_cat_tests/bytes.txt
+FAIL: -E -b -v s21_cat_tests/bytes2.txt
+FAIL: -E -b -v s21_cat_tests/text3.txt
+FAIL: -E -b -T s21_cat_tests/bytes.txt
+FAIL: -E -b -T s21_cat_tests/bytes2.txt
+FAIL: -E -b -T s21_cat_tests/text3.txt
+FAIL: -E -b --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -E -b --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -E -b --number-nonblank s21_cat_tests/text3.txt
+FAIL: -E -b --number s21_cat_tests/bytes.txt
+FAIL: -E -b --number s21_cat_tests/bytes2.txt
+FAIL: -E -b --number s21_cat_tests/text3.txt
+FAIL: -E -b --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -E -b --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -E -b --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -E -e  s21_cat_tests/bytes.txt
+FAIL: -E -e  s21_cat_tests/bytes2.txt
+FAIL: -E -e  s21_cat_tests/text3.txt
+FAIL: -E -e -b s21_cat_tests/bytes.txt
+FAIL: -E -e -b s21_cat_tests/bytes2.txt
+FAIL: -E -e -b s21_cat_tests/text3.txt
+FAIL: -E -e -n s21_cat_tests/bytes.txt
+FAIL: -E -e -n s21_cat_tests/bytes2.txt
+FAIL: -E -e -n s21_cat_tests/text3.txt
+FAIL: -E -e -s s21_cat_tests/bytes.txt
+FAIL: -E -e -s s21_cat_tests/bytes2.txt
+FAIL: -E -e -s s21_cat_tests/text3.txt
+FAIL: -E -e -t s21_cat_tests/bytes.txt
+FAIL: -E -e -t s21_cat_tests/bytes2.txt
+FAIL: -E -e -t s21_cat_tests/text3.txt
+FAIL: -E -e -v s21_cat_tests/bytes.txt
+FAIL: -E -e -v s21_cat_tests/bytes2.txt
+FAIL: -E -e -v s21_cat_tests/text3.txt
+FAIL: -E -e -T s21_cat_tests/bytes.txt
+FAIL: -E -e -T s21_cat_tests/bytes2.txt
+FAIL: -E -e -T s21_cat_tests/text3.txt
+FAIL: -E -e --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -E -e --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -E -e --number-nonblank s21_cat_tests/text3.txt
+FAIL: -E -e --number s21_cat_tests/bytes.txt
+FAIL: -E -e --number s21_cat_tests/bytes2.txt
+FAIL: -E -e --number s21_cat_tests/text3.txt
+FAIL: -E -e --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -E -e --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -E -e --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -E -n  s21_cat_tests/bytes.txt
+FAIL: -E -n  s21_cat_tests/bytes2.txt
+FAIL: -E -n  s21_cat_tests/text3.txt
+FAIL: -E -n -b s21_cat_tests/bytes.txt
+FAIL: -E -n -b s21_cat_tests/bytes2.txt
+FAIL: -E -n -b s21_cat_tests/text3.txt
+FAIL: -E -n -e s21_cat_tests/bytes.txt
+FAIL: -E -n -e s21_cat_tests/bytes2.txt
+FAIL: -E -n -e s21_cat_tests/text3.txt
+FAIL: -E -n -s s21_cat_tests/bytes.txt
+FAIL: -E -n -s s21_cat_tests/bytes2.txt
+FAIL: -E -n -s s21_cat_tests/text3.txt
+FAIL: -E -n -t s21_cat_tests/bytes.txt
+FAIL: -E -n -t s21_cat_tests/bytes2.txt
+FAIL: -E -n -t s21_cat_tests/text3.txt
+FAIL: -E -n -v s21_cat_tests/bytes.txt
+FAIL: -E -n -v s21_cat_tests/bytes2.txt
+FAIL: -E -n -v s21_cat_tests/text3.txt
+FAIL: -E -n -T s21_cat_tests/bytes.txt
+FAIL: -E -n -T s21_cat_tests/bytes2.txt
+FAIL: -E -n -T s21_cat_tests/text3.txt
+FAIL: -E -n --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -E -n --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -E -n --number-nonblank s21_cat_tests/text3.txt
+FAIL: -E -n --number s21_cat_tests/bytes.txt
+FAIL: -E -n --number s21_cat_tests/bytes2.txt
+FAIL: -E -n --number s21_cat_tests/text3.txt
+FAIL: -E -n --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -E -n --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -E -n --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -E -s  s21_cat_tests/bytes.txt
+FAIL: -E -s  s21_cat_tests/bytes2.txt
+FAIL: -E -s  s21_cat_tests/text3.txt
+FAIL: -E -s -b s21_cat_tests/bytes.txt
+FAIL: -E -s -b s21_cat_tests/bytes2.txt
+FAIL: -E -s -b s21_cat_tests/text3.txt
+FAIL: -E -s -e s21_cat_tests/bytes.txt
+FAIL: -E -s -e s21_cat_tests/bytes2.txt
+FAIL: -E -s -e s21_cat_tests/text3.txt
+FAIL: -E -s -n s21_cat_tests/bytes.txt
+FAIL: -E -s -n s21_cat_tests/bytes2.txt
+FAIL: -E -s -n s21_cat_tests/text3.txt
+FAIL: -E -s -t s21_cat_tests/bytes.txt
+FAIL: -E -s -t s21_cat_tests/bytes2.txt
+FAIL: -E -s -t s21_cat_tests/text3.txt
+FAIL: -E -s -v s21_cat_tests/bytes.txt
+FAIL: -E -s -v s21_cat_tests/bytes2.txt
+FAIL: -E -s -v s21_cat_tests/text3.txt
+FAIL: -E -s -T s21_cat_tests/bytes.txt
+FAIL: -E -s -T s21_cat_tests/bytes2.txt
+FAIL: -E -s -T s21_cat_tests/text3.txt
+FAIL: -E -s --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -E -s --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -E -s --number-nonblank s21_cat_tests/text3.txt
+FAIL: -E -s --number s21_cat_tests/bytes.txt
+FAIL: -E -s --number s21_cat_tests/bytes2.txt
+FAIL: -E -s --number s21_cat_tests/text3.txt
+FAIL: -E -s --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -E -s --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -E -s --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -E -t  s21_cat_tests/bytes.txt
+FAIL: -E -t  s21_cat_tests/bytes2.txt
+FAIL: -E -t  s21_cat_tests/text3.txt
+FAIL: -E -t -b s21_cat_tests/bytes.txt
+FAIL: -E -t -b s21_cat_tests/bytes2.txt
+FAIL: -E -t -b s21_cat_tests/text3.txt
+FAIL: -E -t -e s21_cat_tests/bytes.txt
+FAIL: -E -t -e s21_cat_tests/bytes2.txt
+FAIL: -E -t -e s21_cat_tests/text3.txt
+FAIL: -E -t -n s21_cat_tests/bytes.txt
+FAIL: -E -t -n s21_cat_tests/bytes2.txt
+FAIL: -E -t -n s21_cat_tests/text3.txt
+FAIL: -E -t -s s21_cat_tests/bytes.txt
+FAIL: -E -t -s s21_cat_tests/bytes2.txt
+FAIL: -E -t -s s21_cat_tests/text3.txt
+FAIL: -E -t -v s21_cat_tests/bytes.txt
+FAIL: -E -t -v s21_cat_tests/bytes2.txt
+FAIL: -E -t -v s21_cat_tests/text3.txt
+FAIL: -E -t -T s21_cat_tests/bytes.txt
+FAIL: -E -t -T s21_cat_tests/bytes2.txt
+FAIL: -E -t -T s21_cat_tests/text3.txt
+FAIL: -E -t --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -E -t --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -E -t --number-nonblank s21_cat_tests/text3.txt
+FAIL: -E -t --number s21_cat_tests/bytes.txt
+FAIL: -E -t --number s21_cat_tests/bytes2.txt
+FAIL: -E -t --number s21_cat_tests/text3.txt
+FAIL: -E -t --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -E -t --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -E -t --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -E -v  s21_cat_tests/bytes.txt
+FAIL: -E -v  s21_cat_tests/bytes2.txt
+FAIL: -E -v  s21_cat_tests/text3.txt
+FAIL: -E -v -b s21_cat_tests/bytes.txt
+FAIL: -E -v -b s21_cat_tests/bytes2.txt
+FAIL: -E -v -b s21_cat_tests/text3.txt
+FAIL: -E -v -e s21_cat_tests/bytes.txt
+FAIL: -E -v -e s21_cat_tests/bytes2.txt
+FAIL: -E -v -e s21_cat_tests/text3.txt
+FAIL: -E -v -n s21_cat_tests/bytes.txt
+FAIL: -E -v -n s21_cat_tests/bytes2.txt
+FAIL: -E -v -n s21_cat_tests/text3.txt
+FAIL: -E -v -s s21_cat_tests/bytes.txt
+FAIL: -E -v -s s21_cat_tests/bytes2.txt
+FAIL: -E -v -s s21_cat_tests/text3.txt
+FAIL: -E -v -t s21_cat_tests/bytes.txt
+FAIL: -E -v -t s21_cat_tests/bytes2.txt
+FAIL: -E -v -t s21_cat_tests/text3.txt
+FAIL: -E -v -T s21_cat_tests/bytes.txt
+FAIL: -E -v -T s21_cat_tests/bytes2.txt
+FAIL: -E -v -T s21_cat_tests/text3.txt
+FAIL: -E -v --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -E -v --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -E -v --number-nonblank s21_cat_tests/text3.txt
+FAIL: -E -v --number s21_cat_tests/bytes.txt
+FAIL: -E -v --number s21_cat_tests/bytes2.txt
+FAIL: -E -v --number s21_cat_tests/text3.txt
+FAIL: -E -v --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -E -v --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -E -v --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -E -T  s21_cat_tests/bytes.txt
+FAIL: -E -T  s21_cat_tests/bytes2.txt
+FAIL: -E -T  s21_cat_tests/text3.txt
+FAIL: -E -T -b s21_cat_tests/bytes.txt
+FAIL: -E -T -b s21_cat_tests/bytes2.txt
+FAIL: -E -T -b s21_cat_tests/text3.txt
+FAIL: -E -T -e s21_cat_tests/bytes.txt
+FAIL: -E -T -e s21_cat_tests/bytes2.txt
+FAIL: -E -T -e s21_cat_tests/text3.txt
+FAIL: -E -T -n s21_cat_tests/bytes.txt
+FAIL: -E -T -n s21_cat_tests/bytes2.txt
+FAIL: -E -T -n s21_cat_tests/text3.txt
+FAIL: -E -T -s s21_cat_tests/bytes.txt
+FAIL: -E -T -s s21_cat_tests/bytes2.txt
+FAIL: -E -T -s s21_cat_tests/text3.txt
+FAIL: -E -T -t s21_cat_tests/bytes.txt
+FAIL: -E -T -t s21_cat_tests/bytes2.txt
+FAIL: -E -T -t s21_cat_tests/text3.txt
+FAIL: -E -T -v s21_cat_tests/bytes.txt
+FAIL: -E -T -v s21_cat_tests/bytes2.txt
+FAIL: -E -T -v s21_cat_tests/text3.txt
+FAIL: -E -T --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -E -T --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -E -T --number-nonblank s21_cat_tests/text3.txt
+FAIL: -E -T --number s21_cat_tests/bytes.txt
+FAIL: -E -T --number s21_cat_tests/bytes2.txt
+FAIL: -E -T --number s21_cat_tests/text3.txt
+FAIL: -E -T --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -E -T --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -E -T --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -E --number-nonblank  s21_cat_tests/bytes.txt
+FAIL: -E --number-nonblank  s21_cat_tests/bytes2.txt
+FAIL: -E --number-nonblank  s21_cat_tests/text3.txt
+FAIL: -E --number-nonblank -b s21_cat_tests/bytes.txt
+FAIL: -E --number-nonblank -b s21_cat_tests/bytes2.txt
+FAIL: -E --number-nonblank -b s21_cat_tests/text3.txt
+FAIL: -E --number-nonblank -e s21_cat_tests/bytes.txt
+FAIL: -E --number-nonblank -e s21_cat_tests/bytes2.txt
+FAIL: -E --number-nonblank -e s21_cat_tests/text3.txt
+FAIL: -E --number-nonblank -n s21_cat_tests/bytes.txt
+FAIL: -E --number-nonblank -n s21_cat_tests/bytes2.txt
+FAIL: -E --number-nonblank -n s21_cat_tests/text3.txt
+FAIL: -E --number-nonblank -s s21_cat_tests/bytes.txt
+FAIL: -E --number-nonblank -s s21_cat_tests/bytes2.txt
+FAIL: -E --number-nonblank -s s21_cat_tests/text3.txt
+FAIL: -E --number-nonblank -t s21_cat_tests/bytes.txt
+FAIL: -E --number-nonblank -t s21_cat_tests/bytes2.txt
+FAIL: -E --number-nonblank -t s21_cat_tests/text3.txt
+FAIL: -E --number-nonblank -v s21_cat_tests/bytes.txt
+FAIL: -E --number-nonblank -v s21_cat_tests/bytes2.txt
+FAIL: -E --number-nonblank -v s21_cat_tests/text3.txt
+FAIL: -E --number-nonblank -T s21_cat_tests/bytes.txt
+FAIL: -E --number-nonblank -T s21_cat_tests/bytes2.txt
+FAIL: -E --number-nonblank -T s21_cat_tests/text3.txt
+FAIL: -E --number-nonblank --number s21_cat_tests/bytes.txt
+FAIL: -E --number-nonblank --number s21_cat_tests/bytes2.txt
+FAIL: -E --number-nonblank --number s21_cat_tests/text3.txt
+FAIL: -E --number-nonblank --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -E --number-nonblank --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -E --number-nonblank --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -E --number  s21_cat_tests/bytes.txt
+FAIL: -E --number  s21_cat_tests/bytes2.txt
+FAIL: -E --number  s21_cat_tests/text3.txt
+FAIL: -E --number -b s21_cat_tests/bytes.txt
+FAIL: -E --number -b s21_cat_tests/bytes2.txt
+FAIL: -E --number -b s21_cat_tests/text3.txt
+FAIL: -E --number -e s21_cat_tests/bytes.txt
+FAIL: -E --number -e s21_cat_tests/bytes2.txt
+FAIL: -E --number -e s21_cat_tests/text3.txt
+FAIL: -E --number -n s21_cat_tests/bytes.txt
+FAIL: -E --number -n s21_cat_tests/bytes2.txt
+FAIL: -E --number -n s21_cat_tests/text3.txt
+FAIL: -E --number -s s21_cat_tests/bytes.txt
+FAIL: -E --number -s s21_cat_tests/bytes2.txt
+FAIL: -E --number -s s21_cat_tests/text3.txt
+FAIL: -E --number -t s21_cat_tests/bytes.txt
+FAIL: -E --number -t s21_cat_tests/bytes2.txt
+FAIL: -E --number -t s21_cat_tests/text3.txt
+FAIL: -E --number -v s21_cat_tests/bytes.txt
+FAIL: -E --number -v s21_cat_tests/bytes2.txt
+FAIL: -E --number -v s21_cat_tests/text3.txt
+FAIL: -E --number -T s21_cat_tests/bytes.txt
+FAIL: -E --number -T s21_cat_tests/bytes2.txt
+FAIL: -E --number -T s21_cat_tests/text3.txt
+FAIL: -E --number --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -E --number --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -E --number --number-nonblank s21_cat_tests/text3.txt
+FAIL: -E --number --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -E --number --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -E --number --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -E --squeeze-blank  s21_cat_tests/bytes.txt
+FAIL: -E --squeeze-blank  s21_cat_tests/bytes2.txt
+FAIL: -E --squeeze-blank  s21_cat_tests/text3.txt
+FAIL: -E --squeeze-blank -b s21_cat_tests/bytes.txt
+FAIL: -E --squeeze-blank -b s21_cat_tests/bytes2.txt
+FAIL: -E --squeeze-blank -b s21_cat_tests/text3.txt
+FAIL: -E --squeeze-blank -e s21_cat_tests/bytes.txt
+FAIL: -E --squeeze-blank -e s21_cat_tests/bytes2.txt
+FAIL: -E --squeeze-blank -e s21_cat_tests/text3.txt
+FAIL: -E --squeeze-blank -n s21_cat_tests/bytes.txt
+FAIL: -E --squeeze-blank -n s21_cat_tests/bytes2.txt
+FAIL: -E --squeeze-blank -n s21_cat_tests/text3.txt
+FAIL: -E --squeeze-blank -s s21_cat_tests/bytes.txt
+FAIL: -E --squeeze-blank -s s21_cat_tests/bytes2.txt
+FAIL: -E --squeeze-blank -s s21_cat_tests/text3.txt
+FAIL: -E --squeeze-blank -t s21_cat_tests/bytes.txt
+FAIL: -E --squeeze-blank -t s21_cat_tests/bytes2.txt
+FAIL: -E --squeeze-blank -t s21_cat_tests/text3.txt
+FAIL: -E --squeeze-blank -v s21_cat_tests/bytes.txt
+FAIL: -E --squeeze-blank -v s21_cat_tests/bytes2.txt
+FAIL: -E --squeeze-blank -v s21_cat_tests/text3.txt
+FAIL: -E --squeeze-blank -T s21_cat_tests/bytes.txt
+FAIL: -E --squeeze-blank -T s21_cat_tests/bytes2.txt
+FAIL: -E --squeeze-blank -T s21_cat_tests/text3.txt
+FAIL: -E --squeeze-blank --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -E --squeeze-blank --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -E --squeeze-blank --number-nonblank s21_cat_tests/text3.txt
+FAIL: -E --squeeze-blank --number s21_cat_tests/bytes.txt
+FAIL: -E --squeeze-blank --number s21_cat_tests/bytes2.txt
+FAIL: -E --squeeze-blank --number s21_cat_tests/text3.txt
+FAIL: -T   s21_cat_tests/bytes.txt
+FAIL: -T   s21_cat_tests/bytes2.txt
+FAIL: -T   s21_cat_tests/text3.txt
+FAIL: -T  -b s21_cat_tests/bytes.txt
+FAIL: -T  -b s21_cat_tests/bytes2.txt
+FAIL: -T  -b s21_cat_tests/text3.txt
+FAIL: -T  -e s21_cat_tests/bytes.txt
+FAIL: -T  -e s21_cat_tests/bytes2.txt
+FAIL: -T  -e s21_cat_tests/text3.txt
+FAIL: -T  -n s21_cat_tests/bytes.txt
+FAIL: -T  -n s21_cat_tests/bytes2.txt
+FAIL: -T  -n s21_cat_tests/text3.txt
+FAIL: -T  -s s21_cat_tests/bytes.txt
+FAIL: -T  -s s21_cat_tests/bytes2.txt
+FAIL: -T  -s s21_cat_tests/text3.txt
+FAIL: -T  -t s21_cat_tests/bytes.txt
+FAIL: -T  -t s21_cat_tests/bytes2.txt
+FAIL: -T  -t s21_cat_tests/text3.txt
+FAIL: -T  -v s21_cat_tests/bytes.txt
+FAIL: -T  -v s21_cat_tests/bytes2.txt
+FAIL: -T  -v s21_cat_tests/text3.txt
+FAIL: -T  -E s21_cat_tests/bytes.txt
+FAIL: -T  -E s21_cat_tests/bytes2.txt
+FAIL: -T  -E s21_cat_tests/text3.txt
+FAIL: -T  --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -T  --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -T  --number-nonblank s21_cat_tests/text3.txt
+FAIL: -T  --number s21_cat_tests/bytes.txt
+FAIL: -T  --number s21_cat_tests/bytes2.txt
+FAIL: -T  --number s21_cat_tests/text3.txt
+FAIL: -T  --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -T  --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -T  --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -T -b  s21_cat_tests/bytes.txt
+FAIL: -T -b  s21_cat_tests/bytes2.txt
+FAIL: -T -b  s21_cat_tests/text3.txt
+FAIL: -T -b -e s21_cat_tests/bytes.txt
+FAIL: -T -b -e s21_cat_tests/bytes2.txt
+FAIL: -T -b -e s21_cat_tests/text3.txt
+FAIL: -T -b -n s21_cat_tests/bytes.txt
+FAIL: -T -b -n s21_cat_tests/bytes2.txt
+FAIL: -T -b -n s21_cat_tests/text3.txt
+FAIL: -T -b -s s21_cat_tests/bytes.txt
+FAIL: -T -b -s s21_cat_tests/bytes2.txt
+FAIL: -T -b -s s21_cat_tests/text3.txt
+FAIL: -T -b -t s21_cat_tests/bytes.txt
+FAIL: -T -b -t s21_cat_tests/bytes2.txt
+FAIL: -T -b -t s21_cat_tests/text3.txt
+FAIL: -T -b -v s21_cat_tests/bytes.txt
+FAIL: -T -b -v s21_cat_tests/bytes2.txt
+FAIL: -T -b -v s21_cat_tests/text3.txt
+FAIL: -T -b -E s21_cat_tests/bytes.txt
+FAIL: -T -b -E s21_cat_tests/bytes2.txt
+FAIL: -T -b -E s21_cat_tests/text3.txt
+FAIL: -T -b --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -T -b --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -T -b --number-nonblank s21_cat_tests/text3.txt
+FAIL: -T -b --number s21_cat_tests/bytes.txt
+FAIL: -T -b --number s21_cat_tests/bytes2.txt
+FAIL: -T -b --number s21_cat_tests/text3.txt
+FAIL: -T -b --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -T -b --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -T -b --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -T -e  s21_cat_tests/bytes.txt
+FAIL: -T -e  s21_cat_tests/bytes2.txt
+FAIL: -T -e  s21_cat_tests/text3.txt
+FAIL: -T -e -b s21_cat_tests/bytes.txt
+FAIL: -T -e -b s21_cat_tests/bytes2.txt
+FAIL: -T -e -b s21_cat_tests/text3.txt
+FAIL: -T -e -n s21_cat_tests/bytes.txt
+FAIL: -T -e -n s21_cat_tests/bytes2.txt
+FAIL: -T -e -n s21_cat_tests/text3.txt
+FAIL: -T -e -s s21_cat_tests/bytes.txt
+FAIL: -T -e -s s21_cat_tests/bytes2.txt
+FAIL: -T -e -s s21_cat_tests/text3.txt
+FAIL: -T -e -t s21_cat_tests/bytes.txt
+FAIL: -T -e -t s21_cat_tests/bytes2.txt
+FAIL: -T -e -t s21_cat_tests/text3.txt
+FAIL: -T -e -v s21_cat_tests/bytes.txt
+FAIL: -T -e -v s21_cat_tests/bytes2.txt
+FAIL: -T -e -v s21_cat_tests/text3.txt
+FAIL: -T -e -E s21_cat_tests/bytes.txt
+FAIL: -T -e -E s21_cat_tests/bytes2.txt
+FAIL: -T -e -E s21_cat_tests/text3.txt
+FAIL: -T -e --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -T -e --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -T -e --number-nonblank s21_cat_tests/text3.txt
+FAIL: -T -e --number s21_cat_tests/bytes.txt
+FAIL: -T -e --number s21_cat_tests/bytes2.txt
+FAIL: -T -e --number s21_cat_tests/text3.txt
+FAIL: -T -e --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -T -e --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -T -e --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -T -n  s21_cat_tests/bytes.txt
+FAIL: -T -n  s21_cat_tests/bytes2.txt
+FAIL: -T -n  s21_cat_tests/text3.txt
+FAIL: -T -n -b s21_cat_tests/bytes.txt
+FAIL: -T -n -b s21_cat_tests/bytes2.txt
+FAIL: -T -n -b s21_cat_tests/text3.txt
+FAIL: -T -n -e s21_cat_tests/bytes.txt
+FAIL: -T -n -e s21_cat_tests/bytes2.txt
+FAIL: -T -n -e s21_cat_tests/text3.txt
+FAIL: -T -n -s s21_cat_tests/bytes.txt
+FAIL: -T -n -s s21_cat_tests/bytes2.txt
+FAIL: -T -n -s s21_cat_tests/text3.txt
+FAIL: -T -n -t s21_cat_tests/bytes.txt
+FAIL: -T -n -t s21_cat_tests/bytes2.txt
+FAIL: -T -n -t s21_cat_tests/text3.txt
+FAIL: -T -n -v s21_cat_tests/bytes.txt
+FAIL: -T -n -v s21_cat_tests/bytes2.txt
+FAIL: -T -n -v s21_cat_tests/text3.txt
+FAIL: -T -n -E s21_cat_tests/bytes.txt
+FAIL: -T -n -E s21_cat_tests/bytes2.txt
+FAIL: -T -n -E s21_cat_tests/text3.txt
+FAIL: -T -n --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -T -n --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -T -n --number-nonblank s21_cat_tests/text3.txt
+FAIL: -T -n --number s21_cat_tests/bytes.txt
+FAIL: -T -n --number s21_cat_tests/bytes2.txt
+FAIL: -T -n --number s21_cat_tests/text3.txt
+FAIL: -T -n --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -T -n --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -T -n --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -T -s  s21_cat_tests/bytes.txt
+FAIL: -T -s  s21_cat_tests/bytes2.txt
+FAIL: -T -s  s21_cat_tests/text3.txt
+FAIL: -T -s -b s21_cat_tests/bytes.txt
+FAIL: -T -s -b s21_cat_tests/bytes2.txt
+FAIL: -T -s -b s21_cat_tests/text3.txt
+FAIL: -T -s -e s21_cat_tests/bytes.txt
+FAIL: -T -s -e s21_cat_tests/bytes2.txt
+FAIL: -T -s -e s21_cat_tests/text3.txt
+FAIL: -T -s -n s21_cat_tests/bytes.txt
+FAIL: -T -s -n s21_cat_tests/bytes2.txt
+FAIL: -T -s -n s21_cat_tests/text3.txt
+FAIL: -T -s -t s21_cat_tests/bytes.txt
+FAIL: -T -s -t s21_cat_tests/bytes2.txt
+FAIL: -T -s -t s21_cat_tests/text3.txt
+FAIL: -T -s -v s21_cat_tests/bytes.txt
+FAIL: -T -s -v s21_cat_tests/bytes2.txt
+FAIL: -T -s -v s21_cat_tests/text3.txt
+FAIL: -T -s -E s21_cat_tests/bytes.txt
+FAIL: -T -s -E s21_cat_tests/bytes2.txt
+FAIL: -T -s -E s21_cat_tests/text3.txt
+FAIL: -T -s --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -T -s --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -T -s --number-nonblank s21_cat_tests/text3.txt
+FAIL: -T -s --number s21_cat_tests/bytes.txt
+FAIL: -T -s --number s21_cat_tests/bytes2.txt
+FAIL: -T -s --number s21_cat_tests/text3.txt
+FAIL: -T -s --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -T -s --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -T -s --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -T -t  s21_cat_tests/bytes.txt
+FAIL: -T -t  s21_cat_tests/bytes2.txt
+FAIL: -T -t  s21_cat_tests/text3.txt
+FAIL: -T -t -b s21_cat_tests/bytes.txt
+FAIL: -T -t -b s21_cat_tests/bytes2.txt
+FAIL: -T -t -b s21_cat_tests/text3.txt
+FAIL: -T -t -e s21_cat_tests/bytes.txt
+FAIL: -T -t -e s21_cat_tests/bytes2.txt
+FAIL: -T -t -e s21_cat_tests/text3.txt
+FAIL: -T -t -n s21_cat_tests/bytes.txt
+FAIL: -T -t -n s21_cat_tests/bytes2.txt
+FAIL: -T -t -n s21_cat_tests/text3.txt
+FAIL: -T -t -s s21_cat_tests/bytes.txt
+FAIL: -T -t -s s21_cat_tests/bytes2.txt
+FAIL: -T -t -s s21_cat_tests/text3.txt
+FAIL: -T -t -v s21_cat_tests/bytes.txt
+FAIL: -T -t -v s21_cat_tests/bytes2.txt
+FAIL: -T -t -v s21_cat_tests/text3.txt
+FAIL: -T -t -E s21_cat_tests/bytes.txt
+FAIL: -T -t -E s21_cat_tests/bytes2.txt
+FAIL: -T -t -E s21_cat_tests/text3.txt
+FAIL: -T -t --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -T -t --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -T -t --number-nonblank s21_cat_tests/text3.txt
+FAIL: -T -t --number s21_cat_tests/bytes.txt
+FAIL: -T -t --number s21_cat_tests/bytes2.txt
+FAIL: -T -t --number s21_cat_tests/text3.txt
+FAIL: -T -t --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -T -t --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -T -t --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -T -v  s21_cat_tests/bytes.txt
+FAIL: -T -v  s21_cat_tests/bytes2.txt
+FAIL: -T -v  s21_cat_tests/text3.txt
+FAIL: -T -v -b s21_cat_tests/bytes.txt
+FAIL: -T -v -b s21_cat_tests/bytes2.txt
+FAIL: -T -v -b s21_cat_tests/text3.txt
+FAIL: -T -v -e s21_cat_tests/bytes.txt
+FAIL: -T -v -e s21_cat_tests/bytes2.txt
+FAIL: -T -v -e s21_cat_tests/text3.txt
+FAIL: -T -v -n s21_cat_tests/bytes.txt
+FAIL: -T -v -n s21_cat_tests/bytes2.txt
+FAIL: -T -v -n s21_cat_tests/text3.txt
+FAIL: -T -v -s s21_cat_tests/bytes.txt
+FAIL: -T -v -s s21_cat_tests/bytes2.txt
+FAIL: -T -v -s s21_cat_tests/text3.txt
+FAIL: -T -v -t s21_cat_tests/bytes.txt
+FAIL: -T -v -t s21_cat_tests/bytes2.txt
+FAIL: -T -v -t s21_cat_tests/text3.txt
+FAIL: -T -v -E s21_cat_tests/bytes.txt
+FAIL: -T -v -E s21_cat_tests/bytes2.txt
+FAIL: -T -v -E s21_cat_tests/text3.txt
+FAIL: -T -v --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -T -v --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -T -v --number-nonblank s21_cat_tests/text3.txt
+FAIL: -T -v --number s21_cat_tests/bytes.txt
+FAIL: -T -v --number s21_cat_tests/bytes2.txt
+FAIL: -T -v --number s21_cat_tests/text3.txt
+FAIL: -T -v --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -T -v --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -T -v --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -T -E  s21_cat_tests/bytes.txt
+FAIL: -T -E  s21_cat_tests/bytes2.txt
+FAIL: -T -E  s21_cat_tests/text3.txt
+FAIL: -T -E -b s21_cat_tests/bytes.txt
+FAIL: -T -E -b s21_cat_tests/bytes2.txt
+FAIL: -T -E -b s21_cat_tests/text3.txt
+FAIL: -T -E -e s21_cat_tests/bytes.txt
+FAIL: -T -E -e s21_cat_tests/bytes2.txt
+FAIL: -T -E -e s21_cat_tests/text3.txt
+FAIL: -T -E -n s21_cat_tests/bytes.txt
+FAIL: -T -E -n s21_cat_tests/bytes2.txt
+FAIL: -T -E -n s21_cat_tests/text3.txt
+FAIL: -T -E -s s21_cat_tests/bytes.txt
+FAIL: -T -E -s s21_cat_tests/bytes2.txt
+FAIL: -T -E -s s21_cat_tests/text3.txt
+FAIL: -T -E -t s21_cat_tests/bytes.txt
+FAIL: -T -E -t s21_cat_tests/bytes2.txt
+FAIL: -T -E -t s21_cat_tests/text3.txt
+FAIL: -T -E -v s21_cat_tests/bytes.txt
+FAIL: -T -E -v s21_cat_tests/bytes2.txt
+FAIL: -T -E -v s21_cat_tests/text3.txt
+FAIL: -T -E --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -T -E --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -T -E --number-nonblank s21_cat_tests/text3.txt
+FAIL: -T -E --number s21_cat_tests/bytes.txt
+FAIL: -T -E --number s21_cat_tests/bytes2.txt
+FAIL: -T -E --number s21_cat_tests/text3.txt
+FAIL: -T -E --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -T -E --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -T -E --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -T --number-nonblank  s21_cat_tests/bytes.txt
+FAIL: -T --number-nonblank  s21_cat_tests/bytes2.txt
+FAIL: -T --number-nonblank  s21_cat_tests/text3.txt
+FAIL: -T --number-nonblank -b s21_cat_tests/bytes.txt
+FAIL: -T --number-nonblank -b s21_cat_tests/bytes2.txt
+FAIL: -T --number-nonblank -b s21_cat_tests/text3.txt
+FAIL: -T --number-nonblank -e s21_cat_tests/bytes.txt
+FAIL: -T --number-nonblank -e s21_cat_tests/bytes2.txt
+FAIL: -T --number-nonblank -e s21_cat_tests/text3.txt
+FAIL: -T --number-nonblank -n s21_cat_tests/bytes.txt
+FAIL: -T --number-nonblank -n s21_cat_tests/bytes2.txt
+FAIL: -T --number-nonblank -n s21_cat_tests/text3.txt
+FAIL: -T --number-nonblank -s s21_cat_tests/bytes.txt
+FAIL: -T --number-nonblank -s s21_cat_tests/bytes2.txt
+FAIL: -T --number-nonblank -s s21_cat_tests/text3.txt
+FAIL: -T --number-nonblank -t s21_cat_tests/bytes.txt
+FAIL: -T --number-nonblank -t s21_cat_tests/bytes2.txt
+FAIL: -T --number-nonblank -t s21_cat_tests/text3.txt
+FAIL: -T --number-nonblank -v s21_cat_tests/bytes.txt
+FAIL: -T --number-nonblank -v s21_cat_tests/bytes2.txt
+FAIL: -T --number-nonblank -v s21_cat_tests/text3.txt
+FAIL: -T --number-nonblank -E s21_cat_tests/bytes.txt
+FAIL: -T --number-nonblank -E s21_cat_tests/bytes2.txt
+FAIL: -T --number-nonblank -E s21_cat_tests/text3.txt
+FAIL: -T --number-nonblank --number s21_cat_tests/bytes.txt
+FAIL: -T --number-nonblank --number s21_cat_tests/bytes2.txt
+FAIL: -T --number-nonblank --number s21_cat_tests/text3.txt
+FAIL: -T --number-nonblank --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -T --number-nonblank --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -T --number-nonblank --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -T --number  s21_cat_tests/bytes.txt
+FAIL: -T --number  s21_cat_tests/bytes2.txt
+FAIL: -T --number  s21_cat_tests/text3.txt
+FAIL: -T --number -b s21_cat_tests/bytes.txt
+FAIL: -T --number -b s21_cat_tests/bytes2.txt
+FAIL: -T --number -b s21_cat_tests/text3.txt
+FAIL: -T --number -e s21_cat_tests/bytes.txt
+FAIL: -T --number -e s21_cat_tests/bytes2.txt
+FAIL: -T --number -e s21_cat_tests/text3.txt
+FAIL: -T --number -n s21_cat_tests/bytes.txt
+FAIL: -T --number -n s21_cat_tests/bytes2.txt
+FAIL: -T --number -n s21_cat_tests/text3.txt
+FAIL: -T --number -s s21_cat_tests/bytes.txt
+FAIL: -T --number -s s21_cat_tests/bytes2.txt
+FAIL: -T --number -s s21_cat_tests/text3.txt
+FAIL: -T --number -t s21_cat_tests/bytes.txt
+FAIL: -T --number -t s21_cat_tests/bytes2.txt
+FAIL: -T --number -t s21_cat_tests/text3.txt
+FAIL: -T --number -v s21_cat_tests/bytes.txt
+FAIL: -T --number -v s21_cat_tests/bytes2.txt
+FAIL: -T --number -v s21_cat_tests/text3.txt
+FAIL: -T --number -E s21_cat_tests/bytes.txt
+FAIL: -T --number -E s21_cat_tests/bytes2.txt
+FAIL: -T --number -E s21_cat_tests/text3.txt
+FAIL: -T --number --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -T --number --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -T --number --number-nonblank s21_cat_tests/text3.txt
+FAIL: -T --number --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: -T --number --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: -T --number --squeeze-blank s21_cat_tests/text3.txt
+FAIL: -T --squeeze-blank  s21_cat_tests/bytes.txt
+FAIL: -T --squeeze-blank  s21_cat_tests/bytes2.txt
+FAIL: -T --squeeze-blank  s21_cat_tests/text3.txt
+FAIL: -T --squeeze-blank -b s21_cat_tests/bytes.txt
+FAIL: -T --squeeze-blank -b s21_cat_tests/bytes2.txt
+FAIL: -T --squeeze-blank -b s21_cat_tests/text3.txt
+FAIL: -T --squeeze-blank -e s21_cat_tests/bytes.txt
+FAIL: -T --squeeze-blank -e s21_cat_tests/bytes2.txt
+FAIL: -T --squeeze-blank -e s21_cat_tests/text3.txt
+FAIL: -T --squeeze-blank -n s21_cat_tests/bytes.txt
+FAIL: -T --squeeze-blank -n s21_cat_tests/bytes2.txt
+FAIL: -T --squeeze-blank -n s21_cat_tests/text3.txt
+FAIL: -T --squeeze-blank -s s21_cat_tests/bytes.txt
+FAIL: -T --squeeze-blank -s s21_cat_tests/bytes2.txt
+FAIL: -T --squeeze-blank -s s21_cat_tests/text3.txt
+FAIL: -T --squeeze-blank -t s21_cat_tests/bytes.txt
+FAIL: -T --squeeze-blank -t s21_cat_tests/bytes2.txt
+FAIL: -T --squeeze-blank -t s21_cat_tests/text3.txt
+FAIL: -T --squeeze-blank -v s21_cat_tests/bytes.txt
+FAIL: -T --squeeze-blank -v s21_cat_tests/bytes2.txt
+FAIL: -T --squeeze-blank -v s21_cat_tests/text3.txt
+FAIL: -T --squeeze-blank -E s21_cat_tests/bytes.txt
+FAIL: -T --squeeze-blank -E s21_cat_tests/bytes2.txt
+FAIL: -T --squeeze-blank -E s21_cat_tests/text3.txt
+FAIL: -T --squeeze-blank --number-nonblank s21_cat_tests/bytes.txt
+FAIL: -T --squeeze-blank --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: -T --squeeze-blank --number-nonblank s21_cat_tests/text3.txt
+FAIL: -T --squeeze-blank --number s21_cat_tests/bytes.txt
+FAIL: -T --squeeze-blank --number s21_cat_tests/bytes2.txt
+FAIL: -T --squeeze-blank --number s21_cat_tests/text3.txt
+FAIL: --number-nonblank   s21_cat_tests/bytes.txt
+FAIL: --number-nonblank   s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank   s21_cat_tests/text3.txt
+FAIL: --number-nonblank  -b s21_cat_tests/bytes.txt
+FAIL: --number-nonblank  -b s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank  -b s21_cat_tests/text3.txt
+FAIL: --number-nonblank  -e s21_cat_tests/bytes.txt
+FAIL: --number-nonblank  -e s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank  -e s21_cat_tests/text3.txt
+FAIL: --number-nonblank  -n s21_cat_tests/bytes.txt
+FAIL: --number-nonblank  -n s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank  -n s21_cat_tests/text3.txt
+FAIL: --number-nonblank  -s s21_cat_tests/bytes.txt
+FAIL: --number-nonblank  -s s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank  -s s21_cat_tests/text3.txt
+FAIL: --number-nonblank  -t s21_cat_tests/bytes.txt
+FAIL: --number-nonblank  -t s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank  -t s21_cat_tests/text3.txt
+FAIL: --number-nonblank  -v s21_cat_tests/bytes.txt
+FAIL: --number-nonblank  -v s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank  -v s21_cat_tests/text3.txt
+FAIL: --number-nonblank  -E s21_cat_tests/bytes.txt
+FAIL: --number-nonblank  -E s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank  -E s21_cat_tests/text3.txt
+FAIL: --number-nonblank  -T s21_cat_tests/bytes.txt
+FAIL: --number-nonblank  -T s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank  -T s21_cat_tests/text3.txt
+FAIL: --number-nonblank  --number s21_cat_tests/bytes.txt
+FAIL: --number-nonblank  --number s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank  --number s21_cat_tests/text3.txt
+FAIL: --number-nonblank  --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: --number-nonblank  --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank  --squeeze-blank s21_cat_tests/text3.txt
+FAIL: --number-nonblank -b  s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -b  s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -b  s21_cat_tests/text3.txt
+FAIL: --number-nonblank -b -e s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -b -e s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -b -e s21_cat_tests/text3.txt
+FAIL: --number-nonblank -b -n s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -b -n s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -b -n s21_cat_tests/text3.txt
+FAIL: --number-nonblank -b -s s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -b -s s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -b -s s21_cat_tests/text3.txt
+FAIL: --number-nonblank -b -t s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -b -t s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -b -t s21_cat_tests/text3.txt
+FAIL: --number-nonblank -b -v s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -b -v s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -b -v s21_cat_tests/text3.txt
+FAIL: --number-nonblank -b -E s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -b -E s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -b -E s21_cat_tests/text3.txt
+FAIL: --number-nonblank -b -T s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -b -T s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -b -T s21_cat_tests/text3.txt
+FAIL: --number-nonblank -b --number s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -b --number s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -b --number s21_cat_tests/text3.txt
+FAIL: --number-nonblank -b --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -b --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -b --squeeze-blank s21_cat_tests/text3.txt
+FAIL: --number-nonblank -e  s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -e  s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -e  s21_cat_tests/text3.txt
+FAIL: --number-nonblank -e -b s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -e -b s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -e -b s21_cat_tests/text3.txt
+FAIL: --number-nonblank -e -n s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -e -n s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -e -n s21_cat_tests/text3.txt
+FAIL: --number-nonblank -e -s s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -e -s s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -e -s s21_cat_tests/text3.txt
+FAIL: --number-nonblank -e -t s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -e -t s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -e -t s21_cat_tests/text3.txt
+FAIL: --number-nonblank -e -v s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -e -v s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -e -v s21_cat_tests/text3.txt
+FAIL: --number-nonblank -e -E s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -e -E s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -e -E s21_cat_tests/text3.txt
+FAIL: --number-nonblank -e -T s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -e -T s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -e -T s21_cat_tests/text3.txt
+FAIL: --number-nonblank -e --number s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -e --number s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -e --number s21_cat_tests/text3.txt
+FAIL: --number-nonblank -e --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -e --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -e --squeeze-blank s21_cat_tests/text3.txt
+FAIL: --number-nonblank -n  s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -n  s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -n  s21_cat_tests/text3.txt
+FAIL: --number-nonblank -n -b s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -n -b s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -n -b s21_cat_tests/text3.txt
+FAIL: --number-nonblank -n -e s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -n -e s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -n -e s21_cat_tests/text3.txt
+FAIL: --number-nonblank -n -s s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -n -s s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -n -s s21_cat_tests/text3.txt
+FAIL: --number-nonblank -n -t s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -n -t s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -n -t s21_cat_tests/text3.txt
+FAIL: --number-nonblank -n -v s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -n -v s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -n -v s21_cat_tests/text3.txt
+FAIL: --number-nonblank -n -E s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -n -E s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -n -E s21_cat_tests/text3.txt
+FAIL: --number-nonblank -n -T s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -n -T s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -n -T s21_cat_tests/text3.txt
+FAIL: --number-nonblank -n --number s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -n --number s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -n --number s21_cat_tests/text3.txt
+FAIL: --number-nonblank -n --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -n --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -n --squeeze-blank s21_cat_tests/text3.txt
+FAIL: --number-nonblank -s  s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -s  s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -s  s21_cat_tests/text3.txt
+FAIL: --number-nonblank -s -b s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -s -b s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -s -b s21_cat_tests/text3.txt
+FAIL: --number-nonblank -s -e s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -s -e s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -s -e s21_cat_tests/text3.txt
+FAIL: --number-nonblank -s -n s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -s -n s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -s -n s21_cat_tests/text3.txt
+FAIL: --number-nonblank -s -t s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -s -t s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -s -t s21_cat_tests/text3.txt
+FAIL: --number-nonblank -s -v s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -s -v s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -s -v s21_cat_tests/text3.txt
+FAIL: --number-nonblank -s -E s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -s -E s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -s -E s21_cat_tests/text3.txt
+FAIL: --number-nonblank -s -T s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -s -T s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -s -T s21_cat_tests/text3.txt
+FAIL: --number-nonblank -s --number s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -s --number s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -s --number s21_cat_tests/text3.txt
+FAIL: --number-nonblank -s --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -s --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -s --squeeze-blank s21_cat_tests/text3.txt
+FAIL: --number-nonblank -t  s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -t  s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -t  s21_cat_tests/text3.txt
+FAIL: --number-nonblank -t -b s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -t -b s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -t -b s21_cat_tests/text3.txt
+FAIL: --number-nonblank -t -e s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -t -e s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -t -e s21_cat_tests/text3.txt
+FAIL: --number-nonblank -t -n s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -t -n s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -t -n s21_cat_tests/text3.txt
+FAIL: --number-nonblank -t -s s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -t -s s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -t -s s21_cat_tests/text3.txt
+FAIL: --number-nonblank -t -v s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -t -v s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -t -v s21_cat_tests/text3.txt
+FAIL: --number-nonblank -t -E s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -t -E s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -t -E s21_cat_tests/text3.txt
+FAIL: --number-nonblank -t -T s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -t -T s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -t -T s21_cat_tests/text3.txt
+FAIL: --number-nonblank -t --number s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -t --number s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -t --number s21_cat_tests/text3.txt
+FAIL: --number-nonblank -t --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -t --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -t --squeeze-blank s21_cat_tests/text3.txt
+FAIL: --number-nonblank -v  s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -v  s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -v  s21_cat_tests/text3.txt
+FAIL: --number-nonblank -v -b s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -v -b s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -v -b s21_cat_tests/text3.txt
+FAIL: --number-nonblank -v -e s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -v -e s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -v -e s21_cat_tests/text3.txt
+FAIL: --number-nonblank -v -n s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -v -n s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -v -n s21_cat_tests/text3.txt
+FAIL: --number-nonblank -v -s s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -v -s s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -v -s s21_cat_tests/text3.txt
+FAIL: --number-nonblank -v -t s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -v -t s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -v -t s21_cat_tests/text3.txt
+FAIL: --number-nonblank -v -E s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -v -E s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -v -E s21_cat_tests/text3.txt
+FAIL: --number-nonblank -v -T s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -v -T s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -v -T s21_cat_tests/text3.txt
+FAIL: --number-nonblank -v --number s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -v --number s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -v --number s21_cat_tests/text3.txt
+FAIL: --number-nonblank -v --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -v --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -v --squeeze-blank s21_cat_tests/text3.txt
+FAIL: --number-nonblank -E  s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -E  s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -E  s21_cat_tests/text3.txt
+FAIL: --number-nonblank -E -b s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -E -b s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -E -b s21_cat_tests/text3.txt
+FAIL: --number-nonblank -E -e s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -E -e s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -E -e s21_cat_tests/text3.txt
+FAIL: --number-nonblank -E -n s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -E -n s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -E -n s21_cat_tests/text3.txt
+FAIL: --number-nonblank -E -s s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -E -s s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -E -s s21_cat_tests/text3.txt
+FAIL: --number-nonblank -E -t s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -E -t s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -E -t s21_cat_tests/text3.txt
+FAIL: --number-nonblank -E -v s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -E -v s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -E -v s21_cat_tests/text3.txt
+FAIL: --number-nonblank -E -T s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -E -T s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -E -T s21_cat_tests/text3.txt
+FAIL: --number-nonblank -E --number s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -E --number s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -E --number s21_cat_tests/text3.txt
+FAIL: --number-nonblank -E --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -E --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -E --squeeze-blank s21_cat_tests/text3.txt
+FAIL: --number-nonblank -T  s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -T  s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -T  s21_cat_tests/text3.txt
+FAIL: --number-nonblank -T -b s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -T -b s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -T -b s21_cat_tests/text3.txt
+FAIL: --number-nonblank -T -e s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -T -e s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -T -e s21_cat_tests/text3.txt
+FAIL: --number-nonblank -T -n s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -T -n s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -T -n s21_cat_tests/text3.txt
+FAIL: --number-nonblank -T -s s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -T -s s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -T -s s21_cat_tests/text3.txt
+FAIL: --number-nonblank -T -t s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -T -t s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -T -t s21_cat_tests/text3.txt
+FAIL: --number-nonblank -T -v s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -T -v s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -T -v s21_cat_tests/text3.txt
+FAIL: --number-nonblank -T -E s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -T -E s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -T -E s21_cat_tests/text3.txt
+FAIL: --number-nonblank -T --number s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -T --number s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -T --number s21_cat_tests/text3.txt
+FAIL: --number-nonblank -T --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: --number-nonblank -T --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank -T --squeeze-blank s21_cat_tests/text3.txt
+FAIL: --number-nonblank --number  s21_cat_tests/bytes.txt
+FAIL: --number-nonblank --number  s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank --number  s21_cat_tests/text3.txt
+FAIL: --number-nonblank --number -b s21_cat_tests/bytes.txt
+FAIL: --number-nonblank --number -b s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank --number -b s21_cat_tests/text3.txt
+FAIL: --number-nonblank --number -e s21_cat_tests/bytes.txt
+FAIL: --number-nonblank --number -e s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank --number -e s21_cat_tests/text3.txt
+FAIL: --number-nonblank --number -n s21_cat_tests/bytes.txt
+FAIL: --number-nonblank --number -n s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank --number -n s21_cat_tests/text3.txt
+FAIL: --number-nonblank --number -s s21_cat_tests/bytes.txt
+FAIL: --number-nonblank --number -s s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank --number -s s21_cat_tests/text3.txt
+FAIL: --number-nonblank --number -t s21_cat_tests/bytes.txt
+FAIL: --number-nonblank --number -t s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank --number -t s21_cat_tests/text3.txt
+FAIL: --number-nonblank --number -v s21_cat_tests/bytes.txt
+FAIL: --number-nonblank --number -v s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank --number -v s21_cat_tests/text3.txt
+FAIL: --number-nonblank --number -E s21_cat_tests/bytes.txt
+FAIL: --number-nonblank --number -E s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank --number -E s21_cat_tests/text3.txt
+FAIL: --number-nonblank --number -T s21_cat_tests/bytes.txt
+FAIL: --number-nonblank --number -T s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank --number -T s21_cat_tests/text3.txt
+FAIL: --number-nonblank --number --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: --number-nonblank --number --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank --number --squeeze-blank s21_cat_tests/text3.txt
+FAIL: --number-nonblank --squeeze-blank  s21_cat_tests/bytes.txt
+FAIL: --number-nonblank --squeeze-blank  s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank --squeeze-blank  s21_cat_tests/text3.txt
+FAIL: --number-nonblank --squeeze-blank -b s21_cat_tests/bytes.txt
+FAIL: --number-nonblank --squeeze-blank -b s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank --squeeze-blank -b s21_cat_tests/text3.txt
+FAIL: --number-nonblank --squeeze-blank -e s21_cat_tests/bytes.txt
+FAIL: --number-nonblank --squeeze-blank -e s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank --squeeze-blank -e s21_cat_tests/text3.txt
+FAIL: --number-nonblank --squeeze-blank -n s21_cat_tests/bytes.txt
+FAIL: --number-nonblank --squeeze-blank -n s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank --squeeze-blank -n s21_cat_tests/text3.txt
+FAIL: --number-nonblank --squeeze-blank -s s21_cat_tests/bytes.txt
+FAIL: --number-nonblank --squeeze-blank -s s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank --squeeze-blank -s s21_cat_tests/text3.txt
+FAIL: --number-nonblank --squeeze-blank -t s21_cat_tests/bytes.txt
+FAIL: --number-nonblank --squeeze-blank -t s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank --squeeze-blank -t s21_cat_tests/text3.txt
+FAIL: --number-nonblank --squeeze-blank -v s21_cat_tests/bytes.txt
+FAIL: --number-nonblank --squeeze-blank -v s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank --squeeze-blank -v s21_cat_tests/text3.txt
+FAIL: --number-nonblank --squeeze-blank -E s21_cat_tests/bytes.txt
+FAIL: --number-nonblank --squeeze-blank -E s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank --squeeze-blank -E s21_cat_tests/text3.txt
+FAIL: --number-nonblank --squeeze-blank -T s21_cat_tests/bytes.txt
+FAIL: --number-nonblank --squeeze-blank -T s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank --squeeze-blank -T s21_cat_tests/text3.txt
+FAIL: --number-nonblank --squeeze-blank --number s21_cat_tests/bytes.txt
+FAIL: --number-nonblank --squeeze-blank --number s21_cat_tests/bytes2.txt
+FAIL: --number-nonblank --squeeze-blank --number s21_cat_tests/text3.txt
+FAIL: --number   s21_cat_tests/bytes.txt
+FAIL: --number   s21_cat_tests/bytes2.txt
+FAIL: --number   s21_cat_tests/text3.txt
+FAIL: --number  -b s21_cat_tests/bytes.txt
+FAIL: --number  -b s21_cat_tests/bytes2.txt
+FAIL: --number  -b s21_cat_tests/text3.txt
+FAIL: --number  -e s21_cat_tests/bytes.txt
+FAIL: --number  -e s21_cat_tests/bytes2.txt
+FAIL: --number  -e s21_cat_tests/text3.txt
+FAIL: --number  -n s21_cat_tests/bytes.txt
+FAIL: --number  -n s21_cat_tests/bytes2.txt
+FAIL: --number  -n s21_cat_tests/text3.txt
+FAIL: --number  -s s21_cat_tests/bytes.txt
+FAIL: --number  -s s21_cat_tests/bytes2.txt
+FAIL: --number  -s s21_cat_tests/text3.txt
+FAIL: --number  -t s21_cat_tests/bytes.txt
+FAIL: --number  -t s21_cat_tests/bytes2.txt
+FAIL: --number  -t s21_cat_tests/text3.txt
+FAIL: --number  -v s21_cat_tests/bytes.txt
+FAIL: --number  -v s21_cat_tests/bytes2.txt
+FAIL: --number  -v s21_cat_tests/text3.txt
+FAIL: --number  -E s21_cat_tests/bytes.txt
+FAIL: --number  -E s21_cat_tests/bytes2.txt
+FAIL: --number  -E s21_cat_tests/text3.txt
+FAIL: --number  -T s21_cat_tests/bytes.txt
+FAIL: --number  -T s21_cat_tests/bytes2.txt
+FAIL: --number  -T s21_cat_tests/text3.txt
+FAIL: --number  --number-nonblank s21_cat_tests/bytes.txt
+FAIL: --number  --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: --number  --number-nonblank s21_cat_tests/text3.txt
+FAIL: --number  --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: --number  --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: --number  --squeeze-blank s21_cat_tests/text3.txt
+FAIL: --number -b  s21_cat_tests/bytes.txt
+FAIL: --number -b  s21_cat_tests/bytes2.txt
+FAIL: --number -b  s21_cat_tests/text3.txt
+FAIL: --number -b -e s21_cat_tests/bytes.txt
+FAIL: --number -b -e s21_cat_tests/bytes2.txt
+FAIL: --number -b -e s21_cat_tests/text3.txt
+FAIL: --number -b -n s21_cat_tests/bytes.txt
+FAIL: --number -b -n s21_cat_tests/bytes2.txt
+FAIL: --number -b -n s21_cat_tests/text3.txt
+FAIL: --number -b -s s21_cat_tests/bytes.txt
+FAIL: --number -b -s s21_cat_tests/bytes2.txt
+FAIL: --number -b -s s21_cat_tests/text3.txt
+FAIL: --number -b -t s21_cat_tests/bytes.txt
+FAIL: --number -b -t s21_cat_tests/bytes2.txt
+FAIL: --number -b -t s21_cat_tests/text3.txt
+FAIL: --number -b -v s21_cat_tests/bytes.txt
+FAIL: --number -b -v s21_cat_tests/bytes2.txt
+FAIL: --number -b -v s21_cat_tests/text3.txt
+FAIL: --number -b -E s21_cat_tests/bytes.txt
+FAIL: --number -b -E s21_cat_tests/bytes2.txt
+FAIL: --number -b -E s21_cat_tests/text3.txt
+FAIL: --number -b -T s21_cat_tests/bytes.txt
+FAIL: --number -b -T s21_cat_tests/bytes2.txt
+FAIL: --number -b -T s21_cat_tests/text3.txt
+FAIL: --number -b --number-nonblank s21_cat_tests/bytes.txt
+FAIL: --number -b --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: --number -b --number-nonblank s21_cat_tests/text3.txt
+FAIL: --number -b --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: --number -b --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: --number -b --squeeze-blank s21_cat_tests/text3.txt
+FAIL: --number -e  s21_cat_tests/bytes.txt
+FAIL: --number -e  s21_cat_tests/bytes2.txt
+FAIL: --number -e  s21_cat_tests/text3.txt
+FAIL: --number -e -b s21_cat_tests/bytes.txt
+FAIL: --number -e -b s21_cat_tests/bytes2.txt
+FAIL: --number -e -b s21_cat_tests/text3.txt
+FAIL: --number -e -n s21_cat_tests/bytes.txt
+FAIL: --number -e -n s21_cat_tests/bytes2.txt
+FAIL: --number -e -n s21_cat_tests/text3.txt
+FAIL: --number -e -s s21_cat_tests/bytes.txt
+FAIL: --number -e -s s21_cat_tests/bytes2.txt
+FAIL: --number -e -s s21_cat_tests/text3.txt
+FAIL: --number -e -t s21_cat_tests/bytes.txt
+FAIL: --number -e -t s21_cat_tests/bytes2.txt
+FAIL: --number -e -t s21_cat_tests/text3.txt
+FAIL: --number -e -v s21_cat_tests/bytes.txt
+FAIL: --number -e -v s21_cat_tests/bytes2.txt
+FAIL: --number -e -v s21_cat_tests/text3.txt
+FAIL: --number -e -E s21_cat_tests/bytes.txt
+FAIL: --number -e -E s21_cat_tests/bytes2.txt
+FAIL: --number -e -E s21_cat_tests/text3.txt
+FAIL: --number -e -T s21_cat_tests/bytes.txt
+FAIL: --number -e -T s21_cat_tests/bytes2.txt
+FAIL: --number -e -T s21_cat_tests/text3.txt
+FAIL: --number -e --number-nonblank s21_cat_tests/bytes.txt
+FAIL: --number -e --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: --number -e --number-nonblank s21_cat_tests/text3.txt
+FAIL: --number -e --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: --number -e --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: --number -e --squeeze-blank s21_cat_tests/text3.txt
+FAIL: --number -n  s21_cat_tests/bytes.txt
+FAIL: --number -n  s21_cat_tests/bytes2.txt
+FAIL: --number -n  s21_cat_tests/text3.txt
+FAIL: --number -n -b s21_cat_tests/bytes.txt
+FAIL: --number -n -b s21_cat_tests/bytes2.txt
+FAIL: --number -n -b s21_cat_tests/text3.txt
+FAIL: --number -n -e s21_cat_tests/bytes.txt
+FAIL: --number -n -e s21_cat_tests/bytes2.txt
+FAIL: --number -n -e s21_cat_tests/text3.txt
+FAIL: --number -n -s s21_cat_tests/bytes.txt
+FAIL: --number -n -s s21_cat_tests/bytes2.txt
+FAIL: --number -n -s s21_cat_tests/text3.txt
+FAIL: --number -n -t s21_cat_tests/bytes.txt
+FAIL: --number -n -t s21_cat_tests/bytes2.txt
+FAIL: --number -n -t s21_cat_tests/text3.txt
+FAIL: --number -n -v s21_cat_tests/bytes.txt
+FAIL: --number -n -v s21_cat_tests/bytes2.txt
+FAIL: --number -n -v s21_cat_tests/text3.txt
+FAIL: --number -n -E s21_cat_tests/bytes.txt
+FAIL: --number -n -E s21_cat_tests/bytes2.txt
+FAIL: --number -n -E s21_cat_tests/text3.txt
+FAIL: --number -n -T s21_cat_tests/bytes.txt
+FAIL: --number -n -T s21_cat_tests/bytes2.txt
+FAIL: --number -n -T s21_cat_tests/text3.txt
+FAIL: --number -n --number-nonblank s21_cat_tests/bytes.txt
+FAIL: --number -n --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: --number -n --number-nonblank s21_cat_tests/text3.txt
+FAIL: --number -n --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: --number -n --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: --number -n --squeeze-blank s21_cat_tests/text3.txt
+FAIL: --number -s  s21_cat_tests/bytes.txt
+FAIL: --number -s  s21_cat_tests/bytes2.txt
+FAIL: --number -s  s21_cat_tests/text3.txt
+FAIL: --number -s -b s21_cat_tests/bytes.txt
+FAIL: --number -s -b s21_cat_tests/bytes2.txt
+FAIL: --number -s -b s21_cat_tests/text3.txt
+FAIL: --number -s -e s21_cat_tests/bytes.txt
+FAIL: --number -s -e s21_cat_tests/bytes2.txt
+FAIL: --number -s -e s21_cat_tests/text3.txt
+FAIL: --number -s -n s21_cat_tests/bytes.txt
+FAIL: --number -s -n s21_cat_tests/bytes2.txt
+FAIL: --number -s -n s21_cat_tests/text3.txt
+FAIL: --number -s -t s21_cat_tests/bytes.txt
+FAIL: --number -s -t s21_cat_tests/bytes2.txt
+FAIL: --number -s -t s21_cat_tests/text3.txt
+FAIL: --number -s -v s21_cat_tests/bytes.txt
+FAIL: --number -s -v s21_cat_tests/bytes2.txt
+FAIL: --number -s -v s21_cat_tests/text3.txt
+FAIL: --number -s -E s21_cat_tests/bytes.txt
+FAIL: --number -s -E s21_cat_tests/bytes2.txt
+FAIL: --number -s -E s21_cat_tests/text3.txt
+FAIL: --number -s -T s21_cat_tests/bytes.txt
+FAIL: --number -s -T s21_cat_tests/bytes2.txt
+FAIL: --number -s -T s21_cat_tests/text3.txt
+FAIL: --number -s --number-nonblank s21_cat_tests/bytes.txt
+FAIL: --number -s --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: --number -s --number-nonblank s21_cat_tests/text3.txt
+FAIL: --number -s --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: --number -s --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: --number -s --squeeze-blank s21_cat_tests/text3.txt
+FAIL: --number -t  s21_cat_tests/bytes.txt
+FAIL: --number -t  s21_cat_tests/bytes2.txt
+FAIL: --number -t  s21_cat_tests/text3.txt
+FAIL: --number -t -b s21_cat_tests/bytes.txt
+FAIL: --number -t -b s21_cat_tests/bytes2.txt
+FAIL: --number -t -b s21_cat_tests/text3.txt
+FAIL: --number -t -e s21_cat_tests/bytes.txt
+FAIL: --number -t -e s21_cat_tests/bytes2.txt
+FAIL: --number -t -e s21_cat_tests/text3.txt
+FAIL: --number -t -n s21_cat_tests/bytes.txt
+FAIL: --number -t -n s21_cat_tests/bytes2.txt
+FAIL: --number -t -n s21_cat_tests/text3.txt
+FAIL: --number -t -s s21_cat_tests/bytes.txt
+FAIL: --number -t -s s21_cat_tests/bytes2.txt
+FAIL: --number -t -s s21_cat_tests/text3.txt
+FAIL: --number -t -v s21_cat_tests/bytes.txt
+FAIL: --number -t -v s21_cat_tests/bytes2.txt
+FAIL: --number -t -v s21_cat_tests/text3.txt
+FAIL: --number -t -E s21_cat_tests/bytes.txt
+FAIL: --number -t -E s21_cat_tests/bytes2.txt
+FAIL: --number -t -E s21_cat_tests/text3.txt
+FAIL: --number -t -T s21_cat_tests/bytes.txt
+FAIL: --number -t -T s21_cat_tests/bytes2.txt
+FAIL: --number -t -T s21_cat_tests/text3.txt
+FAIL: --number -t --number-nonblank s21_cat_tests/bytes.txt
+FAIL: --number -t --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: --number -t --number-nonblank s21_cat_tests/text3.txt
+FAIL: --number -t --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: --number -t --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: --number -t --squeeze-blank s21_cat_tests/text3.txt
+FAIL: --number -v  s21_cat_tests/bytes.txt
+FAIL: --number -v  s21_cat_tests/bytes2.txt
+FAIL: --number -v  s21_cat_tests/text3.txt
+FAIL: --number -v -b s21_cat_tests/bytes.txt
+FAIL: --number -v -b s21_cat_tests/bytes2.txt
+FAIL: --number -v -b s21_cat_tests/text3.txt
+FAIL: --number -v -e s21_cat_tests/bytes.txt
+FAIL: --number -v -e s21_cat_tests/bytes2.txt
+FAIL: --number -v -e s21_cat_tests/text3.txt
+FAIL: --number -v -n s21_cat_tests/bytes.txt
+FAIL: --number -v -n s21_cat_tests/bytes2.txt
+FAIL: --number -v -n s21_cat_tests/text3.txt
+FAIL: --number -v -s s21_cat_tests/bytes.txt
+FAIL: --number -v -s s21_cat_tests/bytes2.txt
+FAIL: --number -v -s s21_cat_tests/text3.txt
+FAIL: --number -v -t s21_cat_tests/bytes.txt
+FAIL: --number -v -t s21_cat_tests/bytes2.txt
+FAIL: --number -v -t s21_cat_tests/text3.txt
+FAIL: --number -v -E s21_cat_tests/bytes.txt
+FAIL: --number -v -E s21_cat_tests/bytes2.txt
+FAIL: --number -v -E s21_cat_tests/text3.txt
+FAIL: --number -v -T s21_cat_tests/bytes.txt
+FAIL: --number -v -T s21_cat_tests/bytes2.txt
+FAIL: --number -v -T s21_cat_tests/text3.txt
+FAIL: --number -v --number-nonblank s21_cat_tests/bytes.txt
+FAIL: --number -v --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: --number -v --number-nonblank s21_cat_tests/text3.txt
+FAIL: --number -v --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: --number -v --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: --number -v --squeeze-blank s21_cat_tests/text3.txt
+FAIL: --number -E  s21_cat_tests/bytes.txt
+FAIL: --number -E  s21_cat_tests/bytes2.txt
+FAIL: --number -E  s21_cat_tests/text3.txt
+FAIL: --number -E -b s21_cat_tests/bytes.txt
+FAIL: --number -E -b s21_cat_tests/bytes2.txt
+FAIL: --number -E -b s21_cat_tests/text3.txt
+FAIL: --number -E -e s21_cat_tests/bytes.txt
+FAIL: --number -E -e s21_cat_tests/bytes2.txt
+FAIL: --number -E -e s21_cat_tests/text3.txt
+FAIL: --number -E -n s21_cat_tests/bytes.txt
+FAIL: --number -E -n s21_cat_tests/bytes2.txt
+FAIL: --number -E -n s21_cat_tests/text3.txt
+FAIL: --number -E -s s21_cat_tests/bytes.txt
+FAIL: --number -E -s s21_cat_tests/bytes2.txt
+FAIL: --number -E -s s21_cat_tests/text3.txt
+FAIL: --number -E -t s21_cat_tests/bytes.txt
+FAIL: --number -E -t s21_cat_tests/bytes2.txt
+FAIL: --number -E -t s21_cat_tests/text3.txt
+FAIL: --number -E -v s21_cat_tests/bytes.txt
+FAIL: --number -E -v s21_cat_tests/bytes2.txt
+FAIL: --number -E -v s21_cat_tests/text3.txt
+FAIL: --number -E -T s21_cat_tests/bytes.txt
+FAIL: --number -E -T s21_cat_tests/bytes2.txt
+FAIL: --number -E -T s21_cat_tests/text3.txt
+FAIL: --number -E --number-nonblank s21_cat_tests/bytes.txt
+FAIL: --number -E --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: --number -E --number-nonblank s21_cat_tests/text3.txt
+FAIL: --number -E --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: --number -E --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: --number -E --squeeze-blank s21_cat_tests/text3.txt
+FAIL: --number -T  s21_cat_tests/bytes.txt
+FAIL: --number -T  s21_cat_tests/bytes2.txt
+FAIL: --number -T  s21_cat_tests/text3.txt
+FAIL: --number -T -b s21_cat_tests/bytes.txt
+FAIL: --number -T -b s21_cat_tests/bytes2.txt
+FAIL: --number -T -b s21_cat_tests/text3.txt
+FAIL: --number -T -e s21_cat_tests/bytes.txt
+FAIL: --number -T -e s21_cat_tests/bytes2.txt
+FAIL: --number -T -e s21_cat_tests/text3.txt
+FAIL: --number -T -n s21_cat_tests/bytes.txt
+FAIL: --number -T -n s21_cat_tests/bytes2.txt
+FAIL: --number -T -n s21_cat_tests/text3.txt
+FAIL: --number -T -s s21_cat_tests/bytes.txt
+FAIL: --number -T -s s21_cat_tests/bytes2.txt
+FAIL: --number -T -s s21_cat_tests/text3.txt
+FAIL: --number -T -t s21_cat_tests/bytes.txt
+FAIL: --number -T -t s21_cat_tests/bytes2.txt
+FAIL: --number -T -t s21_cat_tests/text3.txt
+FAIL: --number -T -v s21_cat_tests/bytes.txt
+FAIL: --number -T -v s21_cat_tests/bytes2.txt
+FAIL: --number -T -v s21_cat_tests/text3.txt
+FAIL: --number -T -E s21_cat_tests/bytes.txt
+FAIL: --number -T -E s21_cat_tests/bytes2.txt
+FAIL: --number -T -E s21_cat_tests/text3.txt
+FAIL: --number -T --number-nonblank s21_cat_tests/bytes.txt
+FAIL: --number -T --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: --number -T --number-nonblank s21_cat_tests/text3.txt
+FAIL: --number -T --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: --number -T --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: --number -T --squeeze-blank s21_cat_tests/text3.txt
+FAIL: --number --number-nonblank  s21_cat_tests/bytes.txt
+FAIL: --number --number-nonblank  s21_cat_tests/bytes2.txt
+FAIL: --number --number-nonblank  s21_cat_tests/text3.txt
+FAIL: --number --number-nonblank -b s21_cat_tests/bytes.txt
+FAIL: --number --number-nonblank -b s21_cat_tests/bytes2.txt
+FAIL: --number --number-nonblank -b s21_cat_tests/text3.txt
+FAIL: --number --number-nonblank -e s21_cat_tests/bytes.txt
+FAIL: --number --number-nonblank -e s21_cat_tests/bytes2.txt
+FAIL: --number --number-nonblank -e s21_cat_tests/text3.txt
+FAIL: --number --number-nonblank -n s21_cat_tests/bytes.txt
+FAIL: --number --number-nonblank -n s21_cat_tests/bytes2.txt
+FAIL: --number --number-nonblank -n s21_cat_tests/text3.txt
+FAIL: --number --number-nonblank -s s21_cat_tests/bytes.txt
+FAIL: --number --number-nonblank -s s21_cat_tests/bytes2.txt
+FAIL: --number --number-nonblank -s s21_cat_tests/text3.txt
+FAIL: --number --number-nonblank -t s21_cat_tests/bytes.txt
+FAIL: --number --number-nonblank -t s21_cat_tests/bytes2.txt
+FAIL: --number --number-nonblank -t s21_cat_tests/text3.txt
+FAIL: --number --number-nonblank -v s21_cat_tests/bytes.txt
+FAIL: --number --number-nonblank -v s21_cat_tests/bytes2.txt
+FAIL: --number --number-nonblank -v s21_cat_tests/text3.txt
+FAIL: --number --number-nonblank -E s21_cat_tests/bytes.txt
+FAIL: --number --number-nonblank -E s21_cat_tests/bytes2.txt
+FAIL: --number --number-nonblank -E s21_cat_tests/text3.txt
+FAIL: --number --number-nonblank -T s21_cat_tests/bytes.txt
+FAIL: --number --number-nonblank -T s21_cat_tests/bytes2.txt
+FAIL: --number --number-nonblank -T s21_cat_tests/text3.txt
+FAIL: --number --number-nonblank --squeeze-blank s21_cat_tests/bytes.txt
+FAIL: --number --number-nonblank --squeeze-blank s21_cat_tests/bytes2.txt
+FAIL: --number --number-nonblank --squeeze-blank s21_cat_tests/text3.txt
+FAIL: --number --squeeze-blank  s21_cat_tests/bytes.txt
+FAIL: --number --squeeze-blank  s21_cat_tests/bytes2.txt
+FAIL: --number --squeeze-blank  s21_cat_tests/text3.txt
+FAIL: --number --squeeze-blank -b s21_cat_tests/bytes.txt
+FAIL: --number --squeeze-blank -b s21_cat_tests/bytes2.txt
+FAIL: --number --squeeze-blank -b s21_cat_tests/text3.txt
+FAIL: --number --squeeze-blank -e s21_cat_tests/bytes.txt
+FAIL: --number --squeeze-blank -e s21_cat_tests/bytes2.txt
+FAIL: --number --squeeze-blank -e s21_cat_tests/text3.txt
+FAIL: --number --squeeze-blank -n s21_cat_tests/bytes.txt
+FAIL: --number --squeeze-blank -n s21_cat_tests/bytes2.txt
+FAIL: --number --squeeze-blank -n s21_cat_tests/text3.txt
+FAIL: --number --squeeze-blank -s s21_cat_tests/bytes.txt
+FAIL: --number --squeeze-blank -s s21_cat_tests/bytes2.txt
+FAIL: --number --squeeze-blank -s s21_cat_tests/text3.txt
+FAIL: --number --squeeze-blank -t s21_cat_tests/bytes.txt
+FAIL: --number --squeeze-blank -t s21_cat_tests/bytes2.txt
+FAIL: --number --squeeze-blank -t s21_cat_tests/text3.txt
+FAIL: --number --squeeze-blank -v s21_cat_tests/bytes.txt
+FAIL: --number --squeeze-blank -v s21_cat_tests/bytes2.txt
+FAIL: --number --squeeze-blank -v s21_cat_tests/text3.txt
+FAIL: --number --squeeze-blank -E s21_cat_tests/bytes.txt
+FAIL: --number --squeeze-blank -E s21_cat_tests/bytes2.txt
+FAIL: --number --squeeze-blank -E s21_cat_tests/text3.txt
+FAIL: --number --squeeze-blank -T s21_cat_tests/bytes.txt
+FAIL: --number --squeeze-blank -T s21_cat_tests/bytes2.txt
+FAIL: --number --squeeze-blank -T s21_cat_tests/text3.txt
+FAIL: --number --squeeze-blank --number-nonblank s21_cat_tests/bytes.txt
+FAIL: --number --squeeze-blank --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: --number --squeeze-blank --number-nonblank s21_cat_tests/text3.txt
+FAIL: --squeeze-blank   s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank   s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank   s21_cat_tests/text3.txt
+FAIL: --squeeze-blank  -b s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank  -b s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank  -b s21_cat_tests/text3.txt
+FAIL: --squeeze-blank  -e s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank  -e s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank  -e s21_cat_tests/text3.txt
+FAIL: --squeeze-blank  -n s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank  -n s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank  -n s21_cat_tests/text3.txt
+FAIL: --squeeze-blank  -s s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank  -s s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank  -s s21_cat_tests/text3.txt
+FAIL: --squeeze-blank  -t s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank  -t s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank  -t s21_cat_tests/text3.txt
+FAIL: --squeeze-blank  -v s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank  -v s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank  -v s21_cat_tests/text3.txt
+FAIL: --squeeze-blank  -E s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank  -E s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank  -E s21_cat_tests/text3.txt
+FAIL: --squeeze-blank  -T s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank  -T s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank  -T s21_cat_tests/text3.txt
+FAIL: --squeeze-blank  --number-nonblank s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank  --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank  --number-nonblank s21_cat_tests/text3.txt
+FAIL: --squeeze-blank  --number s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank  --number s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank  --number s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -b  s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -b  s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -b  s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -b -e s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -b -e s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -b -e s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -b -n s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -b -n s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -b -n s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -b -s s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -b -s s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -b -s s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -b -t s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -b -t s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -b -t s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -b -v s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -b -v s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -b -v s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -b -E s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -b -E s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -b -E s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -b -T s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -b -T s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -b -T s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -b --number-nonblank s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -b --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -b --number-nonblank s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -b --number s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -b --number s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -b --number s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -e  s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -e  s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -e  s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -e -b s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -e -b s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -e -b s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -e -n s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -e -n s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -e -n s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -e -s s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -e -s s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -e -s s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -e -t s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -e -t s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -e -t s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -e -v s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -e -v s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -e -v s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -e -E s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -e -E s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -e -E s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -e -T s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -e -T s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -e -T s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -e --number-nonblank s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -e --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -e --number-nonblank s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -e --number s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -e --number s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -e --number s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -n  s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -n  s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -n  s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -n -b s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -n -b s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -n -b s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -n -e s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -n -e s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -n -e s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -n -s s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -n -s s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -n -s s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -n -t s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -n -t s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -n -t s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -n -v s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -n -v s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -n -v s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -n -E s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -n -E s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -n -E s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -n -T s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -n -T s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -n -T s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -n --number-nonblank s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -n --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -n --number-nonblank s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -n --number s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -n --number s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -n --number s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -s  s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -s  s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -s  s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -s -b s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -s -b s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -s -b s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -s -e s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -s -e s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -s -e s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -s -n s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -s -n s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -s -n s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -s -t s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -s -t s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -s -t s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -s -v s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -s -v s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -s -v s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -s -E s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -s -E s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -s -E s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -s -T s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -s -T s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -s -T s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -s --number-nonblank s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -s --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -s --number-nonblank s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -s --number s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -s --number s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -s --number s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -t  s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -t  s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -t  s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -t -b s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -t -b s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -t -b s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -t -e s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -t -e s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -t -e s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -t -n s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -t -n s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -t -n s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -t -s s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -t -s s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -t -s s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -t -v s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -t -v s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -t -v s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -t -E s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -t -E s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -t -E s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -t -T s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -t -T s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -t -T s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -t --number-nonblank s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -t --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -t --number-nonblank s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -t --number s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -t --number s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -t --number s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -v  s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -v  s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -v  s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -v -b s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -v -b s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -v -b s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -v -e s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -v -e s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -v -e s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -v -n s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -v -n s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -v -n s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -v -s s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -v -s s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -v -s s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -v -t s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -v -t s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -v -t s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -v -E s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -v -E s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -v -E s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -v -T s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -v -T s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -v -T s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -v --number-nonblank s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -v --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -v --number-nonblank s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -v --number s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -v --number s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -v --number s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -E  s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -E  s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -E  s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -E -b s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -E -b s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -E -b s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -E -e s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -E -e s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -E -e s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -E -n s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -E -n s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -E -n s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -E -s s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -E -s s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -E -s s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -E -t s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -E -t s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -E -t s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -E -v s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -E -v s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -E -v s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -E -T s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -E -T s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -E -T s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -E --number-nonblank s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -E --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -E --number-nonblank s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -E --number s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -E --number s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -E --number s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -T  s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -T  s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -T  s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -T -b s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -T -b s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -T -b s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -T -e s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -T -e s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -T -e s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -T -n s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -T -n s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -T -n s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -T -s s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -T -s s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -T -s s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -T -t s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -T -t s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -T -t s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -T -v s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -T -v s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -T -v s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -T -E s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -T -E s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -T -E s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -T --number-nonblank s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -T --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -T --number-nonblank s21_cat_tests/text3.txt
+FAIL: --squeeze-blank -T --number s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank -T --number s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank -T --number s21_cat_tests/text3.txt
+FAIL: --squeeze-blank --number-nonblank  s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank --number-nonblank  s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank --number-nonblank  s21_cat_tests/text3.txt
+FAIL: --squeeze-blank --number-nonblank -b s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank --number-nonblank -b s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank --number-nonblank -b s21_cat_tests/text3.txt
+FAIL: --squeeze-blank --number-nonblank -e s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank --number-nonblank -e s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank --number-nonblank -e s21_cat_tests/text3.txt
+FAIL: --squeeze-blank --number-nonblank -n s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank --number-nonblank -n s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank --number-nonblank -n s21_cat_tests/text3.txt
+FAIL: --squeeze-blank --number-nonblank -s s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank --number-nonblank -s s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank --number-nonblank -s s21_cat_tests/text3.txt
+FAIL: --squeeze-blank --number-nonblank -t s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank --number-nonblank -t s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank --number-nonblank -t s21_cat_tests/text3.txt
+FAIL: --squeeze-blank --number-nonblank -v s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank --number-nonblank -v s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank --number-nonblank -v s21_cat_tests/text3.txt
+FAIL: --squeeze-blank --number-nonblank -E s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank --number-nonblank -E s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank --number-nonblank -E s21_cat_tests/text3.txt
+FAIL: --squeeze-blank --number-nonblank -T s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank --number-nonblank -T s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank --number-nonblank -T s21_cat_tests/text3.txt
+FAIL: --squeeze-blank --number-nonblank --number s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank --number-nonblank --number s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank --number-nonblank --number s21_cat_tests/text3.txt
+FAIL: --squeeze-blank --number  s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank --number  s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank --number  s21_cat_tests/text3.txt
+FAIL: --squeeze-blank --number -b s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank --number -b s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank --number -b s21_cat_tests/text3.txt
+FAIL: --squeeze-blank --number -e s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank --number -e s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank --number -e s21_cat_tests/text3.txt
+FAIL: --squeeze-blank --number -n s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank --number -n s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank --number -n s21_cat_tests/text3.txt
+FAIL: --squeeze-blank --number -s s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank --number -s s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank --number -s s21_cat_tests/text3.txt
+FAIL: --squeeze-blank --number -t s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank --number -t s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank --number -t s21_cat_tests/text3.txt
+FAIL: --squeeze-blank --number -v s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank --number -v s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank --number -v s21_cat_tests/text3.txt
+FAIL: --squeeze-blank --number -E s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank --number -E s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank --number -E s21_cat_tests/text3.txt
+FAIL: --squeeze-blank --number -T s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank --number -T s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank --number -T s21_cat_tests/text3.txt
+FAIL: --squeeze-blank --number --number-nonblank s21_cat_tests/bytes.txt
+FAIL: --squeeze-blank --number --number-nonblank s21_cat_tests/bytes2.txt
+FAIL: --squeeze-blank --number --number-nonblank s21_cat_tests/text3.txt

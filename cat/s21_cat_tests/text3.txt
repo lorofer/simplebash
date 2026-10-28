@@ -1,0 +1,25 @@
+123456
+098765
+	tab
+	tab
+		tabtab
+
+
+s rep
+
+s = flag s
+curr = curr_ch == '\n'
+prev = prev_ch == '\n'
+
+!((s && curr && prev_str_is_empty) || (s && curr && prev && curr_str_number == 2)) =
+= !(s && ((curr && prev_str_is_empty) || (prev && curr_str_number == 2)))
+
+
+v - flag v
+rex - a match was found
+
+  v   rex  res
+  0    0    0
+  0    1    1
+  1    0    1
+  1    1    0
